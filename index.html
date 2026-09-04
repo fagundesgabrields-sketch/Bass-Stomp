@@ -12,7 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
   
   <!-- Styles -->
-  <link rel="stylesheet" href="assets/css/style.css?v=2.2">
+  <link rel="stylesheet" href="assets/css/style.css?v=2.3">
 
   <style>
     /* Critical Tone Lab & Design System 2.0 styles */
@@ -309,6 +309,129 @@
         gap: 36px !important;
       }
     }
+
+    /* Hero Media Frame, Seal & Rig Tag Critical Styles */
+    .hero-media-wrap {
+      position: relative !important;
+      max-width: 520px !important;
+      margin: 0 auto !important;
+    }
+    .hero-photo-frame {
+      position: relative !important;
+      background: #FAF8F5 !important;
+      border: 1px solid #E6E0D8 !important;
+      border-radius: 20px !important;
+      overflow: hidden !important;
+      box-shadow: 0 20px 45px rgba(28, 26, 24, 0.14) !important;
+      aspect-ratio: 4 / 3.8 !important;
+    }
+    .hero-photo-frame img {
+      width: 100% !important;
+      height: 100% !important;
+      object-fit: cover !important;
+      object-position: center top !important;
+      display: block !important;
+    }
+    .hero-photo-overlay {
+      position: absolute !important;
+      inset: 0 !important;
+      background: linear-gradient(to top, rgba(28, 26, 24, 0.45) 0%, transparent 40%) !important;
+      pointer-events: none !important;
+    }
+    .hero-watermark {
+      display: none !important;
+    }
+    .guarantee-seal {
+      position: absolute !important;
+      top: -16px !important;
+      right: -16px !important;
+      width: 92px !important;
+      height: 92px !important;
+      border-radius: 50% !important;
+      background: #FFFFFF !important;
+      color: #1C1A18 !important;
+      border: 2.5px solid #E25822 !important;
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+      justify-content: center !important;
+      text-align: center !important;
+      padding: 8px !important;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.16) !important;
+      transform: rotate(6deg) !important;
+      z-index: 10 !important;
+      transition: transform 0.3s ease !important;
+    }
+    .guarantee-seal:hover {
+      transform: rotate(0deg) scale(1.06) !important;
+    }
+    .seal-pct {
+      font-family: 'Epilogue', sans-serif !important;
+      font-size: 20px !important;
+      font-weight: 900 !important;
+      color: #E25822 !important;
+      line-height: 1 !important;
+    }
+    .seal-txt {
+      font-family: 'Space Mono', monospace !important;
+      font-size: 8px !important;
+      font-weight: 700 !important;
+      text-transform: uppercase !important;
+      letter-spacing: 0.04em !important;
+      line-height: 1.15 !important;
+      margin-top: 3px !important;
+      color: #1C1A18 !important;
+    }
+    .floating-rig-tag {
+      position: absolute !important;
+      bottom: -22px !important;
+      left: 20px !important;
+      background: #FFFFFF !important;
+      color: #1C1A18 !important;
+      border-radius: 12px !important;
+      padding: 14px 18px !important;
+      box-shadow: 0 12px 30px rgba(28, 26, 24, 0.16) !important;
+      border: 1px solid #E6E0D8 !important;
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 3px !important;
+      z-index: 10 !important;
+      min-width: 260px !important;
+    }
+    .rig-tag-indicator {
+      display: flex !important;
+      align-items: center !important;
+      gap: 6px !important;
+      margin-bottom: 2px !important;
+    }
+    .rig-tag-indicator .led {
+      width: 7px !important;
+      height: 7px !important;
+      border-radius: 50% !important;
+      background: #E25822 !important;
+      box-shadow: 0 0 6px #E25822 !important;
+    }
+    .rig-tag-label {
+      font-family: 'Space Mono', monospace !important;
+      font-size: 10px !important;
+      font-weight: 700 !important;
+      letter-spacing: 0.08em !important;
+      color: #E25822 !important;
+      text-transform: uppercase !important;
+    }
+    .rig-tag-title {
+      font-family: 'Epilogue', sans-serif !important;
+      font-size: 15px !important;
+      font-weight: 800 !important;
+      color: #1C1A18 !important;
+      line-height: 1.2 !important;
+    }
+    .rig-tag-subtitle {
+      font-family: 'Work Sans', sans-serif !important;
+      font-size: 12px !important;
+      color: #726C60 !important;
+      line-height: 1.3 !important;
+    }
   </style>
 
   <!-- Favicon -->
@@ -450,21 +573,22 @@
 
         <!-- Hero Stage Photo Frame -->
         <div class="hero-media-wrap">
-          <div class="hero-photo-frame plate">
+          <div class="hero-photo-frame">
             <img src="assets/images/sergio-rodrigues.jpg" alt="Sergio Rodrigues com contrabaixo no palco" />
-            <div class="guarantee-seal">
-              <span class="seal-pct">100%</span>
-              <span class="seal-txt">Garantia ou Dinheiro de Volta</span>
-            </div>
-            <div class="hero-watermark">
-              <img src="assets/images/logo.png" alt="Selo Bass Stomp" />
-            </div>
+            <div class="hero-photo-overlay"></div>
+          </div>
+
+          <!-- Floating Guarantee Seal -->
+          <div class="guarantee-seal">
+            <span class="seal-pct">100%</span>
+            <span class="seal-txt">Garantia ou Dinheiro de Volta</span>
           </div>
           
-          <div class="floating-rig-tag plate">
+          <!-- Floating Rig Tag -->
+          <div class="floating-rig-tag">
             <div class="rig-tag-indicator">
-              <span class="led"></span>
-              <span>RIG OFICIAL DE PALCO</span>
+              <span class="led orange"></span>
+              <span class="rig-tag-label">RIG OFICIAL DE PALCO</span>
             </div>
             <div class="rig-tag-title">Sergio Rodrigues</div>
             <div class="rig-tag-subtitle">Baixista de Palco & Especialista de Áudio</div>
