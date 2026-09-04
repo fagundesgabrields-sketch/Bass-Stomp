@@ -6,24 +6,24 @@
 <title>Bass Stomp — Identidade Visual</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <style>
   :root{
-    --ink:#131217;
-    --bone:#F2EEE4;
-    --paper:#FBF9F4;
-    --orange:#FF5A22;
-    --orange-dim:#D6431A;
-    --lowend:#26324F;
-    --led:#F2C230;
-    --line: rgba(19,18,23,0.14);
+    --ink:#1C1A18;
+    --bone:#F4F0EB;
+    --paper:#FAF8F5;
+    --orange:#E25822;
+    --orange-dim:#C83827;
+    --lowend:#2E6F89;
+    --led:#E25822;
+    --line: rgba(28,26,24,0.12);
   }
   *{box-sizing:border-box;}
   html,body{margin:0;padding:0;}
   body{
     background:var(--bone);
     color:var(--ink);
-    font-family:'IBM Plex Sans', sans-serif;
+    font-family:'Work Sans', sans-serif;
     line-height:1.5;
     -webkit-font-smoothing:antialiased;
   }
@@ -33,16 +33,12 @@
   .plate{
     background:var(--paper);
     border:1px solid var(--line);
-    border-radius:6px;
+    border-radius:14px;
     position:relative;
   }
   .screw{
-    position:absolute;width:9px;height:9px;border-radius:50%;
-    background:radial-gradient(circle at 35% 30%, #cfcac0, #948c7d 70%);
-    box-shadow:inset 0 0 0 1px rgba(0,0,0,0.25);
+    display:none;
   }
-  .screw.tl{top:10px;left:10px;} .screw.tr{top:10px;right:10px;}
-  .screw.bl{bottom:10px;left:10px;} .screw.br{bottom:10px;right:10px;}
 
   /* ---------- hero ---------- */
   .hero{
@@ -55,28 +51,29 @@
   .hero::before{
     content:"";
     position:absolute; inset:0;
-    background-image: radial-gradient(rgba(242,238,228,0.09) 1px, transparent 1px);
+    background-image: radial-gradient(rgba(244,240,235,0.08) 1px, transparent 1px);
     background-size: 14px 14px;
     opacity:0.5;
   }
   .hero-inner{position:relative;}
   .eyebrow-plate{
     display:inline-flex;align-items:center;gap:8px;
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'Space Mono', monospace;
     font-size:12px; letter-spacing:0.04em;
     color:var(--bone);
-    background:rgba(242,238,228,0.08);
-    border:1px solid rgba(242,238,228,0.25);
-    padding:6px 12px;border-radius:999px;
+    background:rgba(244,240,235,0.08);
+    border:1px solid rgba(244,240,235,0.2);
+    padding:6px 14px;border-radius:999px;
     margin-bottom:34px;
   }
   .led{width:7px;height:7px;border-radius:50%;background:var(--led);box-shadow:0 0 6px 1px var(--led);}
 
   .wordmark{
-    font-family:'Anton', sans-serif;
+    font-family:'Epilogue', sans-serif;
+    font-weight:900;
     font-size:clamp(52px, 9vw, 108px);
-    line-height:0.86;
-    letter-spacing:0.01em;
+    line-height:0.88;
+    letter-spacing:-0.03em;
     display:flex;
     flex-wrap:wrap;
   }
@@ -95,71 +92,71 @@
 
   .hero-sub{
     max-width:520px;margin-top:30px;
-    font-size:17px; color:rgba(242,238,228,0.78);
+    font-size:17px; color:rgba(244,240,235,0.8);
   }
 
   /* ---------- section shell ---------- */
   section{padding:76px 0;}
   .kicker{
-    font-family:'IBM Plex Mono', monospace;
-    font-size:12px; letter-spacing:0.03em;
-    color:var(--orange-dim);
+    font-family:'Space Mono', monospace;
+    font-size:12px; letter-spacing:0.04em;
+    color:var(--orange);
     margin-bottom:10px;
   }
   h2{
-    font-family:'Anton', sans-serif;
-    font-weight:400;
+    font-family:'Epilogue', sans-serif;
+    font-weight:800;
     font-size:clamp(28px,3.6vw,40px);
     margin:0 0 14px;
-    letter-spacing:0.005em;
+    letter-spacing:-0.02em;
   }
-  .lede{max-width:640px;color:#4a4640;font-size:16px;margin-bottom:44px;}
+  .lede{max-width:640px;color:#555048;font-size:16px;margin-bottom:44px;}
 
   /* ---------- knob params ---------- */
   .knobs{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;}
   .knob{
     background:var(--ink); color:var(--bone);
-    border-radius:8px; padding:26px 20px 22px;
+    border-radius:14px; padding:26px 20px 22px;
     position:relative;
   }
   .knob-dial{
     width:44px;height:44px;border-radius:50%;
-    background:conic-gradient(from -140deg, var(--orange) 0deg, var(--orange) 210deg, rgba(242,238,228,0.15) 210deg);
+    background:conic-gradient(from -140deg, var(--orange) 0deg, var(--orange) 210deg, rgba(244,240,235,0.15) 210deg);
     display:flex;align-items:center;justify-content:center;
     margin-bottom:18px;
   }
   .knob-dial::after{content:"";width:15px;height:15px;border-radius:50%;background:var(--ink);border:2px solid var(--bone);}
-  .knob-label{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:0.06em;color:var(--orange);margin-bottom:8px;}
-  .knob-word{font-family:'Anton',sans-serif;font-size:19px;margin-bottom:8px;}
-  .knob-desc{font-size:13.5px;color:rgba(242,238,228,0.72);}
+  .knob-label{font-family:'Space Mono',monospace;font-size:12px;letter-spacing:0.06em;color:var(--orange);margin-bottom:8px;}
+  .knob-word{font-family:'Epilogue',sans-serif;font-weight:800;font-size:19px;margin-bottom:8px;}
+  .knob-desc{font-size:13.5px;color:rgba(244,240,235,0.72);}
 
   /* ---------- palette ---------- */
   .swatches{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;}
-  .swatch{border-radius:8px;overflow:hidden;border:1px solid var(--line);}
+  .swatch{border-radius:12px;overflow:hidden;border:1px solid var(--line);}
   .swatch-color{height:96px;}
   .swatch-info{background:var(--paper);padding:12px 12px 14px;}
   .swatch-name{font-size:13px;font-weight:600;margin-bottom:2px;}
-  .swatch-hex{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#726c60;}
+  .swatch-hex{font-family:'Space Mono',monospace;font-size:11.5px;color:#726c60;}
   .swatch-use{font-size:11.5px;color:#847e70;margin-top:6px;line-height:1.35;}
 
   /* ---------- typography ---------- */
   .type-row{display:flex;justify-content:space-between;align-items:baseline;padding:22px 0;border-bottom:1px solid var(--line);}
   .type-row:last-child{border-bottom:none;}
-  .type-sample-display{font-family:'Anton',sans-serif;font-size:40px;}
-  .type-sample-body{font-family:'IBM Plex Sans',sans-serif;font-size:22px;font-weight:600;}
-  .type-sample-mono{font-family:'IBM Plex Mono',monospace;font-size:18px;letter-spacing:0.02em;}
-  .type-meta{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#847e70;text-align:right;}
+  .type-sample-display{font-family:'Epilogue',sans-serif;font-weight:800;font-size:36px;letter-spacing:-0.02em;}
+  .type-sample-body{font-family:'Work Sans',sans-serif;font-size:22px;font-weight:600;}
+  .type-sample-mono{font-family:'Space Mono',monospace;font-size:18px;letter-spacing:0.02em;}
+  .type-meta{font-family:'Space Mono',monospace;font-size:11.5px;color:#847e70;text-align:right;}
 
   /* ---------- logo system ---------- */
   .logo-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:18px;margin-bottom:18px;}
-  .logo-box{padding:34px;display:flex;align-items:center;justify-content:center;min-height:180px;}
+  .logo-box{padding:34px;display:flex;align-items:center;justify-content:center;min-height:180px;border-radius:14px;}
   .logo-box.dark{background:var(--ink);}
   .logo-box.light{background:var(--paper);}
   .badge{
     width:130px;height:130px;border-radius:50%;
     border:3px solid currentColor;
     display:flex;align-items:center;justify-content:center;
-    font-family:'Anton',sans-serif;font-size:15px;letter-spacing:0.03em;
+    font-family:'Epilogue',sans-serif;font-weight:900;font-size:15px;letter-spacing:0.03em;
     text-align:center;line-height:1.3;
     position:relative;
   }
@@ -170,21 +167,21 @@
   .lock-h .mini-badge{
     width:46px;height:46px;border-radius:50%;border:2px solid currentColor;
     display:flex;align-items:center;justify-content:center;
-    font-family:'Anton',sans-serif;font-size:15px;
+    font-family:'Epilogue',sans-serif;font-weight:900;font-size:15px;
   }
-  .lock-h .word{font-family:'Anton',sans-serif;font-size:26px;letter-spacing:0.01em;}
+  .lock-h .word{font-family:'Epilogue',sans-serif;font-weight:900;font-size:26px;letter-spacing:-0.02em;}
 
   .rules{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
-  .rule-card{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:18px;}
-  .rule-card .tag{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.04em;margin-bottom:8px;}
+  .rule-card{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:18px;}
+  .rule-card .tag{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:0.04em;margin-bottom:8px;}
   .rule-card.ok .tag{color:#2b7a4b;}
   .rule-card.no .tag{color:var(--orange-dim);}
   .rule-card p{font-size:13.5px;color:#4a4640;margin:0;}
 
   /* ---------- texture / elements ---------- */
   .elements{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
-  .elem-card{background:var(--ink);border-radius:8px;height:170px;position:relative;overflow:hidden;display:flex;align-items:flex-end;padding:14px;}
-  .elem-card span{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--bone);letter-spacing:0.03em;position:relative;z-index:2;}
+  .elem-card{background:var(--ink);border-radius:14px;height:170px;position:relative;overflow:hidden;display:flex;align-items:flex-end;padding:14px;}
+  .elem-card span{font-family:'Space Mono',monospace;font-size:11px;color:var(--bone);letter-spacing:0.03em;position:relative;z-index:2;}
   .halftone{position:absolute;inset:0;background-image:radial-gradient(var(--bone) 1.6px, transparent 1.6px);background-size:9px 9px;opacity:0.5;
     mask-image:linear-gradient(135deg, black, transparent 65%);}
   .wave{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;}
@@ -195,28 +192,28 @@
 
   /* ---------- applications ---------- */
   .apps{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
-  .app-card{border-radius:8px;overflow:hidden;border:1px solid var(--line);background:var(--paper);}
+  .app-card{border-radius:14px;overflow:hidden;border:1px solid var(--line);background:var(--paper);}
   .app-visual{aspect-ratio:1/1;background:var(--ink);position:relative;display:flex;flex-direction:column;justify-content:space-between;padding:22px;color:var(--bone);}
-  .app-visual .top-tag{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.04em;color:var(--orange);}
-  .app-visual .headline{font-family:'Anton',sans-serif;font-size:34px;line-height:0.95;}
-  .app-visual .foot{font-family:'IBM Plex Mono',monospace;font-size:11px;color:rgba(242,238,228,0.6);display:flex;justify-content:space-between;}
+  .app-visual .top-tag{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:0.04em;color:var(--orange);}
+  .app-visual .headline{font-family:'Epilogue',sans-serif;font-weight:900;font-size:34px;line-height:0.95;letter-spacing:-0.02em;}
+  .app-visual .foot{font-family:'Space Mono',monospace;font-size:11px;color:rgba(244,240,235,0.6);display:flex;justify-content:space-between;}
   .app-caption{padding:14px 16px;font-size:13px;color:#4a4640;}
   .tagcard{background:var(--paper);}
   .tagcard .app-visual{background:var(--bone);color:var(--ink);align-items:center;text-align:center;position:relative;}
-  .tag-die{width:100%;height:100%;border:2px dashed rgba(19,18,23,0.35);border-radius:14px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;}
-  .tag-die .brand{font-family:'Anton',sans-serif;font-size:16px;}
-  .tag-die .prod{font-family:'IBM Plex Sans',sans-serif;font-weight:700;font-size:20px;}
-  .tag-die .spec{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:#847e70;}
-  .tag-die .price-pill{margin-top:6px;background:var(--orange);color:var(--paper);font-family:'IBM Plex Mono',monospace;font-size:12px;padding:5px 12px;border-radius:999px;}
+  .tag-die{width:100%;height:100%;border:2px dashed rgba(28,26,24,0.3);border-radius:14px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;}
+  .tag-die .brand{font-family:'Epilogue',sans-serif;font-weight:900;font-size:16px;}
+  .tag-die .prod{font-family:'Work Sans',sans-serif;font-weight:700;font-size:20px;}
+  .tag-die .spec{font-family:'Space Mono',monospace;font-size:10.5px;color:#847e70;}
+  .tag-die .price-pill{margin-top:6px;background:var(--orange);color:var(--paper);font-family:'Space Mono',monospace;font-size:12px;padding:5px 14px;border-radius:999px;}
 
   /* ---------- voice ---------- */
   .voice-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
-  .voice-card{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:22px;}
-  .voice-card .label{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--orange-dim);letter-spacing:0.04em;margin-bottom:10px;}
+  .voice-card{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:22px;}
+  .voice-card .label{font-family:'Space Mono',monospace;font-size:11px;color:var(--orange-dim);letter-spacing:0.04em;margin-bottom:10px;}
   .voice-card .line{font-size:15px;margin-bottom:8px;}
   .voice-card .strike{color:#a49d8d;text-decoration:line-through;}
 
-  footer{background:var(--ink);color:rgba(242,238,228,0.55);padding:30px 0;font-family:'IBM Plex Mono',monospace;font-size:11.5px;text-align:center;}
+  footer{background:var(--ink);color:rgba(244,240,235,0.55);padding:30px 0;font-family:'Space Mono',monospace;font-size:11.5px;text-align:center;}
 
   @media (max-width:720px){
     .knobs{grid-template-columns:repeat(2,1fr);}
@@ -280,46 +277,54 @@
   <div class="wrap">
     <div class="kicker">02 — Paleta</div>
     <h2>Preto de amplificador, laranja de overdrive</h2>
-    <p class="lede">Base neutra e escura pra deixar os produtos (capturas de tela de pedaleira, packs) respirarem. Um único acento quente — a cor do LED de um pedal de drive ligado — carrega toda a energia da marca, sem competir com o preto do selo.</p>
-    <div class="swatches">
+    <p class="lede">Cores equilibradas e vibrantes para universo de som e pedaleiras. Base quente de areia com contraste profundo em Neutral, acentuada pelo laranja elétrico (Primary), azul cadete (Secondary) e vermelho tijolo (Tertiary).</p>
+    <div class="swatches" style="grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));">
       <div class="swatch">
-        <div class="swatch-color" style="background:#131217;"></div>
+        <div class="swatch-color" style="background:#E25822;"></div>
         <div class="swatch-info">
-          <div class="swatch-name">Ink</div>
-          <div class="swatch-hex">#131217</div>
-          <div class="swatch-use">Base — fundo, texto, selo</div>
+          <div class="swatch-name">Primary</div>
+          <div class="swatch-hex">#E25822</div>
+          <div class="swatch-use">Acento principal — CTAs, foco, LED</div>
         </div>
       </div>
       <div class="swatch">
-        <div class="swatch-color" style="background:#F2EEE4;"></div>
+        <div class="swatch-color" style="background:#2E6F89;"></div>
         <div class="swatch-info">
-          <div class="swatch-name">Bone</div>
-          <div class="swatch-hex">#F2EEE4</div>
-          <div class="swatch-use">Fundo claro, papel</div>
+          <div class="swatch-name">Secondary</div>
+          <div class="swatch-hex">#2E6F89</div>
+          <div class="swatch-use">Secundária — botões neutros, links</div>
         </div>
       </div>
       <div class="swatch">
-        <div class="swatch-color" style="background:#FF5A22;"></div>
+        <div class="swatch-color" style="background:#C83827;"></div>
         <div class="swatch-info">
-          <div class="swatch-name">Stomp Orange</div>
-          <div class="swatch-hex">#FF5A22</div>
-          <div class="swatch-use">Acento único — CTA, LED, destaque</div>
+          <div class="swatch-name">Tertiary</div>
+          <div class="swatch-hex">#C83827</div>
+          <div class="swatch-use">Badges de promoção e alertas</div>
         </div>
       </div>
       <div class="swatch">
-        <div class="swatch-color" style="background:#26324F;"></div>
+        <div class="swatch-color" style="background:#1C1A18;"></div>
         <div class="swatch-info">
-          <div class="swatch-name">Low End</div>
-          <div class="swatch-hex">#26324F</div>
-          <div class="swatch-use">Secundária — categorias, links</div>
+          <div class="swatch-name">Neutral</div>
+          <div class="swatch-hex">#1C1A18</div>
+          <div class="swatch-use">Preto rico — seções dark, texto, selo</div>
         </div>
       </div>
       <div class="swatch">
-        <div class="swatch-color" style="background:#F2C230;"></div>
+        <div class="swatch-color" style="background:#F4F0EB;"></div>
         <div class="swatch-info">
-          <div class="swatch-name">LED</div>
-          <div class="swatch-hex">#F2C230</div>
-          <div class="swatch-use">Uso raro — "novo", "mais vendido"</div>
+          <div class="swatch-name">Canvas</div>
+          <div class="swatch-hex">#F4F0EB</div>
+          <div class="swatch-use">Fundo principal da loja e PDP</div>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#FAF8F5;"></div>
+        <div class="swatch-info">
+          <div class="swatch-name">Surface</div>
+          <div class="swatch-hex">#FAF8F5</div>
+          <div class="swatch-use">Cards e painéis de produto</div>
         </div>
       </div>
     </div>
@@ -329,19 +334,19 @@
 <section style="padding-top:0;">
   <div class="wrap">
     <div class="kicker">03 — Tipografia</div>
-    <h2>Uma pesada, uma que trabalha</h2>
-    <p class="lede">Anton para títulos — a mesma família de peso do selo atual, boa pra ondular. IBM Plex Sans no corpo, porque é loja e precisa de legibilidade. Plex Mono nas fichas técnicas: nome do pedal, parâmetro, preço — como os rótulos gravados num pedal físico.</p>
+    <h2>Epilogue, Work Sans e Space Mono</h2>
+    <p class="lede">Epilogue para headlines impactantes com peso e personalidade. Work Sans para o corpo de texto fluido e altamente legível. Space Mono para tags técnicas, especificações de áudio e preços em pílula.</p>
     <div class="type-row">
-      <div class="type-sample-display">Preset pronto</div>
-      <div class="type-meta">Anton — títulos e o selo</div>
+      <div class="type-sample-display">O PESO DO GRAVE</div>
+      <div class="type-meta">Epilogue Bold / Black — Headlines e títulos</div>
     </div>
     <div class="type-row">
-      <div class="type-sample-body">Plugue e sinta o grave.</div>
-      <div class="type-meta">IBM Plex Sans SemiBold — corpo</div>
+      <div class="type-sample-body">Presets prontos pra plugar, gravar e sentir a resposta na mix.</div>
+      <div class="type-meta">Work Sans — Corpo de texto e descrições</div>
     </div>
     <div class="type-row">
-      <div class="type-sample-mono">HX STOMP / GAIN 62 / R$99</div>
-      <div class="type-meta">IBM Plex Mono — specs, preço, tags</div>
+      <div class="type-sample-mono">HX STOMP / ALPHA PREAMP / R$ 350,00</div>
+      <div class="type-meta">Space Mono — Specs, tags e preços</div>
     </div>
   </div>
 </section>

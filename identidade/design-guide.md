@@ -10,30 +10,29 @@
 
 | Nome | Hex / RGBA | Uso |
 |---|---|---|
-| **Ink** | `#131217` | Fundo principal (dark mode padrão), texto em fundo claro, selo |
-| **Bone** | `#F2EEE4` | Fundo claro alternativo, papel, textos sobre Ink |
-| **Paper** | `#FBF9F4` | Fundo de cards sobre Bone, placas de hardware |
-| **Stomp Orange** | `#FF5A22` | Acento principal — CTAs, botões, LED aceso, preços e destaques |
-| **Orange Dim** | `#D6431A` | Hover e estados ativos do laranja |
-| **Low End Blue** | `#26324F` | Secundária — categorias, links e marcações sóbrias |
-| **LED Yellow** | `#F2C230` | Uso pontual — badges de "novo", "mais vendido" ou LED de alerta |
-| **Line** | `rgba(19,18,23,0.14)` | Bordas sutis no claro / `rgba(242,238,228,0.15)` no escuro |
+| **Neutral** | `#1C1A18` | Fundo dark (top bar, tone lab, rodapé), texto primário no modo claro, selo |
+| **Sand / Canvas** | `#F4F0EB` | Fundo principal da loja e páginas de produto |
+| **Surface / Paper** | `#FAF8F5` | Fundo de cards, caixas de input e painéis destacados |
+| **Primary (Stomp Orange)** | `#E25822` | Acento primário — CTAs principais, foco, bordas ativas e LEDs |
+| **Secondary (Teal)** | `#2E6F89` | Acento secundário — botões de apoio, tags complementares, links |
+| **Tertiary (Brick Red)** | `#C83827` | Acento terciário — badges de desconto, promoções e avisos |
+| **Line / Border** | `rgba(28,26,24,0.12)` | Bordas sutis no claro (`#E6E0D8`) / `rgba(250,248,245,0.12)` no escuro |
 
-**Regra de ouro:** **Um único acento por peça** (laranja OU azul, nunca os dois competindo). Fundo escuro (Ink) é o padrão; Bone é usado quando necessária maior leveza ou leitura de textos longos.
+**Regra de ouro:** Alta legibilidade, calor analógico e contraste limpo. O tom de areia aquecido (`#F4F0EB`) ancora o visual editorial, equilibrado pelo escuro absoluto (`#1C1A18`) nas seções imersivas.
 
 ---
 
 ## Tipografia
 
 ```css
---font-display: 'Anton', sans-serif;
---font-body: 'IBM Plex Sans', sans-serif;
---font-mono: 'IBM Plex Mono', monospace;
+--font-display: 'Epilogue', sans-serif;
+--font-body: 'Work Sans', sans-serif;
+--font-mono: 'Space Mono', monospace;
 ```
 
-- **Títulos e destaques:** `Anton` (Google Fonts) — pesado, condensado, mesmo peso do selo da marca. Usar em headlines, números grandes e nomes de coleções.
-- **Corpo e descrições:** `IBM Plex Sans` (400, 600, 700) — legibilidade técnica, descrições de produtos, artigos e botões.
-- **Técnico, labels e specs:** `IBM Plex Mono` (400, 500, 600) — nome da pedaleira, parâmetros de knob (`GAIN / TONE / LEVEL`), specs e preços em pílula. *Nunca usar em blocos longos de texto.*
+- **Títulos e destaques:** `Epilogue` (Google Fonts, pesos 700 a 900) — imponente, geométrico, com presença forte para headlines e números de impacto.
+- **Corpo e descrições:** `Work Sans` (400, 500, 600) — clareza editorial, excelente renderização em telas para leitura técnica, textos de produtos e FAQs.
+- **Labels, specs e monospaçado:** `Space Mono` (400, 700) — códigos de pedaleiras, especificações de áudio, tags e preços em pílula.
 
 ---
 
