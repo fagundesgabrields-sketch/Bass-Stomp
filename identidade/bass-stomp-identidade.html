@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bass Stomp — Identidade Visual</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#131217;
+    --bone:#F2EEE4;
+    --paper:#FBF9F4;
+    --orange:#FF5A22;
+    --orange-dim:#D6431A;
+    --lowend:#26324F;
+    --led:#F2C230;
+    --line: rgba(19,18,23,0.14);
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--bone);
+    color:var(--ink);
+    font-family:'IBM Plex Sans', sans-serif;
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1000px;margin:0 auto;padding:0 28px;}
+
+  /* ---------- shared plate module ---------- */
+  .plate{
+    background:var(--paper);
+    border:1px solid var(--line);
+    border-radius:6px;
+    position:relative;
+  }
+  .screw{
+    position:absolute;width:9px;height:9px;border-radius:50%;
+    background:radial-gradient(circle at 35% 30%, #cfcac0, #948c7d 70%);
+    box-shadow:inset 0 0 0 1px rgba(0,0,0,0.25);
+  }
+  .screw.tl{top:10px;left:10px;} .screw.tr{top:10px;right:10px;}
+  .screw.bl{bottom:10px;left:10px;} .screw.br{bottom:10px;right:10px;}
+
+  /* ---------- hero ---------- */
+  .hero{
+    background:var(--ink);
+    color:var(--bone);
+    padding:90px 0 70px;
+    position:relative;
+    overflow:hidden;
+  }
+  .hero::before{
+    content:"";
+    position:absolute; inset:0;
+    background-image: radial-gradient(rgba(242,238,228,0.09) 1px, transparent 1px);
+    background-size: 14px 14px;
+    opacity:0.5;
+  }
+  .hero-inner{position:relative;}
+  .eyebrow-plate{
+    display:inline-flex;align-items:center;gap:8px;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px; letter-spacing:0.04em;
+    color:var(--bone);
+    background:rgba(242,238,228,0.08);
+    border:1px solid rgba(242,238,228,0.25);
+    padding:6px 12px;border-radius:999px;
+    margin-bottom:34px;
+  }
+  .led{width:7px;height:7px;border-radius:50%;background:var(--led);box-shadow:0 0 6px 1px var(--led);}
+
+  .wordmark{
+    font-family:'Anton', sans-serif;
+    font-size:clamp(52px, 9vw, 108px);
+    line-height:0.86;
+    letter-spacing:0.01em;
+    display:flex;
+    flex-wrap:wrap;
+  }
+  .wordmark span{display:inline-block; transform-origin:bottom center;}
+  .wordmark .row{display:flex;}
+  /* stomp-wave rhythm */
+  .wordmark .w1 span:nth-child(1){transform:translateY(0) rotate(-3deg);}
+  .wordmark .w1 span:nth-child(2){transform:translateY(-6px) rotate(-1deg);}
+  .wordmark .w1 span:nth-child(3){transform:translateY(2px) rotate(2deg);}
+  .wordmark .w1 span:nth-child(4){transform:translateY(-3px) rotate(4deg);color:var(--orange);}
+  .wordmark .w2 span:nth-child(1){transform:translateY(-2px) rotate(-4deg);color:var(--orange);}
+  .wordmark .w2 span:nth-child(2){transform:translateY(4px) rotate(-1deg);}
+  .wordmark .w2 span:nth-child(3){transform:translateY(-5px) rotate(2deg);}
+  .wordmark .w2 span:nth-child(4){transform:translateY(0) rotate(0deg);}
+  .wordmark .w2 span:nth-child(5){transform:translateY(3px) rotate(3deg);}
+
+  .hero-sub{
+    max-width:520px;margin-top:30px;
+    font-size:17px; color:rgba(242,238,228,0.78);
+  }
+
+  /* ---------- section shell ---------- */
+  section{padding:76px 0;}
+  .kicker{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px; letter-spacing:0.03em;
+    color:var(--orange-dim);
+    margin-bottom:10px;
+  }
+  h2{
+    font-family:'Anton', sans-serif;
+    font-weight:400;
+    font-size:clamp(28px,3.6vw,40px);
+    margin:0 0 14px;
+    letter-spacing:0.005em;
+  }
+  .lede{max-width:640px;color:#4a4640;font-size:16px;margin-bottom:44px;}
+
+  /* ---------- knob params ---------- */
+  .knobs{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;}
+  .knob{
+    background:var(--ink); color:var(--bone);
+    border-radius:8px; padding:26px 20px 22px;
+    position:relative;
+  }
+  .knob-dial{
+    width:44px;height:44px;border-radius:50%;
+    background:conic-gradient(from -140deg, var(--orange) 0deg, var(--orange) 210deg, rgba(242,238,228,0.15) 210deg);
+    display:flex;align-items:center;justify-content:center;
+    margin-bottom:18px;
+  }
+  .knob-dial::after{content:"";width:15px;height:15px;border-radius:50%;background:var(--ink);border:2px solid var(--bone);}
+  .knob-label{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:0.06em;color:var(--orange);margin-bottom:8px;}
+  .knob-word{font-family:'Anton',sans-serif;font-size:19px;margin-bottom:8px;}
+  .knob-desc{font-size:13.5px;color:rgba(242,238,228,0.72);}
+
+  /* ---------- palette ---------- */
+  .swatches{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;}
+  .swatch{border-radius:8px;overflow:hidden;border:1px solid var(--line);}
+  .swatch-color{height:96px;}
+  .swatch-info{background:var(--paper);padding:12px 12px 14px;}
+  .swatch-name{font-size:13px;font-weight:600;margin-bottom:2px;}
+  .swatch-hex{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#726c60;}
+  .swatch-use{font-size:11.5px;color:#847e70;margin-top:6px;line-height:1.35;}
+
+  /* ---------- typography ---------- */
+  .type-row{display:flex;justify-content:space-between;align-items:baseline;padding:22px 0;border-bottom:1px solid var(--line);}
+  .type-row:last-child{border-bottom:none;}
+  .type-sample-display{font-family:'Anton',sans-serif;font-size:40px;}
+  .type-sample-body{font-family:'IBM Plex Sans',sans-serif;font-size:22px;font-weight:600;}
+  .type-sample-mono{font-family:'IBM Plex Mono',monospace;font-size:18px;letter-spacing:0.02em;}
+  .type-meta{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#847e70;text-align:right;}
+
+  /* ---------- logo system ---------- */
+  .logo-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:18px;margin-bottom:18px;}
+  .logo-box{padding:34px;display:flex;align-items:center;justify-content:center;min-height:180px;}
+  .logo-box.dark{background:var(--ink);}
+  .logo-box.light{background:var(--paper);}
+  .badge{
+    width:130px;height:130px;border-radius:50%;
+    border:3px solid currentColor;
+    display:flex;align-items:center;justify-content:center;
+    font-family:'Anton',sans-serif;font-size:15px;letter-spacing:0.03em;
+    text-align:center;line-height:1.3;
+    position:relative;
+  }
+  .badge span{display:block;}
+  .badge span:nth-child(1){transform:rotate(-2deg);}
+  .badge span:nth-child(2){transform:rotate(1deg) translateY(-2px);}
+  .lock-h{display:flex;align-items:center;gap:14px;}
+  .lock-h .mini-badge{
+    width:46px;height:46px;border-radius:50%;border:2px solid currentColor;
+    display:flex;align-items:center;justify-content:center;
+    font-family:'Anton',sans-serif;font-size:15px;
+  }
+  .lock-h .word{font-family:'Anton',sans-serif;font-size:26px;letter-spacing:0.01em;}
+
+  .rules{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
+  .rule-card{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:18px;}
+  .rule-card .tag{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.04em;margin-bottom:8px;}
+  .rule-card.ok .tag{color:#2b7a4b;}
+  .rule-card.no .tag{color:var(--orange-dim);}
+  .rule-card p{font-size:13.5px;color:#4a4640;margin:0;}
+
+  /* ---------- texture / elements ---------- */
+  .elements{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
+  .elem-card{background:var(--ink);border-radius:8px;height:170px;position:relative;overflow:hidden;display:flex;align-items:flex-end;padding:14px;}
+  .elem-card span{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--bone);letter-spacing:0.03em;position:relative;z-index:2;}
+  .halftone{position:absolute;inset:0;background-image:radial-gradient(var(--bone) 1.6px, transparent 1.6px);background-size:9px 9px;opacity:0.5;
+    mask-image:linear-gradient(135deg, black, transparent 65%);}
+  .wave{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;}
+  .wave svg{width:90%;}
+  .switchcard{position:relative;}
+  .switchcard .ring{position:absolute;top:20px;right:20px;width:52px;height:52px;border-radius:50%;border:3px solid var(--orange);display:flex;align-items:center;justify-content:center;}
+  .switchcard .ring::after{content:"";width:10px;height:10px;border-radius:50%;background:var(--orange);}
+
+  /* ---------- applications ---------- */
+  .apps{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+  .app-card{border-radius:8px;overflow:hidden;border:1px solid var(--line);background:var(--paper);}
+  .app-visual{aspect-ratio:1/1;background:var(--ink);position:relative;display:flex;flex-direction:column;justify-content:space-between;padding:22px;color:var(--bone);}
+  .app-visual .top-tag{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.04em;color:var(--orange);}
+  .app-visual .headline{font-family:'Anton',sans-serif;font-size:34px;line-height:0.95;}
+  .app-visual .foot{font-family:'IBM Plex Mono',monospace;font-size:11px;color:rgba(242,238,228,0.6);display:flex;justify-content:space-between;}
+  .app-caption{padding:14px 16px;font-size:13px;color:#4a4640;}
+  .tagcard{background:var(--paper);}
+  .tagcard .app-visual{background:var(--bone);color:var(--ink);align-items:center;text-align:center;position:relative;}
+  .tag-die{width:100%;height:100%;border:2px dashed rgba(19,18,23,0.35);border-radius:14px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;}
+  .tag-die .brand{font-family:'Anton',sans-serif;font-size:16px;}
+  .tag-die .prod{font-family:'IBM Plex Sans',sans-serif;font-weight:700;font-size:20px;}
+  .tag-die .spec{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:#847e70;}
+  .tag-die .price-pill{margin-top:6px;background:var(--orange);color:var(--paper);font-family:'IBM Plex Mono',monospace;font-size:12px;padding:5px 12px;border-radius:999px;}
+
+  /* ---------- voice ---------- */
+  .voice-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+  .voice-card{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:22px;}
+  .voice-card .label{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--orange-dim);letter-spacing:0.04em;margin-bottom:10px;}
+  .voice-card .line{font-size:15px;margin-bottom:8px;}
+  .voice-card .strike{color:#a49d8d;text-decoration:line-through;}
+
+  footer{background:var(--ink);color:rgba(242,238,228,0.55);padding:30px 0;font-family:'IBM Plex Mono',monospace;font-size:11.5px;text-align:center;}
+
+  @media (max-width:720px){
+    .knobs{grid-template-columns:repeat(2,1fr);}
+    .swatches{grid-template-columns:repeat(2,1fr);}
+    .logo-grid, .apps, .elements, .rules, .voice-grid{grid-template-columns:1fr;}
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="wrap hero-inner">
+    <div class="eyebrow-plate"><span class="led"></span>Identidade Visual — Bass Stomp</div>
+    <div class="wordmark">
+      <div class="row w1">
+        <span>B</span><span>A</span><span>S</span><span>S</span>
+      </div>
+      <div class="row w2">
+        <span>S</span><span>T</span><span>O</span><span>M</span><span>P</span>
+      </div>
+    </div>
+    <p class="hero-sub">Presets prontos pra plugar, tocar e sentir o peso do grave. A identidade abaixo constrói em cima do selo que vocês já têm — sem trocar de marca, só dando a ela um sistema pra crescer em todos os pontos de contato: loja, Instagram, tags de produto, embalagem digital.</p>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <div class="kicker">01 — Essência</div>
+    <h2>O que a marca precisa soar</h2>
+    <p class="lede">Bass Stomp vende tom, não hardware. O cliente já tem a pedaleira — quer o preset que faz ela soar como o disco que ele ama, sem precisar entender de EQ. A marca tem que parecer tão precisa quanto um plugin e tão visceral quanto um pisão no stomp.</p>
+    <div class="knobs">
+      <div class="knob">
+        <div class="knob-dial"></div>
+        <div class="knob-label">GAIN</div>
+        <div class="knob-word">Peso</div>
+        <div class="knob-desc">Preto denso, tipografia pesada. A marca ocupa espaço como um grave bem colocado na mixagem.</div>
+      </div>
+      <div class="knob">
+        <div class="knob-dial"></div>
+        <div class="knob-label">TONE</div>
+        <div class="knob-word">Precisão</div>
+        <div class="knob-desc">Rótulos técnicos, grade organizada. É loja de preset — precisa parecer confiável e bem calibrada.</div>
+      </div>
+      <div class="knob">
+        <div class="knob-dial"></div>
+        <div class="knob-label">LEVEL</div>
+        <div class="knob-word">Atitude</div>
+        <div class="knob-desc">O selo ondulado já diz isso: irreverente, de palco, sem enfeite desnecessário.</div>
+      </div>
+      <div class="knob">
+        <div class="knob-dial"></div>
+        <div class="knob-label">MIX</div>
+        <div class="knob-word">Direto ao ponto</div>
+        <div class="knob-desc">Baixista quer plugar e tocar. Comunicação sem rodeio: nome do pack, pra qual pedal, o que ele resolve.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="wrap">
+    <div class="kicker">02 — Paleta</div>
+    <h2>Preto de amplificador, laranja de overdrive</h2>
+    <p class="lede">Base neutra e escura pra deixar os produtos (capturas de tela de pedaleira, packs) respirarem. Um único acento quente — a cor do LED de um pedal de drive ligado — carrega toda a energia da marca, sem competir com o preto do selo.</p>
+    <div class="swatches">
+      <div class="swatch">
+        <div class="swatch-color" style="background:#131217;"></div>
+        <div class="swatch-info">
+          <div class="swatch-name">Ink</div>
+          <div class="swatch-hex">#131217</div>
+          <div class="swatch-use">Base — fundo, texto, selo</div>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#F2EEE4;"></div>
+        <div class="swatch-info">
+          <div class="swatch-name">Bone</div>
+          <div class="swatch-hex">#F2EEE4</div>
+          <div class="swatch-use">Fundo claro, papel</div>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#FF5A22;"></div>
+        <div class="swatch-info">
+          <div class="swatch-name">Stomp Orange</div>
+          <div class="swatch-hex">#FF5A22</div>
+          <div class="swatch-use">Acento único — CTA, LED, destaque</div>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#26324F;"></div>
+        <div class="swatch-info">
+          <div class="swatch-name">Low End</div>
+          <div class="swatch-hex">#26324F</div>
+          <div class="swatch-use">Secundária — categorias, links</div>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#F2C230;"></div>
+        <div class="swatch-info">
+          <div class="swatch-name">LED</div>
+          <div class="swatch-hex">#F2C230</div>
+          <div class="swatch-use">Uso raro — "novo", "mais vendido"</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="wrap">
+    <div class="kicker">03 — Tipografia</div>
+    <h2>Uma pesada, uma que trabalha</h2>
+    <p class="lede">Anton para títulos — a mesma família de peso do selo atual, boa pra ondular. IBM Plex Sans no corpo, porque é loja e precisa de legibilidade. Plex Mono nas fichas técnicas: nome do pedal, parâmetro, preço — como os rótulos gravados num pedal físico.</p>
+    <div class="type-row">
+      <div class="type-sample-display">Preset pronto</div>
+      <div class="type-meta">Anton — títulos e o selo</div>
+    </div>
+    <div class="type-row">
+      <div class="type-sample-body">Plugue e sinta o grave.</div>
+      <div class="type-meta">IBM Plex Sans SemiBold — corpo</div>
+    </div>
+    <div class="type-row">
+      <div class="type-sample-mono">HX STOMP / GAIN 62 / R$99</div>
+      <div class="type-meta">IBM Plex Mono — specs, preço, tags</div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="wrap">
+    <div class="kicker">04 — Sistema do selo</div>
+    <h2>O selo continua sendo a assinatura</h2>
+    <p class="lede">O círculo ondulado já funciona como ícone de perfil e carimbo de produto. Falta uma versão horizontal pra cabeçalho de site e e-mail, onde o círculo não cabe.</p>
+    <div class="logo-grid">
+      <div class="plate logo-box dark">
+        <div class="screw tl"></div><div class="screw tr"></div><div class="screw bl"></div><div class="screw br"></div>
+        <div class="badge" style="color:var(--bone);">
+          <span>BASS</span><span>STOMP</span>
+        </div>
+      </div>
+      <div class="plate logo-box light">
+        <div class="screw tl"></div><div class="screw tr"></div><div class="screw bl"></div><div class="screw br"></div>
+        <div class="lock-h" style="color:var(--ink);">
+          <div class="mini-badge">B</div>
+          <div class="word">BASS STOMP</div>
+        </div>
+      </div>
+    </div>
+    <div class="rules">
+      <div class="rule-card ok">
+        <div class="tag">USAR</div>
+        <p>Selo circular isolado como avatar, carimbo em tag e marca d'água discreta em capturas de tela de pedaleira.</p>
+      </div>
+      <div class="rule-card ok">
+        <div class="tag">USAR</div>
+        <p>Versão horizontal só em preto ou só em branco — nunca colorida, pra não competir com o laranja de acento.</p>
+      </div>
+      <div class="rule-card no">
+        <div class="tag">EVITAR</div>
+        <p>Esticar, inclinar ou colocar o selo sobre fotos de fundo muito ocupado — ele precisa de uma área de respiro sólida ao redor.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="wrap">
+    <div class="kicker">05 — Elementos gráficos</div>
+    <h2>Vocabulário visual de apoio</h2>
+    <p class="lede">Três recursos, usados um de cada vez — nunca todos juntos na mesma peça.</p>
+    <div class="elements">
+      <div class="elem-card">
+        <div class="halftone"></div>
+        <span>Trama de pontos — textura de adesivo/carimbo</span>
+      </div>
+      <div class="elem-card">
+        <div class="wave">
+          <svg viewBox="0 0 200 60" fill="none">
+            <polyline points="0,30 20,30 30,8 40,52 50,18 60,42 70,30 90,30 100,4 110,56 120,30 140,30 150,14 160,46 170,30 200,30" stroke="#FF5A22" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <span>Forma de onda — o "stomp" virando som</span>
+      </div>
+      <div class="elem-card switchcard">
+        <div class="ring"></div>
+        <span>Footswitch — indicador de destaque/novidade</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="wrap">
+    <div class="kicker">06 — Aplicações</div>
+    <h2>Como isso aparece no dia a dia</h2>
+    <div class="apps">
+      <div class="app-card">
+        <div class="app-visual">
+          <div class="top-tag">NOVO PACK</div>
+          <div class="headline">Worship<br>Pack</div>
+          <div class="foot"><span>HX STOMP</span><span>R$99</span></div>
+        </div>
+        <div class="app-caption">Post de lançamento — Instagram</div>
+      </div>
+      <div class="app-card tagcard">
+        <div class="app-visual">
+          <div class="tag-die">
+            <div class="brand">BASS STOMP</div>
+            <div class="prod">Modern Pack</div>
+            <div class="spec">HX STOMP · GAIN / TONE / LEVEL</div>
+            <div class="price-pill">R$130,00</div>
+          </div>
+        </div>
+        <div class="app-caption">Tag de produto na loja</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0;padding-bottom:96px;">
+  <div class="wrap">
+    <div class="kicker">07 — Voz</div>
+    <h2>Como a marca escreve</h2>
+    <p class="lede">Direto, técnico só o necessário, sem vender fumaça. Fala como um baixista falaria com outro.</p>
+    <div class="voice-grid">
+      <div class="voice-card">
+        <div class="label">FAZ</div>
+        <div class="line">"Plugue, carregue o preset e já tá no tom."</div>
+        <div class="line">"Feito pra quem grava em casa e não quer perder tempo com EQ."</div>
+      </div>
+      <div class="voice-card">
+        <div class="label">EVITA</div>
+        <div class="line strike">"Revolucione sua sonoridade com nossa tecnologia exclusiva."</div>
+        <div class="line strike">"O melhor tom do mercado, garantido."</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>BASS STOMP — GUIA DE IDENTIDADE VISUAL</footer>
+
+</body>
+</html>

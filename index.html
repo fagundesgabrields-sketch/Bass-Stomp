@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bass Stomp — Presets Profissionais de Baixo & Hardware Analógico | Sergio Rodrigues</title>
+  <meta name="description" content="Presets profissionais para Line 6 HX Stomp, Boss, Ampero, Valeton e Zoom, e o pedal analógico Alpha Bass Preamp. Desenvolvido por Sergio Rodrigues.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+</head>
+<body>
+
+  <!-- Top Utility Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-item">
+        <span class="led"></span>
+        <span>ENVIO DIGITAL IMEDIATO DOS PACKS NO SEU E-MAIL</span>
+      </div>
+      <div class="top-bar-item hide-mobile">
+        <span>TIMBRES E HARDWARE CRIADOS POR BAIXISTA DE PALCO (SERGIO RODRIGUES)</span>
+      </div>
+      <div class="top-bar-item">
+        <a href="https://wa.me/5511999999999" target="_blank" class="top-bar-link">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.54 1.771.821 2.79.822h.001c3.182 0 5.768-2.587 5.768-5.768 0-3.18-2.586-5.766-5.769-5.766zm6.91 5.766c-.001 3.816-3.102 6.918-6.909 6.918-1.22 0-2.378-.32-3.411-.93l-3.801.996 1.017-3.714c-.694-1.077-1.066-2.316-1.066-3.61 0-3.816 3.102-6.918 6.909-6.918 3.808.001 6.909 3.103 6.909 6.918z"/></svg>
+          Suporte Técnico WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      
+      <!-- Brand Lockup -->
+      <a href="index.html" class="brand-lockup">
+        <div class="brand-seal">
+          <img src="assets/images/logo.png" alt="Selo Bass Stomp" />
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">BASS STOMP</span>
+          <span class="brand-tagline">Pro Bass Rigs & Tone</span>
+        </div>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link active">Início</a>
+        <a href="loja.html" class="nav-link">
+          Presets
+          <span class="nav-badge-count">66</span>
+        </a>
+        <a href="contato.html" class="nav-link">Contato & Suporte</a>
+      </nav>
+
+      <!-- Actions (Cart & CTA) -->
+      <div class="header-actions">
+        <button id="cart-trigger" class="btn-cart" aria-label="Abrir Carrinho">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+          <span id="cart-badge" class="cart-count" style="display: none;">0</span>
+        </button>
+
+        <a href="loja.html" class="btn-whatsapp-header hide-mobile">
+          <span class="led orange"></span>
+          Ir para a Loja
+        </a>
+
+        <button id="menu-toggle-btn" class="btn-menu-toggle" aria-label="Abrir Menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div id="mobile-drawer-nav" class="mobile-nav-drawer">
+    <a href="index.html" class="mobile-nav-link" onclick="document.getElementById('mobile-drawer-nav').classList.remove('active')">
+      <span>Início</span>
+      <span class="led orange"></span>
+    </a>
+    <a href="loja.html" class="mobile-nav-link" onclick="document.getElementById('mobile-drawer-nav').classList.remove('active')">
+      <span>Presets</span>
+      <span class="nav-badge-count">66 packs</span>
+    </a>
+    <a href="contato.html" class="mobile-nav-link" onclick="document.getElementById('mobile-drawer-nav').classList.remove('active')">
+      <span>Contato & Suporte</span>
+    </a>
+    <a href="https://wa.me/5511999999999" target="_blank" class="btn-primary" style="margin-top: 8px; justify-content: center; font-size: 14px;">
+      Tirar Dúvidas no WhatsApp
+    </a>
+  </div>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="container hero-grid">
+        
+        <div class="hero-content">
+          <div class="badge-eyebrow">
+            <span class="led"></span>
+            Timbres de Palco & Hardware Analógico
+          </div>
+          
+          <h1 class="hero-title">
+            O PESO DO GRAVE NO LUGAR CERTO NA MIX
+          </h1>
+          
+          <p class="hero-desc">
+            Presets profissionais para as principais pedaleiras digitais do mercado e o pré-amplificador analógico artesanal <strong>Alpha Bass Preamp</strong>. Criados por quem vive o palco toda semana.
+          </p>
+
+          <div class="hero-actions">
+            <a href="loja.html" class="btn-primary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+              Explorar Loja de Presets
+            </a>
+            <a href="#alpha-preamp" class="btn-secondary">
+              Conhecer o Alpha Preamp
+            </a>
+          </div>
+
+          <!-- Rig Specs Bar -->
+          <div class="hero-rig-specs">
+            <div class="spec-chassis-item">
+              <span class="spec-chassis-label">CALIBRAÇÃO</span>
+              <span class="spec-chassis-val">Direct PA & In-Ear</span>
+            </div>
+            <div class="spec-chassis-item">
+              <span class="spec-chassis-label">IMPULSE RESPONSE</span>
+              <span class="spec-chassis-val">IRs Inclusos em 24-bit</span>
+            </div>
+            <div class="spec-chassis-item">
+              <span class="spec-chassis-label">COMPATIBILIDADE</span>
+              <span class="spec-chassis-val">16 Modelos de Pedaleiras</span>
+            </div>
+            <div class="spec-chassis-item">
+              <span class="spec-chassis-label">GARANTIA</span>
+              <span class="spec-chassis-val">7 Dias Incondicional</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Stage Photo Frame -->
+        <div class="hero-media-wrap">
+          <div class="hero-photo-frame plate">
+            <div class="screw tl"></div><div class="screw tr"></div><div class="screw bl"></div><div class="screw br"></div>
+            <img src="assets/images/sergio-rodrigues.jpg" alt="Sergio Rodrigues com contrabaixo no palco" />
+            <div class="hero-watermark">
+              <img src="assets/images/logo.png" alt="Selo Bass Stomp" />
+            </div>
+          </div>
+          
+          <div class="floating-rig-tag plate">
+            <div class="screw tl"></div><div class="screw tr"></div>
+            <div class="rig-tag-indicator">
+              <span class="led"></span>
+              <span>RIG OFICIAL DE PALCO</span>
+            </div>
+            <div class="rig-tag-title">Sergio Rodrigues</div>
+            <div class="rig-tag-subtitle">Baixista de Palco & Especialista de Áudio</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: ALPHA BASS PREAMP SPOTLIGHT (HARDWARE ANALÓGICO) -->
+    <section id="alpha-preamp" class="section-alpha">
+      <div class="container">
+        <div class="plate" style="padding: 50px 40px; border-radius: var(--radius-lg);">
+          <div class="screw tl"></div><div class="screw tr"></div><div class="screw bl"></div><div class="screw br"></div>
+
+          <div class="alpha-grid">
+            <!-- Hardware Photo -->
+            <div class="alpha-image-wrap">
+              <img src="assets/images/alpha-preamp.jpg" alt="Pedal Alpha Bass Preamp analógico" />
+              <div class="alpha-badge-tag">HARDWARE ANALÓGICO AUTORAL</div>
+            </div>
+
+            <!-- Info & Specs -->
+            <div class="alpha-content">
+              <div class="badge-eyebrow" style="background: rgba(19,18,23,0.06); border-color: rgba(19,18,23,0.15); color: var(--ink);">
+                <span class="led orange"></span>
+                Engenharia de Áudio Discreta
+              </div>
+              <h2>ALPHA BASS PREAMP</h2>
+              <p class="alpha-desc">
+                O coração analógico da Bass Stomp. Um pré-amplificador híbrido de estúdio construído em chassi de metal robusto, combinando o peso valvulado característico Ampeg à resposta dinâmica de médios do circuito Aguilar.
+              </p>
+
+              <!-- Boutique Handbuilt Serial Plate -->
+              <div class="alpha-serial-plate">
+                <div class="serial-badge">
+                  <span class="led orange"></span>
+                  <span class="serial-number">SÉRIE LIMITADA · CHASSIS #071–#100</span>
+                </div>
+                <div class="serial-specs">
+                  CIRCUITO 100% DISCRETO · CALIBRADO MANUALMENTE EM BANCADA · HANDBUILT NO BRASIL
+                </div>
+              </div>
+
+              <!-- Specs Grid -->
+              <div class="alpha-specs-list">
+                <div class="alpha-spec-card">
+                  <div class="alpha-spec-param">CIRCUITO</div>
+                  <div class="alpha-spec-detail">100% Analógico de Baixo Ruído</div>
+                </div>
+                <div class="alpha-spec-card">
+                  <div class="alpha-spec-param">SELEÇÃO DE MÉDIOS</div>
+                  <div class="alpha-spec-detail">Chave Seletora 250Hz / 800Hz</div>
+                </div>
+                <div class="alpha-spec-card">
+                  <div class="alpha-spec-param">SAÍDAS</div>
+                  <div class="alpha-spec-detail">P10 Instrumento + XLR Balanceada Direct Out</div>
+                </div>
+                <div class="alpha-spec-card">
+                  <div class="alpha-spec-param">ALIMENTAÇÃO</div>
+                  <div class="alpha-spec-detail">9V a 18V DC (Centro Negativo)</div>
+                </div>
+              </div>
+
+              <div style="display: flex; gap: 14px; flex-wrap: wrap; margin-top: 24px;">
+                <a href="https://wa.me/5511999999999?text=Ol%C3%A1%20Sergio,%20quero%20entrar%20na%20fila%20de%20espera%20do%20Alpha%20Bass%20Preamp!" target="_blank" class="btn-primary" style="display: inline-flex;">
+                  Reservar Meu Alpha Preamp
+                </a>
+                <a href="#demo-alpha" class="btn-secondary" style="display: inline-flex;">
+                  Ouvir Simulação A/B Abaixo ↓
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- LABORATÓRIO SONORO A/B DO ALPHA PREAMP -->
+          <div id="demo-alpha" class="alpha-tone-lab">
+            <div class="alpha-chassis-badge">
+              <span class="led orange"></span>
+              LABORATÓRIO DE CIRCUITO · DEMO INTERATIVA A/B
+            </div>
+            
+            <div class="alpha-lab-grid">
+              <div>
+                <h3 style="font-family: var(--font-display); font-size: 32px; line-height: 1.1; margin-bottom: 10px;">
+                  OUÇA O PESO DO CIRCUITO ANALÓGICO ALPHA
+                </h3>
+                <p style="font-size: 14.5px; color: rgba(242,238,228,0.75); line-height: 1.5; margin-bottom: 16px;">
+                  Compare o sinal cru de linha direta (DI comum sem corpo) contra o sinal processado pelo pré-amplificador Alpha com saturação harmônica e inteligência de frequências médias.
+                </p>
+
+                <!-- Knobs Panel with Mid Switch -->
+                <div class="alpha-knobs-panel">
+                  <div class="tone-knob-item">
+                    <div class="tone-dial"></div>
+                    <span class="tone-dial-label">GAIN</span>
+                  </div>
+                  <div class="tone-knob-item">
+                    <div class="tone-dial"></div>
+                    <span class="tone-dial-label">BASS</span>
+                  </div>
+                  <div class="tone-knob-item">
+                    <div class="tone-dial"></div>
+                    <span class="tone-dial-label">MIDS</span>
+                  </div>
+                  <div class="tone-knob-item">
+                    <div class="tone-dial"></div>
+                    <span class="tone-dial-label">TREBLE</span>
+                  </div>
+                  
+                  <!-- Mid Freq Toggle Switch -->
+                  <div class="alpha-mid-switch">
+                    <button id="btn-mid-switch" class="toggle-switch-btn active" title="Alternar frequência de corte de médios">
+                      800Hz
+                    </button>
+                    <span class="switch-label">CHAVE MÉDIOS</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Simulator Audio Controls -->
+              <div class="tone-player-box">
+                <div class="player-head">
+                  <div class="player-track-info">
+                    <span class="track-title">Alpha Bass Preamp · Teste de Sinal</span>
+                    <span class="track-spec">CIRCUITO ANALÓGICO HÍBRIDO AMPEG / AGUILAR</span>
+                  </div>
+                  <span class="led orange"></span>
+                </div>
+
+                <!-- A/B Switcher -->
+                <div class="ab-switcher">
+                  <button id="btn-bypass" class="ab-btn bypass">
+                    <span>SINAL DIRETO (DI COMUM)</span>
+                  </button>
+                  <button id="btn-preset" class="ab-btn active">
+                    <span class="led orange" style="width:6px;height:6px;"></span>
+                    <span>ALPHA PREAMP (ON)</span>
+                  </button>
+                </div>
+
+                <!-- Waveform Visualizer -->
+                <div id="waveform-wrap" class="waveform-container">
+                  <div class="wave-bar" style="height: 25px;"></div>
+                  <div class="wave-bar" style="height: 40px;"></div>
+                  <div class="wave-bar" style="height: 18px;"></div>
+                  <div class="wave-bar" style="height: 50px;"></div>
+                  <div class="wave-bar" style="height: 35px;"></div>
+                  <div class="wave-bar" style="height: 55px;"></div>
+                  <div class="wave-bar" style="height: 30px;"></div>
+                  <div class="wave-bar" style="height: 45px;"></div>
+                  <div class="wave-bar" style="height: 22px;"></div>
+                  <div class="wave-bar" style="height: 48px;"></div>
+                  <div class="wave-bar" style="height: 38px;"></div>
+                  <div class="wave-bar" style="height: 20px;"></div>
+                </div>
+
+                <div class="player-controls">
+                  <button id="btn-play-tone" class="btn-play-trigger">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    Ouvir Demonstração
+                  </button>
+                  <span class="player-meta-note">Simulação de resposta em tempo real</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: TEASER DE PACKS DA LOJA -->
+    <section class="section-store-teaser">
+      <div class="container">
+        
+        <div class="section-header">
+          <div>
+            <div class="section-kicker">PRESETS EM DESTAQUE</div>
+            <h2 class="section-title">PACKS MAIS VENDIDOS DA LOJA</h2>
+            <p class="section-sub">Timbres plug & play calibrados para palco, gravação e culto. IRs de estúdio inclusos.</p>
+          </div>
+          <a href="loja.html" class="btn-secondary hide-mobile">
+            Ver Todos os 66 Packs →
+          </a>
+        </div>
+
+        <!-- 4 Top Packs Grid -->
+        <div class="products-grid">
+          
+          <!-- Card 1: Noble Pack HX Stomp -->
+          <div class="product-card plate" data-id="4acd99b2-44bd-5f3f-e62a-baa888bb8ccc">
+            <div class="screw tl"></div><div class="screw tr"></div>
+            <div class="product-media">
+              <div class="product-ribbon new"><span class="led orange"></span>Novidade</div>
+              <img src="assets/images/products/noble-pack-hx-stomp.png" alt="NOBLE PACK - HX STOMP" loading="lazy" />
+              <button class="btn-quick-view" onclick="openQuickView('4acd99b2-44bd-5f3f-e62a-baa888bb8ccc')">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"></path></svg>
+                Ficha Técnica
+              </button>
+            </div>
+            <div class="product-body">
+              <div class="product-pedal-spec"><span>Line 6 HX Stomp</span><span class="dot">·</span><span>PRESET PACK</span></div>
+              <h3 class="product-title"><a href="produto.html?id=noble-pack-hx-stomp">NOBLE PACK — HX STOMP</a></h3>
+              <div class="product-tech-params"><span class="tech-tag">IR INCLUSO</span><span class="tech-tag">LINE LEVEL</span><span class="tech-tag">DOWNLOAD</span></div>
+              <div class="product-footer">
+                <div class="price-container"><span class="price-current">R$ 150,00</span></div>
+                <button class="btn-buy-pill" onclick="addToCart('4acd99b2-44bd-5f3f-e62a-baa888bb8ccc')">Comprar</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Worship Pack HX Stomp -->
+          <div class="product-card plate" data-id="ebdae350-85bc-0b01-41b6-498b1106c2c1">
+            <div class="screw tl"></div><div class="screw tr"></div>
+            <div class="product-media">
+              <div class="product-ribbon bestseller"><span class="led"></span>Mais Vendido</div>
+              <img src="assets/images/products/worship-pack-hx-stomp.png" alt="WORSHIP PACK - HX STOMP" loading="lazy" />
+              <button class="btn-quick-view" onclick="openQuickView('ebdae350-85bc-0b01-41b6-498b1106c2c1')">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"></path></svg>
+                Ficha Técnica
+              </button>
+            </div>
+            <div class="product-body">
+              <div class="product-pedal-spec"><span>Line 6 HX Stomp</span><span class="dot">·</span><span>PRESET PACK</span></div>
+              <h3 class="product-title"><a href="produto.html?id=worship-pack-hx-stomp">WORSHIP PACK — HX STOMP</a></h3>
+              <div class="product-tech-params"><span class="tech-tag">IR INCLUSO</span><span class="tech-tag">LINE LEVEL</span><span class="tech-tag">DOWNLOAD</span></div>
+              <div class="product-footer">
+                <div class="price-container"><span class="price-current">R$ 99,00</span></div>
+                <button class="btn-buy-pill" onclick="addToCart('ebdae350-85bc-0b01-41b6-498b1106c2c1')">Comprar</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Clean Tone Hammer Ampero Mini -->
+          <div class="product-card plate" data-id="5000b21b-6945-7f7b-0a47-e25875366b56">
+            <div class="screw tl"></div><div class="screw tr"></div>
+            <div class="product-media">
+              <div class="product-ribbon new"><span class="led orange"></span>Novidade</div>
+              <img src="assets/images/products/clean-tone-hammer-ampero-mini-1.png" alt="CLEAN TONE HAMMER - AMPERO MINI" loading="lazy" />
+              <button class="btn-quick-view" onclick="openQuickView('5000b21b-6945-7f7b-0a47-e25875366b56')">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"></path></svg>
+                Ficha Técnica
+              </button>
+            </div>
+            <div class="product-body">
+              <div class="product-pedal-spec"><span>Hotone Ampero</span><span class="dot">·</span><span>PRESET PACK</span></div>
+              <h3 class="product-title"><a href="produto.html?id=clean-tone-hammer-ampero-mini-1">CLEAN TONE HAMMER — AMPERO MINI</a></h3>
+              <div class="product-tech-params"><span class="tech-tag">IR INCLUSO</span><span class="tech-tag">LINE LEVEL</span><span class="tech-tag">DOWNLOAD</span></div>
+              <div class="product-footer">
+                <div class="price-container"><span class="price-current">R$ 50,00</span></div>
+                <button class="btn-buy-pill" onclick="addToCart('5000b21b-6945-7f7b-0a47-e25875366b56')">Comprar</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4: Modern Pack Valeton GP200 -->
+          <div class="product-card plate" data-id="eeb88544-7f15-4686-2244-a0352ef9fa48">
+            <div class="screw tl"></div><div class="screw tr"></div>
+            <div class="product-media">
+              <div class="product-ribbon bestseller"><span class="led"></span>Mais Vendido</div>
+              <img src="assets/images/products/ags-tone-hammer-valeton-gp200.png" alt="MODERN PACK - VALETON GP200" loading="lazy" />
+              <button class="btn-quick-view" onclick="openQuickView('eeb88544-7f15-4686-2244-a0352ef9fa48')">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"></path></svg>
+                Ficha Técnica
+              </button>
+            </div>
+            <div class="product-body">
+              <div class="product-pedal-spec"><span>Valeton GP Series</span><span class="dot">·</span><span>PRESET PACK</span></div>
+              <h3 class="product-title"><a href="produto.html?id=modern-pack-valeton-gp200">MODERN PACK — VALETON GP200</a></h3>
+              <div class="product-tech-params"><span class="tech-tag">IR INCLUSO</span><span class="tech-tag">LINE LEVEL</span><span class="tech-tag">DOWNLOAD</span></div>
+              <div class="product-footer">
+                <div class="price-container">
+                  <span class="price-old">R$ 250,00</span>
+                  <span class="price-current">R$ 200,00</span>
+                </div>
+                <button class="btn-buy-pill" onclick="addToCart('eeb88544-7f15-4686-2244-a0352ef9fa48')">Comprar</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Store Banner CTA -->
+        <div class="store-teaser-banner plate">
+          <div class="screw tl"></div><div class="screw tr"></div>
+          <h3>PROCURANDO TIMBRES PARA OUTRO MODELO DE PEDALEIRA?</h3>
+          <p>
+            Temos mais de 66 packs calibrados para 16 pedaleiras diferentes: Line 6 HX Stomp, Boss GX-1B, GT-1B, Ampero II, Valeton GP200/GP100, Zoom B3n e muito mais.
+          </p>
+          <a href="loja.html" class="btn-primary" style="display: inline-flex; padding: 14px 28px; font-size: 14px;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+            Acessar Catálogo Completo na Loja (66 Packs)
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: ABOUT SERGIO RODRIGUES -->
+    <section id="sobre" class="section-about">
+      <div class="container about-grid">
+        
+        <div class="about-image-card">
+          <img src="assets/images/sergio-rodrigues.jpg" alt="Sergio Rodrigues baixista" />
+        </div>
+
+        <div class="about-content">
+          <div class="badge-eyebrow">
+            <span class="led"></span>
+            Fundador & Especialista de Timbre
+          </div>
+          <h2>DE BAIXISTA PRA BAIXISTA</h2>
+          <p>
+            A Bass Stomp nasceu da necessidade real de palco. Como baixista do cantor Mateus Brito e músico de estrada, sei a frustração de chegar no ensaio ou culto e ter que passar 40 minutos regulando bloco de amplificador sem nunca achar o som ideal.
+          </p>
+          <p>
+            Aqui você não compra preset feito no fone de ouvido de quarto. Todos os packs são calibrados em caixas de PA e fones in-ear reais, com headroom ajustado para nunca clipar o conversor nem sujar a mix da banda.
+          </p>
+
+          <div class="about-badges-grid">
+            <div class="about-badge">
+              <div class="about-badge-title">AUTORIDADE DE PALCO</div>
+              <div class="about-badge-text">Baixista oficial do cantor Mateus Brito</div>
+            </div>
+            <div class="about-badge">
+              <div class="about-badge-title">SUPORTE DEDICADO</div>
+              <div class="about-badge-text">Tira-dúvidas direto pelo WhatsApp</div>
+            </div>
+            <div class="about-badge">
+              <div class="about-badge-title">GARANTIA INCONDICIONAL</div>
+              <div class="about-badge-text">7 dias para testar ou seu dinheiro de volta</div>
+            </div>
+            <div class="about-badge">
+              <div class="about-badge-title">COMPATIBILIDADE</div>
+              <div class="about-badge-text">Line 6, Ampero, Boss, Valeton e Zoom</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: YOUTUBE REVIEWS & VIDEOS -->
+    <section id="videos" class="section-videos">
+      <div class="container">
+        
+        <div class="section-header">
+          <div>
+            <div class="section-kicker">DEMONSTRAÇÕES NO CANAL</div>
+            <h2 class="section-title">O SOM EM AÇÃO NO CANAL DO SERGIO</h2>
+            <p class="section-sub">Assista às demonstrações comparando pedais, testando o Alpha Preamp e ouvindo presets no palco.</p>
+          </div>
+          <a href="https://www.youtube.com/@sergio.rodrigues" target="_blank" class="btn-secondary hide-mobile">
+            Ver Canal no YouTube
+          </a>
+        </div>
+
+        <div id="videos-grid" class="videos-grid">
+          <!-- Rendered dynamically from products-data.js (8 videos) -->
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      
+      <!-- Newsletter Card -->
+      <div class="footer-newsletter-card plate">
+        <div class="screw tl"></div><div class="screw tr"></div>
+        <div>
+          <div class="newsletter-title">RECEBA 10% DE DESCONTO NO SEU 1º PACK</div>
+          <div class="newsletter-desc">Cadastre seu e-mail para receber cupons exclusivos e alertas de novos patches para sua pedaleira.</div>
+        </div>
+        <form class="newsletter-form" onsubmit="event.preventDefault(); showToast('Cupom de 10% enviado pro seu e-mail!');">
+          <input type="email" required placeholder="Seu melhor e-mail de músico..." class="newsletter-input" />
+          <button type="submit" class="btn-primary" style="padding: 12px 22px; font-size: 13px;">Garantir Cupom</button>
+        </form>
+      </div>
+
+      <!-- Links Grid -->
+      <div class="footer-grid">
+        <div>
+          <div class="brand-lockup">
+            <div class="brand-seal" style="width: 36px; height: 36px;">
+              <img src="assets/images/logo.png" alt="Selo Bass Stomp" />
+            </div>
+            <span class="brand-name" style="font-size: 20px;">BASS STOMP</span>
+          </div>
+          <p class="footer-brand-p">
+            Soluções profissionais de timbre e hardware de áudio para contrabaixistas. Desenvolvido no Brasil por Sergio Rodrigues.
+          </p>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Navegação</div>
+          <ul class="footer-links">
+            <li><a href="index.html">Início (Home)</a></li>
+            <li><a href="loja.html">Loja de Presets (66 Packs)</a></li>
+            <li><a href="#alpha-preamp">Alpha Bass Preamp</a></li>
+            <li><a href="#demo-alpha">Demo Interativa A/B</a></li>
+            <li><a href="contato.html">Contato & Suporte</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Pedaleiras</div>
+          <ul class="footer-links">
+            <li><a href="loja.html">Line 6 HX Stomp & POD Go</a></li>
+            <li><a href="loja.html">Hotone Ampero II & Mini</a></li>
+            <li><a href="loja.html">Boss GX-1B & GT-1B</a></li>
+            <li><a href="loja.html">Valeton GP200 & GP100</a></li>
+            <li><a href="loja.html">Zoom B3n & B1 Four</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Atendimento</div>
+          <ul class="footer-links">
+            <li><a href="https://wa.me/5511999999999" target="_blank">WhatsApp do Sergio</a></li>
+            <li><a href="https://www.instagram.com/bass.stomphx" target="_blank">Instagram @bass.stomphx</a></li>
+            <li><a href="contato.html">Formulário de Suporte</a></li>
+            <li><a href="#videos">Canal do YouTube</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom">
+        <div>
+          © 2025 Bass Stomp · CNPJ: 44.683.322/0001-58 · São Sebastião, Mogi das Cruzes - SP
+        </div>
+        <div>
+          <span>Termos de Devolução (7 Dias)</span> · 
+          <span>Políticas da Loja</span> · 
+          <span>Segurança SSL</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- QUICK VIEW MODAL (FICHA TÉCNICA) -->
+  <div id="quick-view-modal" class="modal-overlay">
+    <div class="modal-window plate">
+      <div class="screw tl"></div><div class="screw tr"></div><div class="screw bl"></div><div class="screw br"></div>
+      <button class="btn-close-modal" onclick="closeQuickView()" aria-label="Fechar">✕</button>
+
+      <div style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 28px; padding: 32px;">
+        <div style="border-radius: var(--radius-md); overflow: hidden; background: #0a090c; aspect-ratio: 1/1; display: flex; align-items: center; justify-content: center;">
+          <img id="modal-img" src="" alt="Pack Image" style="width: 100%; height: 100%; object-fit: cover;" />
+        </div>
+
+        <div style="display: flex; flex-direction: column;">
+          <div id="modal-pedal" style="font-family: var(--font-mono); font-size: 11px; color: var(--orange); letter-spacing: 0.05em; margin-bottom: 6px; text-transform: uppercase;"></div>
+          <h2 id="modal-title" style="font-family: var(--font-display); font-size: 28px; line-height: 1.1; margin-bottom: 14px;"></h2>
+
+          <div style="display: flex; align-items: baseline; gap: 10px; margin-bottom: 18px;">
+            <span id="modal-price-old" style="font-family: var(--font-mono); font-size: 13px; color: rgba(242,238,228,0.4); text-decoration: line-through;"></span>
+            <span id="modal-price-current" style="font-family: var(--font-mono); font-size: 24px; font-weight: 700; color: var(--bone);"></span>
+          </div>
+
+          <!-- Quick Specs List -->
+          <div style="background: rgba(242,238,228,0.04); border: 1px solid var(--line-dark); border-radius: var(--radius-sm); padding: 14px; margin-bottom: 20px; font-family: var(--font-mono); font-size: 11.5px; display: flex; flex-direction: column; gap: 6px;">
+            <div><span style="color: var(--orange);">●</span> Entrega: Download imediato no e-mail</div>
+            <div><span style="color: var(--orange);">●</span> Arquivo: Patch format + IR incluso</div>
+            <div><span style="color: var(--orange);">●</span> Compatibilidade: 100% plug & play</div>
+          </div>
+
+          <div style="display: flex; gap: 10px; margin-top: auto;">
+            <button class="btn-primary" style="flex: 1; padding: 12px 18px; font-size: 13px;" onclick="addToCart(state.currentModalProduct.id)">
+              Adicionar ao Carrinho
+            </button>
+            <a id="modal-full-link" href="#" class="btn-secondary" style="padding: 12px 18px; font-size: 12px;">
+              Página Completa
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CART DRAWER OVERLAY -->
+  <div id="cart-drawer-overlay" class="cart-drawer-overlay">
+    <div class="cart-drawer">
+      <div class="cart-header">
+        <div class="cart-title">SEU CARRINHO</div>
+        <button id="cart-close" class="btn-close-modal" style="position: static;" aria-label="Fechar">✕</button>
+      </div>
+
+      <div id="cart-items-container" class="cart-items-list">
+        <!-- Cart Items -->
+      </div>
+
+      <div class="cart-footer">
+        <div class="cart-total-row">
+          <span>Total:</span>
+          <strong id="cart-total-val">R$ 0,00</strong>
+        </div>
+        <button id="btn-checkout" class="btn-checkout">
+          Finalizar Compra Segura
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- YOUTUBE VIDEO MODAL -->
+  <div id="video-modal" class="modal-overlay">
+    <div class="modal-window plate" style="max-width: 860px; padding: 0; background: #000; overflow: hidden;">
+      <button id="video-modal-close" class="btn-close-modal" style="top: 12px; right: 12px;">✕</button>
+      <div style="position: relative; padding-bottom: 56.25%; height: 0;">
+        <iframe id="video-modal-iframe" src="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/products-data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
