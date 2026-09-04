@@ -1214,125 +1214,283 @@ button {
   display: flex;
   gap: 16px;
 }
-.tone-knob-item {
+/* ==========================================================================
+   LABORATÓRIO DE CIRCUITO ALPHA PREAMP (DEMO INTERATIVA A/B)
+   ========================================================================== */
+.section-tone-lab {
+  padding: 84px 0;
+  background: var(--neutral);
+  color: #FAF8F5;
+  position: relative;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+}
+
+.section-tone-lab::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 20px 20px;
+  pointer-events: none;
+}
+
+.tone-lab-wrapper {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 48px;
+  align-items: center;
+}
+
+.tone-lab-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--primary);
+  background: rgba(226, 88, 34, 0.12);
+  border: 1px solid rgba(226, 88, 34, 0.3);
+  padding: 6px 14px;
+  border-radius: var(--radius-pill);
+  margin-bottom: 16px;
+}
+
+.tone-lab-title {
+  font-family: var(--font-display);
+  font-size: clamp(28px, 3.4vw, 42px);
+  font-weight: 900;
+  line-height: 1.12;
+  color: #FAF8F5;
+  margin-bottom: 14px;
+  letter-spacing: -0.02em;
+}
+
+.tone-lab-desc {
+  font-family: var(--font-body);
+  font-size: 15px;
+  color: rgba(250, 248, 245, 0.78);
+  line-height: 1.6;
+  margin-bottom: 28px;
+  max-width: 520px;
+}
+
+/* Knobs Deck */
+.tone-knobs-deck {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-lg);
+  padding: 22px 24px;
+  flex-wrap: wrap;
+}
+
+.tone-knob-unit {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 6px;
+  min-width: 54px;
 }
-.tone-dial {
-  width: 44px;
-  height: 44px;
+
+.knob-rotary {
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
-  background: conic-gradient(from -130deg, var(--orange) 0deg, var(--orange) 220deg, rgba(242, 238, 228, 0.15) 220deg);
+  background: radial-gradient(circle at 35% 35%, #34312d, #1a1816 75%);
+  border: 2px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4), inset 0 1px 2px rgba(255, 255, 255, 0.2);
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.tone-dial::after {
-  content: "";
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  background: var(--ink);
-  border: 2px solid var(--bone);
-}
-.tone-dial-label {
-  font-family: var(--font-mono);
-  font-size: 10.5px;
-  color: var(--orange);
-  letter-spacing: 0.05em;
+  position: relative;
+  transition: transform 0.2s ease;
 }
 
-/* Tone Player UI */
+.knob-indicator {
+  width: 3px;
+  height: 14px;
+  background: var(--primary);
+  border-radius: 2px;
+  box-shadow: 0 0 6px var(--primary);
+  position: absolute;
+  top: 5px;
+  transform-origin: bottom center;
+}
+
+.knob-gain .knob-indicator { transform: rotate(35deg); }
+.knob-bass .knob-indicator { transform: rotate(15deg); }
+.knob-mids .knob-indicator { transform: rotate(-10deg); }
+.knob-treble .knob-indicator { transform: rotate(0deg); }
+
+.knob-title {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--primary);
+  letter-spacing: 0.06em;
+}
+
+.knob-val {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: rgba(250, 248, 245, 0.45);
+}
+
+.tone-switch-unit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding-left: 16px;
+  border-left: 1px solid rgba(255, 255, 255, 0.12);
+  margin-left: auto;
+}
+
+.mid-toggle-btn {
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(250, 248, 245, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  padding: 7px 14px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.mid-toggle-btn.active {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #FAF8F5;
+  box-shadow: 0 2px 10px rgba(226, 88, 34, 0.4);
+}
+
+.switch-title {
+  font-family: var(--font-mono);
+  font-size: 9.5px;
+  color: rgba(250, 248, 245, 0.5);
+  letter-spacing: 0.04em;
+}
+
+/* Tone Player Card */
 .tone-player-box {
-  background: #09080c;
-  border: 1px solid var(--line-dark);
-  border-radius: var(--radius-md);
-  padding: 24px;
+  background: #11100e;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius-xl);
+  padding: 28px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.45);
 }
+
 .player-head {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 12px;
 }
+
 .player-track-info {
   display: flex;
   flex-direction: column;
+  gap: 3px;
 }
+
 .track-title {
   font-family: var(--font-body);
   font-weight: 700;
   font-size: 15px;
-}
-.track-spec {
-  font-family: var(--font-mono);
-  font-size: 11px;
-  color: rgba(242, 238, 228, 0.55);
+  color: #FAF8F5;
 }
 
-/* A/B Switcher Footswitch Bar */
+.track-spec {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  color: rgba(250, 248, 245, 0.5);
+  letter-spacing: 0.04em;
+}
+
+/* A/B Switcher */
 .ab-switcher {
   display: flex;
-  background: var(--ink-soft);
+  background: #1a1816;
   border-radius: var(--radius-pill);
-  padding: 4px;
-  border: 1px solid var(--line-dark);
+  padding: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  gap: 6px;
 }
+
 .ab-btn {
   flex: 1;
   font-family: var(--font-mono);
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 11.5px;
+  font-weight: 700;
   letter-spacing: 0.04em;
-  padding: 10px 18px;
+  padding: 11px 16px;
   border-radius: var(--radius-pill);
-  color: rgba(242, 238, 228, 0.7);
+  color: rgba(250, 248, 245, 0.65);
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
   transition: var(--transition);
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  white-space: nowrap;
 }
+
 .ab-btn.active {
-  background: var(--orange);
-  color: var(--bone);
-  box-shadow: 0 2px 10px rgba(255, 90, 34, 0.4);
+  background: var(--primary);
+  color: #FAF8F5;
+  box-shadow: 0 2px 10px rgba(226, 88, 34, 0.4);
 }
+
 .ab-btn.bypass.active {
-  background: #393645;
-  color: var(--bone);
+  background: #2a2724;
+  color: #FAF8F5;
   box-shadow: none;
 }
 
 /* Waveform Visualizer */
 .waveform-container {
-  height: 60px;
+  height: 64px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 4px;
-  background: rgba(242, 238, 228, 0.03);
-  border-radius: var(--radius-sm);
-  padding: 0 16px;
+  gap: 5px;
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: var(--radius-md);
+  padding: 0 20px;
 }
+
 .wave-bar {
   width: 4px;
-  background: rgba(242, 238, 228, 0.2);
+  background: rgba(250, 248, 245, 0.22);
   border-radius: 2px;
   transition: height 0.15s ease, background-color 0.2s ease;
 }
+
 .playing .wave-bar {
-  background: var(--orange);
+  background: var(--primary);
   animation: wavePulse 1.2s infinite ease-in-out;
 }
+
 .bypass-mode.playing .wave-bar {
-  background: rgba(242, 238, 228, 0.5);
+  background: rgba(250, 248, 245, 0.55);
   animation: wavePulseQuiet 1.2s infinite ease-in-out;
 }
+
 @keyframes wavePulse {
   0%, 100% { transform: scaleY(0.3); }
   50% { transform: scaleY(1); }
@@ -1342,32 +1500,79 @@ button {
   50% { transform: scaleY(0.5); }
 }
 
+/* Player Controls Bar - No text overlap */
 .player-controls {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding-top: 4px;
 }
+
 .btn-play-trigger {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  background: var(--bone);
-  color: var(--ink);
+  gap: 9px;
+  background: var(--primary);
+  color: #FAF8F5;
+  border: none;
   font-family: var(--font-mono);
   font-size: 13px;
   font-weight: 700;
-  padding: 10px 20px;
+  letter-spacing: 0.02em;
+  padding: 12px 22px;
   border-radius: var(--radius-pill);
+  cursor: pointer;
   transition: var(--transition);
+  box-shadow: 0 4px 14px rgba(226, 88, 34, 0.35);
+  white-space: nowrap;
+  flex-shrink: 0;
 }
+
 .btn-play-trigger:hover {
-  background: var(--orange);
-  color: var(--bone);
+  background: var(--primary-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(226, 88, 34, 0.45);
 }
+
 .player-meta-note {
   font-family: var(--font-mono);
   font-size: 11px;
-  color: rgba(242, 238, 228, 0.5);
+  color: rgba(250, 248, 245, 0.6);
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  white-space: nowrap;
+}
+
+.pulse-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #2bba6a;
+  box-shadow: 0 0 6px #2bba6a;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+@media (max-width: 900px) {
+  .tone-lab-wrapper {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+}
+@media (max-width: 600px) {
+  .player-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .btn-play-trigger {
+    justify-content: center;
+  }
+  .player-meta-note {
+    justify-content: center;
+  }
 }
 
 /* ==========================================================================
@@ -1381,8 +1586,17 @@ button {
   border-bottom: 1px solid var(--line-light);
 }
 .section-alpha .plate {
-  background: #FFFFFF;
-  border-color: var(--line-light);
+  background: var(--bg-surface);
+  border: 1px solid var(--line-light);
+  border-radius: var(--radius-xl);
+  padding: 48px 40px;
+  box-shadow: var(--shadow-sm);
+}
+.alpha-actions {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 26px;
 }
 .alpha-grid {
   display: grid;
@@ -1396,7 +1610,7 @@ button {
   border-radius: var(--radius-lg);
   overflow: hidden;
   border: 1px solid var(--line-light);
-  box-shadow: var(--shadow-lg);
+  box-shadow: var(--shadow-md);
 }
 .alpha-image-wrap img {
   width: 100%;
@@ -2511,85 +2725,6 @@ button {
   height: 2px;
   background: var(--orange);
   border-radius: 1px;
-}
-
-/* ==========================================================================
-   ALPHA BASS PREAMP A/B SIMULATOR STYLES
-   ========================================================================== */
-.alpha-tone-lab {
-  background: #08070a;
-  border: 1px solid var(--line-dark);
-  border-radius: var(--radius-lg);
-  padding: 36px;
-  position: relative;
-  margin-top: 40px;
-}
-.alpha-chassis-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  font-family: var(--font-mono);
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  color: var(--orange);
-  background: rgba(255, 90, 34, 0.1);
-  border: 1px solid rgba(255, 90, 34, 0.25);
-  padding: 4px 10px;
-  border-radius: 2px;
-  margin-bottom: 12px;
-}
-.alpha-lab-grid {
-  display: grid;
-  grid-template-columns: 1.1fr 1fr;
-  gap: 36px;
-  align-items: center;
-}
-.alpha-knobs-panel {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  background: rgba(242, 238, 228, 0.03);
-  border: 1px solid var(--line-dark);
-  border-radius: var(--radius-md);
-  padding: 20px;
-  margin: 20px 0;
-  flex-wrap: wrap;
-}
-.alpha-mid-switch {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 6px;
-  padding: 0 10px;
-  border-left: 1px solid var(--line-dark);
-}
-.toggle-switch-btn {
-  background: var(--ink);
-  color: var(--bone);
-  border: 1px solid var(--line-dark);
-  font-family: var(--font-mono);
-  font-size: 11px;
-  font-weight: 700;
-  padding: 6px 12px;
-  border-radius: 3px;
-  cursor: pointer;
-  transition: var(--transition);
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-.toggle-switch-btn.active {
-  background: var(--orange);
-  border-color: var(--orange);
-  color: var(--bone);
-  box-shadow: 0 2px 8px rgba(255, 90, 34, 0.4);
-}
-.switch-label {
-  font-family: var(--font-mono);
-  font-size: 10px;
-  color: rgba(242, 238, 228, 0.5);
-  letter-spacing: 0.04em;
 }
 
 /* Featured Store Teaser on Home */

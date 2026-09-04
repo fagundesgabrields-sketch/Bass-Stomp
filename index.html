@@ -180,8 +180,7 @@
     <!-- SECTION: ALPHA BASS PREAMP SPOTLIGHT (HARDWARE ANALÓGICO) -->
     <section id="alpha-preamp" class="section-alpha">
       <div class="container">
-        <div class="plate" style="padding: 50px 40px; border-radius: var(--radius-lg);">
-          <div class="screw tl"></div><div class="screw tr"></div><div class="screw bl"></div><div class="screw br"></div>
+        <div class="plate hardware-plate">
 
           <div class="alpha-grid">
             <!-- Hardware Photo -->
@@ -192,7 +191,7 @@
 
             <!-- Info & Specs -->
             <div class="alpha-content">
-              <div class="badge-eyebrow" style="background: rgba(19,18,23,0.06); border-color: rgba(19,18,23,0.15); color: var(--ink);">
+              <div class="badge-eyebrow">
                 <span class="led orange"></span>
                 Engenharia de Áudio Discreta
               </div>
@@ -232,11 +231,11 @@
                 </div>
               </div>
 
-              <div style="display: flex; gap: 14px; flex-wrap: wrap; margin-top: 24px;">
-                <a href="https://wa.me/5511999999999?text=Ol%C3%A1%20Sergio,%20quero%20entrar%20na%20fila%20de%20espera%20do%20Alpha%20Bass%20Preamp!" target="_blank" class="btn-primary" style="display: inline-flex;">
+              <div class="alpha-actions">
+                <a href="https://wa.me/5511999999999?text=Ol%C3%A1%20Sergio,%20quero%20entrar%20na%20fila%20de%20espera%20do%20Alpha%20Bass%20Preamp!" target="_blank" class="btn-primary">
                   Reservar Meu Alpha Preamp
                 </a>
-                <a href="#demo-alpha" class="btn-secondary" style="display: inline-flex;">
+                <a href="#demo-alpha" class="btn-outlined">
                   Ouvir Simulação A/B Abaixo ↓
                 </a>
               </div>
@@ -244,97 +243,117 @@
 
           </div>
 
-          <!-- LABORATÓRIO SONORO A/B DO ALPHA PREAMP -->
-          <div id="demo-alpha" class="alpha-tone-lab">
-            <div class="alpha-chassis-badge">
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: LABORATÓRIO SONORO A/B DO ALPHA PREAMP -->
+    <section id="demo-alpha" class="section-tone-lab">
+      <div class="container">
+        <div class="tone-lab-wrapper">
+          
+          <!-- Coluna Esquerda: Texto e Knobs de Controle -->
+          <div class="tone-lab-left">
+            <div class="tone-lab-badge">
               <span class="led orange"></span>
               LABORATÓRIO DE CIRCUITO · DEMO INTERATIVA A/B
             </div>
             
-            <div class="alpha-lab-grid">
-              <div>
-                <h3 style="font-family: var(--font-display); font-size: 32px; line-height: 1.1; margin-bottom: 10px;">
-                  OUÇA O PESO DO CIRCUITO ANALÓGICO ALPHA
-                </h3>
-                <p style="font-size: 14.5px; color: rgba(242,238,228,0.75); line-height: 1.5; margin-bottom: 16px;">
-                  Compare o sinal cru de linha direta (DI comum sem corpo) contra o sinal processado pelo pré-amplificador Alpha com saturação harmônica e inteligência de frequências médias.
-                </p>
+            <h2 class="tone-lab-title">
+              OUÇA O PESO DO CIRCUITO ANALÓGICO ALPHA
+            </h2>
+            
+            <p class="tone-lab-desc">
+              Compare o sinal cru de linha direta (DI comum sem corpo) contra o sinal processado pelo pré-amplificador Alpha com saturação harmônica e inteligência de frequências médias.
+            </p>
 
-                <!-- Knobs Panel with Mid Switch -->
-                <div class="alpha-knobs-panel">
-                  <div class="tone-knob-item">
-                    <div class="tone-dial"></div>
-                    <span class="tone-dial-label">GAIN</span>
-                  </div>
-                  <div class="tone-knob-item">
-                    <div class="tone-dial"></div>
-                    <span class="tone-dial-label">BASS</span>
-                  </div>
-                  <div class="tone-knob-item">
-                    <div class="tone-dial"></div>
-                    <span class="tone-dial-label">MIDS</span>
-                  </div>
-                  <div class="tone-knob-item">
-                    <div class="tone-dial"></div>
-                    <span class="tone-dial-label">TREBLE</span>
-                  </div>
-                  
-                  <!-- Mid Freq Toggle Switch -->
-                  <div class="alpha-mid-switch">
-                    <button id="btn-mid-switch" class="toggle-switch-btn active" title="Alternar frequência de corte de médios">
-                      800Hz
-                    </button>
-                    <span class="switch-label">CHAVE MÉDIOS</span>
-                  </div>
+            <!-- Knobs Panel with Mid Switch -->
+            <div class="tone-knobs-deck">
+              <div class="tone-knob-unit">
+                <div class="knob-rotary knob-gain">
+                  <div class="knob-indicator"></div>
                 </div>
+                <span class="knob-title">GAIN</span>
+                <span class="knob-val">7.5</span>
               </div>
-
-              <!-- Simulator Audio Controls -->
-              <div class="tone-player-box">
-                <div class="player-head">
-                  <div class="player-track-info">
-                    <span class="track-title">Alpha Bass Preamp · Teste de Sinal</span>
-                    <span class="track-spec">CIRCUITO ANALÓGICO HÍBRIDO AMPEG / AGUILAR</span>
-                  </div>
-                  <span class="led orange"></span>
+              <div class="tone-knob-unit">
+                <div class="knob-rotary knob-bass">
+                  <div class="knob-indicator"></div>
                 </div>
-
-                <!-- A/B Switcher -->
-                <div class="ab-switcher">
-                  <button id="btn-bypass" class="ab-btn bypass">
-                    <span>SINAL DIRETO (DI COMUM)</span>
-                  </button>
-                  <button id="btn-preset" class="ab-btn active">
-                    <span class="led orange" style="width:6px;height:6px;"></span>
-                    <span>ALPHA PREAMP (ON)</span>
-                  </button>
-                </div>
-
-                <!-- Waveform Visualizer -->
-                <div id="waveform-wrap" class="waveform-container">
-                  <div class="wave-bar" style="height: 25px;"></div>
-                  <div class="wave-bar" style="height: 40px;"></div>
-                  <div class="wave-bar" style="height: 18px;"></div>
-                  <div class="wave-bar" style="height: 50px;"></div>
-                  <div class="wave-bar" style="height: 35px;"></div>
-                  <div class="wave-bar" style="height: 55px;"></div>
-                  <div class="wave-bar" style="height: 30px;"></div>
-                  <div class="wave-bar" style="height: 45px;"></div>
-                  <div class="wave-bar" style="height: 22px;"></div>
-                  <div class="wave-bar" style="height: 48px;"></div>
-                  <div class="wave-bar" style="height: 38px;"></div>
-                  <div class="wave-bar" style="height: 20px;"></div>
-                </div>
-
-                <div class="player-controls">
-                  <button id="btn-play-tone" class="btn-play-trigger">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
-                    Ouvir Demonstração
-                  </button>
-                  <span class="player-meta-note">Simulação de resposta em tempo real</span>
-                </div>
+                <span class="knob-title">BASS</span>
+                <span class="knob-val">+4dB</span>
               </div>
+              <div class="tone-knob-unit">
+                <div class="knob-rotary knob-mids">
+                  <div class="knob-indicator"></div>
+                </div>
+                <span class="knob-title">MIDS</span>
+                <span class="knob-val">+2dB</span>
+              </div>
+              <div class="tone-knob-unit">
+                <div class="knob-rotary knob-treble">
+                  <div class="knob-indicator"></div>
+                </div>
+                <span class="knob-title">TREBLE</span>
+                <span class="knob-val">Flat</span>
+              </div>
+              
+              <!-- Mid Freq Toggle Switch -->
+              <div class="tone-switch-unit">
+                <button id="btn-mid-switch" class="mid-toggle-btn active" title="Alternar frequência de corte de médios">
+                  800Hz
+                </button>
+                <span class="switch-title">CHAVE MÉDIOS</span>
+              </div>
+            </div>
+          </div>
 
+          <!-- Coluna Direita: Player de Simulação A/B -->
+          <div class="tone-player-box">
+            <div class="player-head">
+              <div class="player-track-info">
+                <span class="track-title">Alpha Bass Preamp · Teste de Sinal</span>
+                <span class="track-spec">CIRCUITO ANALÓGICO HÍBRIDO AMPEG / AGUILAR</span>
+              </div>
+              <span class="led orange"></span>
+            </div>
+
+            <!-- A/B Switcher -->
+            <div class="ab-switcher">
+              <button id="btn-bypass" class="ab-btn bypass">
+                <span>SINAL DIRETO (DI COMUM)</span>
+              </button>
+              <button id="btn-preset" class="ab-btn active">
+                <span class="led orange"></span>
+                <span>ALPHA PREAMP (ON)</span>
+              </button>
+            </div>
+
+            <!-- Waveform Visualizer -->
+            <div id="waveform-wrap" class="waveform-container">
+              <div class="wave-bar" style="height: 25px;"></div>
+              <div class="wave-bar" style="height: 40px;"></div>
+              <div class="wave-bar" style="height: 18px;"></div>
+              <div class="wave-bar" style="height: 50px;"></div>
+              <div class="wave-bar" style="height: 35px;"></div>
+              <div class="wave-bar" style="height: 55px;"></div>
+              <div class="wave-bar" style="height: 30px;"></div>
+              <div class="wave-bar" style="height: 45px;"></div>
+              <div class="wave-bar" style="height: 22px;"></div>
+              <div class="wave-bar" style="height: 48px;"></div>
+              <div class="wave-bar" style="height: 38px;"></div>
+              <div class="wave-bar" style="height: 20px;"></div>
+            </div>
+
+            <div class="player-controls">
+              <button id="btn-play-tone" class="btn-play-trigger">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                <span>Ouvir Demonstração</span>
+              </button>
+              <span class="player-meta-note">
+                <span class="pulse-dot"></span>
+                Simulação em tempo real
+              </span>
             </div>
           </div>
 
