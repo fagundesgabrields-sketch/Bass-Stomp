@@ -12,31 +12,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
   
   <!-- Styles -->
-  <link rel="stylesheet" href="assets/css/style.css?v=2.3">
+  <link rel="stylesheet" href="assets/css/style.css?v=14.0">
   
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="assets/images/logo.png">
 </head>
 <body>
-
-  <!-- Top Utility Bar -->
-  <div class="top-bar">
-    <div class="container top-bar-inner">
-      <div class="top-bar-item">
-        <span class="led"></span>
-        <span>ATENDIMENTO DIRETO COM O FUNDADOR E BAIXISTA SERGIO RODRIGUES</span>
-      </div>
-      <div class="top-bar-item hide-mobile">
-        <span>RESPOSTA RÁPIDA DE BAIXISTA PARA BAIXISTA</span>
-      </div>
-      <div class="top-bar-item">
-        <a href="https://wa.me/5511999999999" target="_blank" class="top-bar-link">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.54 1.771.821 2.79.822h.001c3.182 0 5.768-2.587 5.768-5.768 0-3.18-2.586-5.766-5.769-5.766zm6.91 5.766c-.001 3.816-3.102 6.918-6.909 6.918-1.22 0-2.378-.32-3.411-.93l-3.801.996 1.017-3.714c-.694-1.077-1.066-2.316-1.066-3.61 0-3.816 3.102-6.918 6.909-6.918 3.808.001 6.909 3.103 6.909 6.918z"/></svg>
-          Abrir WhatsApp Direto
-        </a>
-      </div>
-    </div>
-  </div>
 
   <!-- Header -->
   <header class="site-header">
@@ -58,7 +39,7 @@
         <a href="index.html" class="nav-link">Início</a>
         <a href="loja.html" class="nav-link">
           Presets
-          <span class="nav-badge-count">66</span>
+          <span class="nav-badge-count">99</span>
         </a>
         <a href="contato.html" class="nav-link active">Contato & Suporte</a>
       </nav>
@@ -90,7 +71,7 @@
     </a>
     <a href="loja.html" class="mobile-nav-link" onclick="document.getElementById('mobile-drawer-nav').classList.remove('active')">
       <span>Presets</span>
-      <span class="nav-badge-count">66 packs</span>
+      <span class="nav-badge-count">99 packs</span>
     </a>
     <a href="contato.html" class="mobile-nav-link" onclick="document.getElementById('mobile-drawer-nav').classList.remove('active')">
       <span>Contato & Suporte</span>
@@ -105,10 +86,6 @@
     <!-- CONTACT HERO -->
     <section class="contact-hero">
       <div class="container">
-        <div class="badge-eyebrow">
-          <span class="led"></span>
-          CANAIS DE ATENDIMENTO & SUPORTE
-        </div>
         <h1 class="shop-hero-title">FALE COM O SERGIO RODRIGUES</h1>
         <p class="shop-hero-desc">
           Precisa de ajuda para instalar seu preset no software da pedaleira, quer encomendar um timbre personalizado ou entrar na fila de produção do Alpha Bass Preamp? Escolha o canal abaixo.
@@ -123,88 +100,158 @@
         <!-- Left Column: Direct Channels Cards -->
         <div class="contact-channels-list">
           
-          <!-- Channel 1: WhatsApp Suporte -->
+          <!-- Channel 1: WhatsApp Suporte (Mini VU Meter Element) -->
           <a href="https://wa.me/5511999999999?text=Ol%C3%A1%20Sergio,%20preciso%20de%20suporte%20t%C3%A9cnico%20com%20um%20pack%20da%20Bass%20Stomp!" target="_blank" class="contact-card plate">
             <div class="screw tl"></div><div class="screw tr"></div>
-            <div class="contact-card-icon">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.54 1.771.821 2.79.822h.001c3.182 0 5.768-2.587 5.768-5.768 0-3.18-2.586-5.766-5.769-5.766zm6.91 5.766c-.001 3.816-3.102 6.918-6.909 6.918-1.22 0-2.378-.32-3.411-.93l-3.801.996 1.017-3.714c-.694-1.077-1.066-2.316-1.066-3.61 0-3.816 3.102-6.918 6.909-6.918 3.808.001 6.909 3.103 6.909 6.918z"/></svg>
+            
+            <!-- Mini Analog VU Meter Vocab Element -->
+            <div class="channel-hw-badge vu-meter-badge">
+              <div class="mini-vu-display">
+                <div class="vu-glass">
+                  <div class="vu-dial-arc">
+                    <span class="vu-tick tick-neg">-20</span>
+                    <span class="vu-tick tick-zero">0</span>
+                    <span class="vu-tick tick-pos">+3</span>
+                    <div class="vu-analog-needle"></div>
+                  </div>
+                </div>
+                <div class="vu-status-strip">
+                  <span class="vu-pilot-dot"></span>
+                  <span class="vu-status-txt">VU · 0 dB</span>
+                </div>
+              </div>
             </div>
+
             <div class="contact-card-info">
+              <div class="card-channel-kicker">
+                <span class="kicker-led"></span>
+                <span>SUPORTE DIRETO DE BANCADA</span>
+              </div>
               <h4>WhatsApp de Suporte Técnico</h4>
-              <p>Tire dúvidas sobre compatibilidade de pedaleira, arquivos de IR ou problemas no download.</p>
-              <span class="contact-card-cta">Iniciar conversa no WhatsApp →</span>
+              <p>Tire dúvidas sobre compatibilidade de pedaleira, carregamento de IRs em 24-bit ou suporte de instalação pós-compra.</p>
+              <span class="contact-card-cta">Iniciar Conversa no WhatsApp</span>
             </div>
           </a>
 
-          <!-- Channel 2: Reserva Alpha Preamp -->
-          <a href="https://wa.me/5511999999999?text=Ol%C3%A1%20Sergio,%20quero%20reservar%20uma%20unidade%20do%20Alpha%20Bass%20Preamp%20na%20bancada!" target="_blank" class="contact-card plate">
+          <!-- Channel 2: Reserva Alpha Preamp (Hardware Plate Diferenciada com Painel Azul e Cantos Cromados) -->
+          <a href="https://wa.me/5511999999999?text=Ol%C3%A1%20Sergio,%20quero%20reservar%20uma%20unidade%20do%20Alpha%20Bass%20Preamp%20na%20bancada!" target="_blank" class="contact-card contact-card-hardware plate">
             <div class="screw tl"></div><div class="screw tr"></div>
-            <div class="contact-card-icon" style="color: var(--led); background: rgba(242,194,48,0.1); border-color: rgba(242,194,48,0.3);">
-              <span class="led"></span>
+            <div class="screw bl"></div><div class="screw br"></div>
+            
+            <!-- Alpha Preamp Chassis Plaquette Element -->
+            <div class="channel-hw-badge alpha-hardware-badge">
+              <div class="mini-alpha-plate">
+                <span class="alpha-engraved-logo">Alpha</span>
+                <div class="alpha-pilot-pair">
+                  <span class="alpha-live-led led-cyan" title="Canal Normal"></span>
+                  <span class="alpha-live-led led-amber" title="Canal Val-V"></span>
+                </div>
+              </div>
             </div>
+
             <div class="contact-card-info">
+              <div class="card-channel-kicker hardware-kicker">
+                <span class="kicker-led cyan"></span>
+                <span>HARDWARE ANALÓGICO · SÉRIE LIMITADA</span>
+              </div>
               <h4>Fila de Reserva · Alpha Bass Preamp</h4>
-              <p>O Alpha é fabricado e calibrado à mão em pequenos lotes numerados. Garanta seu número de chassi.</p>
-              <span class="contact-card-cta" style="color: var(--led);">Reservar na Fila de Bancada →</span>
+              <p>Montado e calibrado individualmente em bancada com circuito discreto Classe A. Reserve seu número de chassi diretamente com o Sergio.</p>
+              <span class="contact-card-cta cta-hardware-btn">Reservar Unidade na Bancada</span>
             </div>
           </a>
 
-          <!-- Channel 3: Instagram Oficial -->
+          <!-- Channel 3: Instagram Oficial (Selo Tratado como Plaqueta Metálica) -->
           <a href="https://www.instagram.com/bass.stomphx" target="_blank" class="contact-card plate">
             <div class="screw tl"></div><div class="screw tr"></div>
-            <div class="contact-card-icon">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            
+            <!-- Stamped Metal Seal Plaque Element -->
+            <div class="channel-hw-badge seal-plaque-badge">
+              <div class="mini-seal-chassis">
+                <div class="seal-emboss-ring">
+                  <img src="assets/images/logo.png" alt="Selo Bass Stomp" class="seal-mini-img" />
+                </div>
+                <span class="seal-plaque-tag">RIG OFICIAL</span>
+              </div>
             </div>
+
             <div class="contact-card-info">
+              <div class="card-channel-kicker">
+                <span class="kicker-led"></span>
+                <span>BASTIDORES & TESTES DE PALCO</span>
+              </div>
               <h4>Instagram Oficial @bass.stomphx</h4>
-              <p>Acompanhe vídeos diários de bastidores, testes de timbres no palco com Mateus Brito e novidades.</p>
-              <span class="contact-card-cta">Seguir no Instagram →</span>
+              <p>Acompanhe vídeos diários de bancada, testes práticos de timbres no palco com Isadora Pompeo e novidades de desenvolvimento.</p>
+              <span class="contact-card-cta">Acompanhar no Instagram</span>
             </div>
           </a>
 
-          <!-- Channel 4: YouTube -->
-          <a href="https://www.youtube.com/@sergio.rodrigues" target="_blank" class="contact-card plate">
+          <!-- Channel 4: YouTube (Knob de Controle de Master EQ de Chassi) -->
+          <a href="https://www.youtube.com/@Sergio.Rodrix" target="_blank" rel="noopener noreferrer" class="contact-card plate">
             <div class="screw tl"></div><div class="screw tr"></div>
-            <div class="contact-card-icon">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+            
+            <!-- Rotary Control Knob Element -->
+            <div class="channel-hw-badge knob-badge">
+              <div class="mini-knob-unit">
+                <div class="mini-knob-dial">
+                  <span class="dial-tick tick-0">0</span>
+                  <span class="dial-tick tick-5">5</span>
+                  <span class="dial-tick tick-10">10</span>
+                  <div class="mini-knob-fluted">
+                    <div class="mini-knob-marker"></div>
+                  </div>
+                </div>
+                <span class="mini-knob-sub">MASTER EQ</span>
+              </div>
             </div>
+
             <div class="contact-card-info">
-              <h4>Canal do YouTube</h4>
-              <p>Tutoriais passo a passo ensinando a regular equalização, compressores e blocos de simulação.</p>
-              <span class="contact-card-cta">Acessar Canal do Sergio →</span>
+              <div class="card-channel-kicker">
+                <span class="kicker-led"></span>
+                <span>LABORATÓRIO DE ÁUDIO & TIMBRES</span>
+              </div>
+              <h4>Canal de Tutoriais no YouTube</h4>
+              <p>Aulas técnicas ensinando a calibrar ganho, compressores e blocos de equalização para cortar na mix da banda.</p>
+              <span class="contact-card-cta">Assistir Tutoriais de Timbre</span>
             </div>
           </a>
 
         </div>
 
-        <!-- Right Column: Structured Support Form -->
+        <!-- Right Column: Structured Support Form (Equipment Panel Treatment) -->
         <div class="contact-form-plate plate">
           <div class="screw tl"></div><div class="screw tr"></div><div class="screw bl"></div><div class="screw br"></div>
           
-          <div style="margin-bottom: 24px;">
-            <div class="section-kicker">MENSAGEM DIRETA</div>
-            <h3 style="font-family: var(--font-display); font-size: 28px; line-height: 1.1; margin-bottom: 8px;">
-              ENVIAR DÚVIDA PARA A BANCADA
-            </h3>
-            <p style="font-size: 14px; color: rgba(242,238,228,0.7); line-height: 1.5;">
-              Preencha os campos abaixo com o modelo do seu pedal e o detalhe da sua dúvida. Responderemos no seu e-mail ou WhatsApp.
+          <div class="form-header-box">
+            <div class="section-kicker">MENSAGEM DIRETA DE BANCADA</div>
+            <h3 class="form-plate-title">ENVIAR DÚVIDA PARA A BANCADA</h3>
+            <p class="form-plate-desc">
+              Preencha os campos técnicos abaixo informando seu modelo de pedaleira e sua dúvida de timbre. Responderemos direto no seu e-mail ou WhatsApp.
             </p>
           </div>
 
-          <form id="contact-support-form">
+          <form id="contact-support-form" class="equipment-form">
             
             <div class="form-group">
-              <label class="form-label">Seu Nome Completo</label>
+              <label class="form-label">
+                <span class="form-label-tag">CAMPO 01</span>
+                Seu Nome Completo
+              </label>
               <input type="text" name="name" required class="form-input" placeholder="Ex: Felipe Silveira" />
             </div>
 
             <div class="form-group">
-              <label class="form-label">Seu Melhor E-mail</label>
+              <label class="form-label">
+                <span class="form-label-tag">CAMPO 02</span>
+                Seu Melhor E-mail
+              </label>
               <input type="email" name="email" required class="form-input" placeholder="seu-email@gmail.com" />
             </div>
 
             <div class="form-group">
-              <label class="form-label">Qual é a sua Pedaleira / Equipamento?</label>
+              <label class="form-label">
+                <span class="form-label-tag">EQUIPAMENTO</span>
+                Qual é a sua Pedaleira ou Rig de Baixo?
+              </label>
               <select name="pedal" class="form-select">
                 <option value="Line 6 HX Stomp / XL / Helix">Line 6 HX Stomp / XL / Helix</option>
                 <option value="Line 6 POD Go">Line 6 POD Go / POD Express</option>
@@ -219,12 +266,15 @@
             </div>
 
             <div class="form-group">
-              <label class="form-label">Descreva sua Dúvida ou Necessidade de Timbre</label>
-              <textarea name="message" required class="form-textarea" placeholder="Ex: Toco em igreja com contrabaixo passivo de 5 cordas e queria saber qual preset fica mais limpo sem embolar o grave..."></textarea>
+              <label class="form-label">
+                <span class="form-label-tag">PARÂMETROS</span>
+                Descreva sua Dúvida ou Necessidade de Timbre
+              </label>
+              <textarea name="message" required class="form-textarea" placeholder="Ex: Toco em igreja com contrabaixo passivo de 5 cordas e queria saber qual preset fica mais limpo sem embolar o grave na mix..."></textarea>
             </div>
 
-            <button type="submit" class="btn-primary" style="width: 100%; justify-content: center; padding: 14px; font-size: 14px; margin-top: 10px;">
-              Enviar Mensagem para o Sergio
+            <button type="submit" class="btn-primary form-submit-btn">
+              Transmitir Mensagem para o Sergio
             </button>
 
           </form>
@@ -234,64 +284,129 @@
       </div>
     </section>
 
-    <!-- SECTION: TECHNICAL FAQ DE INSTALAÇÃO & COMPATIBILIDADE -->
-    <section class="section-faq" style="background: var(--ink-soft); border-top: 1px solid var(--line-dark);">
+    <!-- SECTION: TECHNICAL FAQ DE INSTALAÇÃO & COMPATIBILIDADE (TRATAMENTO DE PLAQUETA) -->
+    <section class="section-faq">
       <div class="container">
         
-        <div style="text-align: center; margin-bottom: 40px;">
-          <div class="section-kicker">SUPORTE TÉCNICO & TUTORIAIS</div>
-          <h2 class="section-title">PERGUNTAS FREQUENTES ANTES OU APÓS A COMPRA</h2>
+        <div class="faq-header-center">
+          <div class="section-kicker">SUPORTE TÉCNICO & CALIBRAÇÃO</div>
+          <h2 class="section-title">PERGUNTAS FREQUENTES DE BANCADA</h2>
         </div>
 
         <div class="faq-grid">
           
           <div class="faq-item open">
-            <button class="faq-question">
-              <span>Como importo os patches no software da minha pedaleira?</span>
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            <div class="faq-corner-screw tl"></div>
+            <div class="faq-corner-screw tr"></div>
+            <div class="faq-corner-screw bl"></div>
+            <div class="faq-corner-screw br"></div>
+
+            <button class="faq-question" type="button">
+              <div class="faq-q-main">
+                <span class="faq-pilot-lamp"></span>
+                <span class="faq-q-title">Como importo os patches no software da minha pedaleira?</span>
+              </div>
+              <div class="faq-meter-indicator">
+                <span class="faq-vu-needle" aria-hidden="true"></span>
+                <span class="faq-status-code">[ ATIVO ]</span>
+              </div>
             </button>
             <div class="faq-answer">
-              É muito simples: conecte a sua pedaleira no computador via USB e abra o software oficial correspondente (HX Edit para Line 6, Boss Tone Studio para Boss, ou Ampero Editor). No menu de presets, clique em "Import Preset" e selecione o arquivo que veio no seu download. Todos os blocos, snapshots e parâmetros carregarão prontos na hora.
+              <div class="faq-answer-inner">
+                É muito simples: conecte a sua pedaleira no computador via USB e abra o software oficial correspondente (HX Edit para Line 6, Boss Tone Studio para Boss, ou Ampero Editor). No menu de presets, clique em "Import Preset" e selecione o arquivo que veio no seu download. Todos os blocos, snapshots e parâmetros carregarão prontos na hora.
+              </div>
             </div>
           </div>
 
           <div class="faq-item">
-            <button class="faq-question">
-              <span>O que é Impulse Response (IR) e onde devo inseri-lo?</span>
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            <div class="faq-corner-screw tl"></div>
+            <div class="faq-corner-screw tr"></div>
+            <div class="faq-corner-screw bl"></div>
+            <div class="faq-corner-screw br"></div>
+
+            <button class="faq-question" type="button">
+              <div class="faq-q-main">
+                <span class="faq-pilot-lamp"></span>
+                <span class="faq-q-title">O que é Impulse Response (IR) e onde devo inseri-lo?</span>
+              </div>
+              <div class="faq-meter-indicator">
+                <span class="faq-vu-needle" aria-hidden="true"></span>
+                <span class="faq-status-code">[ STANDBY ]</span>
+              </div>
             </button>
             <div class="faq-answer">
-              O Impulse Response é a captura acústica real de alta fidelidade de uma caixa acústica de baixo de estúdio (como Ampeg 8x10 ou Aguilar 4x10) com microfones valvulados. Dentro do software da sua pedaleira, importe o arquivo `.wav` na aba "Impulses" e verifique se o bloco de IR do patch está apontando para o slot onde você o colocou.
+              <div class="faq-answer-inner">
+                O Impulse Response é a captura acústica real de alta fidelidade de uma caixa acústica de baixo de estúdio (como Ampeg 8x10 ou Aguilar 4x10) com microfones valvulados. Dentro do software da sua pedaleira, importe o arquivo <code>.wav</code> na aba "Impulses" e verifique se o bloco de IR do patch está apontando para o slot onde você o colocou.
+              </div>
             </div>
           </div>
 
           <div class="faq-item">
-            <button class="faq-question">
-              <span>Como funciona a garantia de 7 dias com devolução integral?</span>
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            <div class="faq-corner-screw tl"></div>
+            <div class="faq-corner-screw tr"></div>
+            <div class="faq-corner-screw bl"></div>
+            <div class="faq-corner-screw br"></div>
+
+            <button class="faq-question" type="button">
+              <div class="faq-q-main">
+                <span class="faq-pilot-lamp"></span>
+                <span class="faq-q-title">Como funciona o suporte técnico após a compra?</span>
+              </div>
+              <div class="faq-meter-indicator">
+                <span class="faq-vu-needle" aria-hidden="true"></span>
+                <span class="faq-status-code">[ STANDBY ]</span>
+              </div>
             </button>
             <div class="faq-answer">
-              A Bass Stomp oferece garantia incondicional de 7 dias. Você tem uma semana inteira para testar os presets no seu ensaio, culto ou gravação. Se você achar que o timbre não encaixou no seu instrumento, envie uma mensagem no WhatsApp do Sergio informando o e-mail da compra e faremos o estorno integral via Pix ou cartão.
+              <div class="faq-answer-inner">
+                A Bass Stomp oferece canal direto via WhatsApp com o Sergio Rodrigues. Se tiver qualquer dificuldade na importação dos arquivos, ajuste de níveis de saída ou equalização para seu fone ou PA, auxiliamos você em tempo real.
+              </div>
             </div>
           </div>
 
           <div class="faq-item">
-            <button class="faq-question">
-              <span>Vocês criam presets personalizados sob encomenda?</span>
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            <div class="faq-corner-screw tl"></div>
+            <div class="faq-corner-screw tr"></div>
+            <div class="faq-corner-screw bl"></div>
+            <div class="faq-corner-screw br"></div>
+
+            <button class="faq-question" type="button">
+              <div class="faq-q-main">
+                <span class="faq-pilot-lamp"></span>
+                <span class="faq-q-title">Vocês criam presets personalizados sob encomenda?</span>
+              </div>
+              <div class="faq-meter-indicator">
+                <span class="faq-vu-needle" aria-hidden="true"></span>
+                <span class="faq-status-code">[ STANDBY ]</span>
+              </div>
             </button>
             <div class="faq-answer">
-              Sim! Caso você toque em uma banda com repertório muito específico ou queira emular o timbre exato de um baixista de referência, mande uma mensagem pelo formulário acima ou diretamente no WhatsApp do Sergio com os detalhes do seu som.
+              <div class="faq-answer-inner">
+                Sim! Caso você toque em uma banda com repertório muito específico ou queira emular o timbre exato de um baixista de referência, mande uma mensagem pelo formulário acima ou diretamente no WhatsApp do Sergio com os detalhes do seu som.
+              </div>
             </div>
           </div>
 
           <div class="faq-item">
-            <button class="faq-question">
-              <span>Como funciona a garantia e envio do hardware Alpha Bass Preamp?</span>
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            <div class="faq-corner-screw tl"></div>
+            <div class="faq-corner-screw tr"></div>
+            <div class="faq-corner-screw bl"></div>
+            <div class="faq-corner-screw br"></div>
+
+            <button class="faq-question" type="button">
+              <div class="faq-q-main">
+                <span class="faq-pilot-lamp"></span>
+                <span class="faq-q-title">Como funciona a produção e envio do hardware Alpha Bass Preamp?</span>
+              </div>
+              <div class="faq-meter-indicator">
+                <span class="faq-vu-needle" aria-hidden="true"></span>
+                <span class="faq-status-code">[ STANDBY ]</span>
+              </div>
             </button>
             <div class="faq-answer">
-              O pedal Alpha Bass Preamp possui 1 ano de garantia total contra qualquer defeito de fabricação. Cada unidade é montada com componentes analógicos selecionados de baixo ruído, testada em bancada e enviada para todo o Brasil com código de rastreamento pelos Correios ou transportadora.
+              <div class="faq-answer-inner">
+                O pedal Alpha Bass Preamp é produzido artesanalmente em série limitada. Cada unidade é montada com componentes analógicos selecionados de baixo ruído, testada e calibrada individualmente em bancada, e enviada para todo o Brasil com código de rastreamento pelos Correios ou transportadora.
+              </div>
             </div>
           </div>
 
@@ -341,7 +456,7 @@
           <div class="footer-col-title">Navegação</div>
           <ul class="footer-links">
             <li><a href="index.html">Início (Home)</a></li>
-            <li><a href="loja.html">Loja de Presets (66 Packs)</a></li>
+            <li><a href="loja.html">Loja de Presets (99 Packs)</a></li>
             <li><a href="index.html#alpha-preamp">Alpha Bass Preamp</a></li>
             <li><a href="index.html#demo-alpha">Demo Interativa A/B</a></li>
             <li><a href="contato.html">Contato & Suporte</a></li>
@@ -365,7 +480,7 @@
             <li><a href="https://wa.me/5511999999999" target="_blank">WhatsApp do Sergio</a></li>
             <li><a href="https://www.instagram.com/bass.stomphx" target="_blank">Instagram @bass.stomphx</a></li>
             <li><a href="contato.html">Formulário de Suporte</a></li>
-            <li><a href="index.html#videos">Canal do YouTube</a></li>
+            <li><a href="https://www.youtube.com/@Sergio.Rodrix" target="_blank" rel="noopener noreferrer">Canal do YouTube</a></li>
           </ul>
         </div>
       </div>
@@ -376,7 +491,6 @@
           © 2025 Bass Stomp · CNPJ: 44.683.322/0001-58 · São Sebastião, Mogi das Cruzes - SP
         </div>
         <div>
-          <span>Termos de Devolução (7 Dias)</span> · 
           <span>Políticas da Loja</span> · 
           <span>Segurança SSL</span>
         </div>
@@ -410,7 +524,7 @@
   </div>
 
   <!-- Scripts -->
-  <script src="assets/js/products-data.js"></script>
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/products-data.js?v=13.0"></script>
+  <script src="assets/js/main.js?v=13.0"></script>
 </body>
 </html>

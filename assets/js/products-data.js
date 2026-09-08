@@ -2,6 +2,1749 @@
 window.BASS_STOMP_DATA = {
   products: [
   {
+    "id": "94a54314-48e8-68c9-e516-a8a52f24f4b8",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 150,
+    "comparePrice": 120,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "worship-pack-boss-gx-1b",
+    "formattedComparePrice": "R$120,00",
+    "formattedPrice": "R$150,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "WORSHIP PACK - BOSS GX-1B",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_834850ff54c34d1bb9853cfa0e7766e3~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_834850ff54c34d1bb9853cfa0e7766e3~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      },
+      {
+        "url": "778382_6fc87921b3034229859a672176870928f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/778382_6fc87921b3034229859a672176870928f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 30
+    },
+    "groupInfo": null,
+    "category_tag": "Boss GX-1B",
+    "localImage": "assets/images/products/worship-pack-boss-gx-1b.png"
+  },
+  {
+    "id": "bd4482fc-d162-7661-e422-772d18405202",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 150,
+    "comparePrice": 120,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "worship-pack-v1-sonicake-pocket-master",
+    "formattedComparePrice": "R$120,00",
+    "formattedPrice": "R$150,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "WORSHIP PACK V1 - SONICAKE POCKET MASTER",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_f0cf162ed6dd446bbc7cd12400310a27~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_f0cf162ed6dd446bbc7cd12400310a27~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      },
+      {
+        "url": "778382_724d1b622077484199cacac03b9b34e4f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/778382_724d1b622077484199cacac03b9b34e4f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1440,
+        "height": 2560,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 30
+    },
+    "groupInfo": null,
+    "category_tag": "Pocket Master",
+    "localImage": "assets/images/products/worship-pack-v1-sonicake-pocket-master.png"
+  },
+  {
+    "id": "5434fa0f-9b7a-174b-12ca-e8305dc333f0",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "NOVO",
+    "additionalRibbons": [],
+    "price": 120,
+    "comparePrice": 99,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "captura-am3-capo-jadfreer-audio",
+    "formattedComparePrice": "R$99,00",
+    "formattedPrice": "R$120,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "CAPTURA AM3 CAPO JADFREER AUDIO",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "778382_b819551bb0934a7ba592549ee2493afb~mv2.jpeg",
+        "fullUrl": "https://static.wixstatic.com/media/778382_b819551bb0934a7ba592549ee2493afb~mv2.jpeg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 2560,
+        "height": 2560,
+        "altText": null
+      },
+      {
+        "url": "778382_3a58173c2f35497b95729ab1d908fee5f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/778382_3a58173c2f35497b95729ab1d908fee5f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 21
+    },
+    "groupInfo": null,
+    "category_tag": "Captura AM3",
+    "localImage": "assets/images/products/captura-am3-capo-jadfreer-audio.jpg"
+  },
+  {
+    "id": "064e799a-f5d5-f29e-9463-8f2974df01dc",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "NOVO",
+    "additionalRibbons": [],
+    "price": 120,
+    "comparePrice": 99,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "captura-nam-capo-jadfreer-audio",
+    "formattedComparePrice": "R$99,00",
+    "formattedPrice": "R$120,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "CAPTURA NAM CAPO JADFREER AUDIO",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "778382_d5212937ca4149a98297ff38b6b07eff~mv2.jpeg",
+        "fullUrl": "https://static.wixstatic.com/media/778382_d5212937ca4149a98297ff38b6b07eff~mv2.jpeg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 2560,
+        "height": 2560,
+        "altText": null
+      },
+      {
+        "url": "778382_3a58173c2f35497b95729ab1d908fee5f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/778382_3a58173c2f35497b95729ab1d908fee5f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 21
+    },
+    "groupInfo": null,
+    "category_tag": "Captura NAM",
+    "localImage": "assets/images/products/captura-nam-capo-jadfreer-audio.jpg"
+  },
+  {
+    "id": "c52be45a-3bd9-13c0-d87a-655ebc4875f3",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "NOVO",
+    "additionalRibbons": [],
+    "price": 120,
+    "comparePrice": 99,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "captura-nam-tone-hammer",
+    "formattedComparePrice": "R$99,00",
+    "formattedPrice": "R$120,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "CAPTURA NAM TONE HAMMER",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_afd3bbaa376f4c7aa23ceba7f284d925~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_afd3bbaa376f4c7aa23ceba7f284d925~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      },
+      {
+        "url": "778382_2bc618cc7a2e467384ada4c82742ca3ef002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/778382_2bc618cc7a2e467384ada4c82742ca3ef002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 21
+    },
+    "groupInfo": null,
+    "category_tag": "Captura NAM",
+    "localImage": "assets/images/products/captura-nam-tone-hammer.png"
+  },
+  {
+    "id": "c640c8a5-013f-cf37-90ab-919111d3c431",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 120,
+    "comparePrice": 99,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "tone-hammer-pod-go",
+    "formattedComparePrice": "R$99,00",
+    "formattedPrice": "R$120,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "TONE HAMMER - POD GO",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_8cd69d7c854345a98d4f36629fba7471~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_8cd69d7c854345a98d4f36629fba7471~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 21
+    },
+    "groupInfo": null,
+    "category_tag": "POD Go",
+    "localImage": "assets/images/products/tone-hammer-pod-go.png"
+  },
+  {
+    "id": "cf5a6940-cffb-a24e-0b0b-51dd162e184f",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 790,
+    "comparePrice": 650,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "all-packs-worship-pod-go",
+    "formattedComparePrice": "R$650,00",
+    "formattedPrice": "R$790,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "ALL PACKS WORSHIP - POD GO",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_57c7cc166492491bbd401f7f58f02476~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_57c7cc166492491bbd401f7f58f02476~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 2765,
+        "height": 2767,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 140
+    },
+    "groupInfo": null,
+    "category_tag": "POD Go",
+    "localImage": "assets/images/products/all-packs-worship-pod-go.png"
+  },
+  {
+    "id": "808020b5-d995-081f-4faa-5f7a011430a0",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 150,
+    "comparePrice": 120,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "worship-pack-v2-pod-go",
+    "formattedComparePrice": "R$120,00",
+    "formattedPrice": "R$150,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "WORSHIP PACK V2 - POD GO",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_5c48bf98c98f42758e18383142ef0612~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_5c48bf98c98f42758e18383142ef0612~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 30
+    },
+    "groupInfo": null,
+    "category_tag": "POD Go",
+    "localImage": "assets/images/products/worship-pack-v2-pod-go.png"
+  },
+  {
+    "id": "3f7ca026-0655-3adc-bcb6-64395322a7c1",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 150,
+    "comparePrice": 120,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "worship-pack-v1-pod-go",
+    "formattedComparePrice": "R$120,00",
+    "formattedPrice": "R$150,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "WORSHIP PACK V1 - POD GO",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_f02c6ea9d5924e00ad3ee04a04ee4dd2~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_f02c6ea9d5924e00ad3ee04a04ee4dd2~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 30
+    },
+    "groupInfo": null,
+    "category_tag": "POD Go",
+    "localImage": "assets/images/products/worship-pack-v1-pod-go.png"
+  },
+  {
+    "id": "71d26136-08ed-35f5-b666-76e9f902107e",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 150,
+    "comparePrice": 120,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "noble-pack-pod-go",
+    "formattedComparePrice": "R$120,00",
+    "formattedPrice": "R$150,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "NOBLE PACK - POD GO",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_482312fb2c254b88bceef03170958548~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_482312fb2c254b88bceef03170958548~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 30
+    },
+    "groupInfo": null,
+    "category_tag": "POD Go",
+    "localImage": "assets/images/products/noble-pack-pod-go.png"
+  },
+  {
+    "id": "5802af7a-a523-8d05-18f6-4e75b085a8ac",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 120,
+    "comparePrice": 99,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "ampeg-svt-pod-go",
+    "formattedComparePrice": "R$99,00",
+    "formattedPrice": "R$120,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "AMPEG SVT - POD GO",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_ba3b5e13343e4f7ea523bc826f0b5c57~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_ba3b5e13343e4f7ea523bc826f0b5c57~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 21
+    },
+    "groupInfo": null,
+    "category_tag": "POD Go",
+    "localImage": "assets/images/products/ampeg-svt-pod-go.png"
+  },
+  {
+    "id": "d839b212-5844-98c1-a330-54946e1d6bd9",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 120,
+    "comparePrice": 99,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "ampeg-b15-pod-go",
+    "formattedComparePrice": "R$99,00",
+    "formattedPrice": "R$120,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "AMPEG B15 - POD GO",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_d03389c5e27c44368782885cd915334c~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_d03389c5e27c44368782885cd915334c~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 21
+    },
+    "groupInfo": null,
+    "category_tag": "POD Go",
+    "localImage": "assets/images/products/ampeg-b15-pod-go.png"
+  },
+  {
+    "id": "35e5f6a0-c036-a8e6-e4a6-b0e834a8cbf8",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 240,
+    "comparePrice": 190,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "pack-sgt-pod-go",
+    "formattedComparePrice": "R$190,00",
+    "formattedPrice": "R$240,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "PACK AMPEG SGT - POD GO",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_fb4310b4da424e59958fd73f67ad1c66~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_fb4310b4da424e59958fd73f67ad1c66~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 2765,
+        "height": 2767,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 50
+    },
+    "groupInfo": null,
+    "category_tag": "POD Go",
+    "localImage": "assets/images/products/pack-sgt-pod-go.png"
+  },
+  {
+    "id": "34eee848-71d7-21f3-ac32-3f3c736d2f8f",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 400,
+    "comparePrice": 350,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "all-packs-sgt-worship-pod-express",
+    "formattedComparePrice": "R$350,00",
+    "formattedPrice": "R$400,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "ALL PACKS SGT + WORSHIP - POD EXPRESS",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_f5e0d6d18d5344d0a9b5fe0350d09c90~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_f5e0d6d18d5344d0a9b5fe0350d09c90~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 2765,
+        "height": 2767,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 50
+    },
+    "groupInfo": null,
+    "category_tag": "POD Express",
+    "localImage": "assets/images/products/all-packs-sgt-worship-pod-express.png"
+  },
+  {
+    "id": "b54ea118-81de-58e7-8a23-5e21c0d90be0",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 250,
+    "comparePrice": 220,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "all-packs-worship-pod-express",
+    "formattedComparePrice": "R$220,00",
+    "formattedPrice": "R$250,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "ALL PACKS WORSHIP - POD EXPRESS",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_c3c450c6e8a84fc99c1c97c14ca27de9~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_c3c450c6e8a84fc99c1c97c14ca27de9~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 2765,
+        "height": 2767,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 30
+    },
+    "groupInfo": null,
+    "category_tag": "POD Express",
+    "localImage": "assets/images/products/all-packs-worship-pod-express.png"
+  },
+  {
+    "id": "c457ac9a-73ca-9201-a0ca-408c7ef96824",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 150,
+    "comparePrice": 120,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "pack-3-worship-pod-express",
+    "formattedComparePrice": "R$120,00",
+    "formattedPrice": "R$150,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "PACK 3 WORSHIP - POD EXPRESS",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_e69d0a60c54041408221bbdb30fd9159~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_e69d0a60c54041408221bbdb30fd9159~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 2765,
+        "height": 2767,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 30
+    },
+    "groupInfo": null,
+    "category_tag": "POD Express",
+    "localImage": "assets/images/products/pack-3-worship-pod-express.png"
+  },
+  {
+    "id": "078a37b9-d0b7-c6c5-f83c-96621c56a2ab",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 150,
+    "comparePrice": 120,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "pack-2-worship-pod-express",
+    "formattedComparePrice": "R$120,00",
+    "formattedPrice": "R$150,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "PACK 2 WORSHIP - POD EXPRESS",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_75f070214a7640b8bb4eebb4f22895ce~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_75f070214a7640b8bb4eebb4f22895ce~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 2765,
+        "height": 2767,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 30
+    },
+    "groupInfo": null,
+    "category_tag": "POD Express",
+    "localImage": "assets/images/products/pack-2-worship-pod-express.png"
+  },
+  {
+    "id": "4544353e-4311-6856-7be4-f2501b50ac06",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 150,
+    "comparePrice": 120,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "pack-1-worship-pod-express",
+    "formattedComparePrice": "R$120,00",
+    "formattedPrice": "R$150,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "PACK 1 WORSHIP - POD EXPRESS",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_63e34602f8114276a1d9411ad20e31a8~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_63e34602f8114276a1d9411ad20e31a8~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 2765,
+        "height": 2767,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 30
+    },
+    "groupInfo": null,
+    "category_tag": "POD Express",
+    "localImage": "assets/images/products/pack-1-worship-pod-express.png"
+  },
+  {
+    "id": "5174d39d-8076-2a5b-d024-9218c0b13c31",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 100,
+    "comparePrice": 89,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "pack-sgt-pod-express",
+    "formattedComparePrice": "R$89,00",
+    "formattedPrice": "R$100,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "PACK SGT - POD EXPRESS",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_4bbd2b64615042d89403b967aa3967ef~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_4bbd2b64615042d89403b967aa3967ef~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 2765,
+        "height": 2767,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 11
+    },
+    "groupInfo": null,
+    "category_tag": "POD Express",
+    "localImage": "assets/images/products/pack-sgt-pod-express.png"
+  },
+  {
+    "id": "8695c30e-4db4-3d7d-52f2-9ccd53d13839",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 100,
+    "comparePrice": 89,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "pack-tone-hammer-pod-express",
+    "formattedComparePrice": "R$89,00",
+    "formattedPrice": "R$100,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "PACK TONE HAMMER - POD EXPRESS",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_01a68a5669fe4631a2e3e3a5191c4879~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_01a68a5669fe4631a2e3e3a5191c4879~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 2765,
+        "height": 2767,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 11
+    },
+    "groupInfo": null,
+    "category_tag": "POD Express",
+    "localImage": "assets/images/products/pack-tone-hammer-pod-express.png"
+  },
+  {
+    "id": "9a78cbeb-4d89-d18f-93db-7430410c5508",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 60,
+    "comparePrice": 0,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "ampeg-b15-pod-express",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$60,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "AMPEG B15 - POD EXPRESS",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_89d388107d8f4e4694d22336f4de58fb~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_89d388107d8f4e4694d22336f4de58fb~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "POD Express",
+    "localImage": "assets/images/products/ampeg-b15-pod-express.png"
+  },
+  {
+    "id": "1850a007-2222-b992-9f69-2465a5251bbf",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 60,
+    "comparePrice": 0,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "ampeg-svt-pod-express",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$60,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "AMPEG SVT - POD EXPRESS",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_a4664f03427345a5a77097d32b7e3312~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_a4664f03427345a5a77097d32b7e3312~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "POD Express",
+    "localImage": "assets/images/products/ampeg-svt-pod-express.png"
+  },
+  {
+    "id": "a2c5f42f-8ae4-7b2a-3f5d-4b8dbfd1e7cc",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 50,
+    "comparePrice": 0,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "chorus-pod-express",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$50,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "CHORUS - POD EXPRESS",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_f3383ec4ee5d4f50aaf085ad8423aa46~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_f3383ec4ee5d4f50aaf085ad8423aa46~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "POD Express",
+    "localImage": "assets/images/products/chorus-pod-express.png"
+  },
+  {
+    "id": "ebafe6e7-624d-df0f-0176-b61dcd81be9e",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 50,
+    "comparePrice": 0,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "sub-bass-pod-express",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$50,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "SUB BASS - POD EXPRESS",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_437904d7a8d04d45b5b339bd727b9420~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_437904d7a8d04d45b5b339bd727b9420~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "POD Express",
+    "localImage": "assets/images/products/sub-bass-pod-express.png"
+  },
+  {
+    "id": "660105a3-ba80-f0e0-76d7-7552d3c2cf80",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 50,
+    "comparePrice": 0,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "wave-pod-express",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$50,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "WAVE - POD EXPRESS",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_7734861d52f24f32877c2227c25d2f5e~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_7734861d52f24f32877c2227c25d2f5e~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "POD Express",
+    "localImage": "assets/images/products/wave-pod-express.png"
+  },
+  {
+    "id": "0401aa20-c0f8-ef3c-1c7e-90b2374250c1",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 50,
+    "comparePrice": 0,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "th-ags-pod-express",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$50,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "TH AGS - POD EXPRESS",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_265753468bcf4440b4e19ba0a9836c10~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_265753468bcf4440b4e19ba0a9836c10~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "POD Express",
+    "localImage": "assets/images/products/th-ags-pod-express.png"
+  },
+  {
+    "id": "9b4e57a0-def8-0dc5-e2d5-e8023dacbc37",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 50,
+    "comparePrice": 0,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "th-clean-pod-express",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$50,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "TH CLEAN - POD EXPRESS",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_d600c433991344c382311a190c6964b4~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_d600c433991344c382311a190c6964b4~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "POD Express",
+    "localImage": "assets/images/products/th-clean-pod-express.png"
+  },
+  {
+    "id": "a9fdfb85-ef99-ea02-f263-f37aa439b436",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "RECOMENDADO",
+    "additionalRibbons": [],
+    "price": 89,
+    "comparePrice": 0,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "sgt-di-svt-ampero-mini-1",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$89,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "AMPEG SGT - SVT + B15  AMPERO MINI",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "778382_91d3ced9e4a34bdc97ed234a7b8f97cd~mv2.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/778382_91d3ced9e4a34bdc97ed234a7b8f97cd~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1080,
+        "height": 1350,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_7cf9438af85640f48a98fa098ed9d573f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_7cf9438af85640f48a98fa098ed9d573f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1080,
+        "height": 1920,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_4a46c0dc61784942aa86b70ee8456721f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_4a46c0dc61784942aa86b70ee8456721f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1080,
+        "height": 1920,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "Ampero Mini",
+    "localImage": "assets/images/products/sgt-di-svt-ampero-mini-1.jpg"
+  },
+  {
+    "id": "dcc9070b-9981-d8a9-d0b4-f8e47c24bf3e",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "NOVO",
+    "additionalRibbons": [],
+    "price": 60,
+    "comparePrice": 0,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "sgt-di-svt-ampero-mini",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$60,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "AMPEG SVT - AMPERO MINI",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "778382_15e1c78ce0304d38a19910bd88b8f336~mv2.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/778382_15e1c78ce0304d38a19910bd88b8f336~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1080,
+        "height": 1350,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_7cf9438af85640f48a98fa098ed9d573f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_7cf9438af85640f48a98fa098ed9d573f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1080,
+        "height": 1920,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "Ampero Mini",
+    "localImage": "assets/images/products/sgt-di-svt-ampero-mini.jpg"
+  },
+  {
+    "id": "d711eac5-abf7-cddd-9d25-60d3f0ae5c78",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "NOVO",
+    "additionalRibbons": [],
+    "price": 60,
+    "comparePrice": 0,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "sgt-di-b15-ampero-mini",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$60,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "AMPEG  B15 - AMPERO MINI",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "778382_ff9580e3dd594748aab4e74e4aac5754~mv2.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/778382_ff9580e3dd594748aab4e74e4aac5754~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1080,
+        "height": 1350,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_4a46c0dc61784942aa86b70ee8456721f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_4a46c0dc61784942aa86b70ee8456721f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1080,
+        "height": 1920,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "Ampero Mini",
+    "localImage": "assets/images/products/sgt-di-b15-ampero-mini.jpg"
+  },
+  {
     "id": "4acd99b2-44bd-5f3f-e62a-baa888bb8ccc",
     "options": [],
     "minPriceVariant": null,
@@ -89,25 +1832,25 @@ window.BASS_STOMP_DATA = {
       "value": 0
     },
     "groupInfo": null,
-    "category_tag": "POD Express",
+    "category_tag": "HX Stomp",
     "localImage": "assets/images/products/noble-pack-hx-stomp.png"
   },
   {
-    "id": "b308236c-b12b-3977-a113-fbb742689d2e",
+    "id": "63074fe6-407b-ce6a-a7ca-36ae00a15c72",
     "options": [],
     "minPriceVariant": null,
     "customTextFields": [],
     "productType": "digital",
     "ribbon": "Novidade",
     "additionalRibbons": [],
-    "price": 250,
+    "price": 50,
     "comparePrice": 0,
     "pricePerUnit": null,
     "sku": "",
     "isInStock": true,
-    "urlPart": "bundle-pack-lucas-costa-hx",
+    "urlPart": "fuzz-matribox",
     "formattedComparePrice": "",
-    "formattedPrice": "R$250,00",
+    "formattedPrice": "R$50,00",
     "formattedPricePerUnit": null,
     "pricePerUnitData": null,
     "itemDiscount": null,
@@ -116,26 +1859,19 @@ window.BASS_STOMP_DATA = {
         "fileType": "secure_archive"
       }
     ],
-    "name": "BUNDLE PACK LUCAS COSTA HX",
+    "name": "FUZZ - MATRIBOX",
     "currency": "BRL",
     "media": [
       {
-        "url": "ca2ebc_fc26b970b09741f5b6bd2057bdf489a4~mv2.png",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_fc26b970b09741f5b6bd2057bdf489a4~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
-        "width": 2765,
-        "height": 2767,
+        "url": "ca2ebc_7d0b004079954dc88cd10479173b31e6~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_7d0b004079954dc88cd10479173b31e6~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
         "altText": null
       },
       {
-        "url": "ca2ebc_2159e4d79b264623b5c70200f80a545df002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_2159e4d79b264623b5c70200f80a545df002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
-        "width": 1920,
-        "height": 1080,
-        "altText": null
-      },
-      {
-        "url": "ca2ebc_d7ac8744b6c741f496bfaebc9f8dcc7ff002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_d7ac8744b6c741f496bfaebc9f8dcc7ff002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "url": "ca2ebc_94d0daa7ee95446a8bd307f14e0a20c5f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_94d0daa7ee95446a8bd307f14e0a20c5f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
         "width": 1920,
         "height": 1080,
         "altText": null
@@ -159,24 +1895,213 @@ window.BASS_STOMP_DATA = {
       "value": 0
     },
     "groupInfo": null,
-    "category_tag": "POD Express",
-    "localImage": "assets/images/products/bundle-pack-lucas-costa-hx.png"
+    "category_tag": "Matribox",
+    "localImage": "assets/images/products/fuzz-matribox.png"
   },
   {
-    "id": "7beb5479-98f0-6838-bbed-0deb4ad37821",
+    "id": "fe5dba92-a28d-78a9-da50-f96d54d2a794",
     "options": [],
     "minPriceVariant": null,
     "customTextFields": [],
     "productType": "digital",
     "ribbon": "Novidade",
     "additionalRibbons": [],
-    "price": 150,
+    "price": 50,
     "comparePrice": 0,
     "pricePerUnit": null,
     "sku": "",
     "isInStock": true,
-    "urlPart": "ambience-pack-lucas-costa-hx",
+    "urlPart": "ags-tone-hammer-matribox",
     "formattedComparePrice": "",
+    "formattedPrice": "R$50,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "AGS TONE HAMMER - MATRIBOX",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_d37d7ac875e943b3a10d247820113e43~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_d37d7ac875e943b3a10d247820113e43~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_f314069718f64dd6ba35f37ef4a8b483f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_f314069718f64dd6ba35f37ef4a8b483f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "Matribox",
+    "localImage": "assets/images/products/ags-tone-hammer-matribox.png"
+  },
+  {
+    "id": "2dfc5c58-49ca-c22f-bd1e-6d17239b728d",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 50,
+    "comparePrice": 0,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "clean-tone-hammer-matribox",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$50,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "CLEAN TONE HAMMER - MATRIBOX",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_8c88e82040194e0f9fe6c505641d9689~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_8c88e82040194e0f9fe6c505641d9689~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_15a99f2cb20f4bc69f3b57bea5300aa0f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_15a99f2cb20f4bc69f3b57bea5300aa0f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "Matribox",
+    "localImage": "assets/images/products/clean-tone-hammer-matribox.png"
+  },
+  {
+    "id": "d71c0e3b-dff7-fbdf-46f2-8b487e096c9e",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 50,
+    "comparePrice": 0,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "microsynth-matribox",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$50,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "MICROSYNTH -MATRIBOX",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_94dcb9d106b1462e96125c00153f8671~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_94dcb9d106b1462e96125c00153f8671~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_705b5360e31f456999c706b7b56ef2a0f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_705b5360e31f456999c706b7b56ef2a0f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "Matribox",
+    "localImage": "assets/images/products/microsynth-matribox.png"
+  },
+  {
+    "id": "56724594-420e-2c33-21a4-56616e2fd742",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "RECOMENDADO",
+    "additionalRibbons": [],
+    "price": 150,
+    "comparePrice": 120,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "pack-3-worship-pack-2-4-matribox",
+    "formattedComparePrice": "R$120,00",
     "formattedPrice": "R$150,00",
     "formattedPricePerUnit": null,
     "pricePerUnitData": null,
@@ -186,19 +2111,33 @@ window.BASS_STOMP_DATA = {
         "fileType": "secure_archive"
       }
     ],
-    "name": "AMBIENCE PACK LUCAS COSTA HX",
+    "name": "PACK 3- WORSHIP PACK 2.4 - MATRIBOX",
     "currency": "BRL",
     "media": [
       {
-        "url": "ca2ebc_c0de6c2807724458add84d2c44ea22c0~mv2.png",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_c0de6c2807724458add84d2c44ea22c0~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
-        "width": 2765,
-        "height": 2767,
+        "url": "ca2ebc_e8a726aaa86b41d7ae5c6449ed18307b~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_e8a726aaa86b41d7ae5c6449ed18307b~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
         "altText": null
       },
       {
-        "url": "ca2ebc_d7ac8744b6c741f496bfaebc9f8dcc7ff002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_d7ac8744b6c741f496bfaebc9f8dcc7ff002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "url": "ca2ebc_15a99f2cb20f4bc69f3b57bea5300aa0f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_15a99f2cb20f4bc69f3b57bea5300aa0f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_f314069718f64dd6ba35f37ef4a8b483f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_f314069718f64dd6ba35f37ef4a8b483f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_6666a3470cdd4d85b153bbb5a2938d4cf002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_6666a3470cdd4d85b153bbb5a2938d4cf002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
         "width": 1920,
         "height": 1080,
         "altText": null
@@ -219,27 +2158,27 @@ window.BASS_STOMP_DATA = {
       "list": []
     },
     "discount": {
-      "value": 0
+      "value": 30
     },
     "groupInfo": null,
-    "category_tag": "POD Express",
-    "localImage": "assets/images/products/ambience-pack-lucas-costa-hx.png"
+    "category_tag": "Matribox",
+    "localImage": "assets/images/products/pack-3-worship-pack-2-4-matribox.png"
   },
   {
-    "id": "96a4a5d9-c016-1313-0c69-90b73afbc7a3",
+    "id": "b844791a-ae6f-2a99-58b5-27b08413bdd6",
     "options": [],
     "minPriceVariant": null,
     "customTextFields": [],
     "productType": "digital",
-    "ribbon": "Novidade",
+    "ribbon": "RECOMENDADO",
     "additionalRibbons": [],
     "price": 150,
-    "comparePrice": 0,
+    "comparePrice": 120,
     "pricePerUnit": null,
     "sku": "",
     "isInStock": true,
-    "urlPart": "pack-lucas-costa-hx",
-    "formattedComparePrice": "",
+    "urlPart": "pack-2-worship-pack-2-4-matribox",
+    "formattedComparePrice": "R$120,00",
     "formattedPrice": "R$150,00",
     "formattedPricePerUnit": null,
     "pricePerUnitData": null,
@@ -249,19 +2188,33 @@ window.BASS_STOMP_DATA = {
         "fileType": "secure_archive"
       }
     ],
-    "name": "PACK LUCAS COSTA HX",
+    "name": "PACK 2 - WORSHIP PACK 2.4 -MATRIBOX",
     "currency": "BRL",
     "media": [
       {
-        "url": "ca2ebc_2bb44b69f8f145fd88ad85c7604a8c7a~mv2.png",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_2bb44b69f8f145fd88ad85c7604a8c7a~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
-        "width": 2765,
-        "height": 2767,
+        "url": "ca2ebc_bc090c5887d44ac4af8aff9566ba56a6~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_bc090c5887d44ac4af8aff9566ba56a6~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
         "altText": null
       },
       {
-        "url": "ca2ebc_2159e4d79b264623b5c70200f80a545df002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_2159e4d79b264623b5c70200f80a545df002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "url": "ca2ebc_15a99f2cb20f4bc69f3b57bea5300aa0f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_15a99f2cb20f4bc69f3b57bea5300aa0f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_f314069718f64dd6ba35f37ef4a8b483f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_f314069718f64dd6ba35f37ef4a8b483f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_94d0daa7ee95446a8bd307f14e0a20c5f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_94d0daa7ee95446a8bd307f14e0a20c5f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
         "width": 1920,
         "height": 1080,
         "altText": null
@@ -282,14 +2235,91 @@ window.BASS_STOMP_DATA = {
       "list": []
     },
     "discount": {
-      "value": 0
+      "value": 30
     },
     "groupInfo": null,
-    "category_tag": "POD Express",
-    "localImage": "assets/images/products/pack-lucas-costa-hx.png"
+    "category_tag": "Matribox",
+    "localImage": "assets/images/products/pack-2-worship-pack-2-4-matribox.png"
   },
   {
-    "id": "c4799c6c-7d13-360d-3612-e4c93e47b5ba",
+    "id": "05cb68f3-e467-3b7c-23af-fa1351bfb3dc",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "RECOMENDADO",
+    "additionalRibbons": [],
+    "price": 150,
+    "comparePrice": 120,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "pack-1-worship-pack-2-4-matribox",
+    "formattedComparePrice": "R$120,00",
+    "formattedPrice": "R$150,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "PACK 1 - WORSHIP PACK 2.4 -MATRIBOX",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_558de2f4fbb3491bbf5a2d384b749c08~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_558de2f4fbb3491bbf5a2d384b749c08~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_15a99f2cb20f4bc69f3b57bea5300aa0f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_15a99f2cb20f4bc69f3b57bea5300aa0f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_f314069718f64dd6ba35f37ef4a8b483f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_f314069718f64dd6ba35f37ef4a8b483f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_705b5360e31f456999c706b7b56ef2a0f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_705b5360e31f456999c706b7b56ef2a0f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 30
+    },
+    "groupInfo": null,
+    "category_tag": "Matribox",
+    "localImage": "assets/images/products/pack-1-worship-pack-2-4-matribox.png"
+  },
+  {
+    "id": "1dcbabd2-06ce-d75c-8529-fa71eff3a06d",
     "options": [],
     "minPriceVariant": null,
     "customTextFields": [],
@@ -301,7 +2331,7 @@ window.BASS_STOMP_DATA = {
     "pricePerUnit": null,
     "sku": "",
     "isInStock": true,
-    "urlPart": "oc2-hx-stomp-jb",
+    "urlPart": "deep-chorus-matribox",
     "formattedComparePrice": "",
     "formattedPrice": "R$50,00",
     "formattedPricePerUnit": null,
@@ -312,19 +2342,19 @@ window.BASS_STOMP_DATA = {
         "fileType": "secure_archive"
       }
     ],
-    "name": "OC2 - HX STOMP",
+    "name": "DEEP CHORUS - MATRIBOX",
     "currency": "BRL",
     "media": [
       {
-        "url": "ca2ebc_20c893018b2749cc8fd79d947657fd59~mv2.png",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_20c893018b2749cc8fd79d947657fd59~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "url": "ca2ebc_616f0ba49b27451aabaa07bb776a9871~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_616f0ba49b27451aabaa07bb776a9871~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
         "width": 3000,
         "height": 3000,
         "altText": null
       },
       {
-        "url": "ca2ebc_944f963a69534660a8b6eb53223316cdf002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_944f963a69534660a8b6eb53223316cdf002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "url": "ca2ebc_6666a3470cdd4d85b153bbb5a2938d4cf002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_6666a3470cdd4d85b153bbb5a2938d4cf002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
         "width": 1920,
         "height": 1080,
         "altText": null
@@ -348,25 +2378,25 @@ window.BASS_STOMP_DATA = {
       "value": 0
     },
     "groupInfo": null,
-    "category_tag": "POD Express",
-    "localImage": "assets/images/products/oc2-hx-stomp-jb.png"
+    "category_tag": "Matribox",
+    "localImage": "assets/images/products/deep-chorus-matribox.png"
   },
   {
-    "id": "a896ad3e-7ae6-c918-79a0-9aa536c2b5c1",
+    "id": "bba7e587-1a14-c24a-8d6a-1ae016674ddf",
     "options": [],
     "minPriceVariant": null,
     "customTextFields": [],
     "productType": "digital",
-    "ribbon": "Novidade",
+    "ribbon": "NOVO",
     "additionalRibbons": [],
-    "price": 50,
-    "comparePrice": 0,
+    "price": 300,
+    "comparePrice": 250,
     "pricePerUnit": null,
     "sku": "",
     "isInStock": true,
-    "urlPart": "microsynth-hx-stomp-jb",
-    "formattedComparePrice": "",
-    "formattedPrice": "R$50,00",
+    "urlPart": "worship-pack-2-4-matribox-all-packs",
+    "formattedComparePrice": "R$250,00",
+    "formattedPrice": "R$300,00",
     "formattedPricePerUnit": null,
     "pricePerUnitData": null,
     "itemDiscount": null,
@@ -375,19 +2405,19 @@ window.BASS_STOMP_DATA = {
         "fileType": "secure_archive"
       }
     ],
-    "name": "MICROSYNTH - HX STOMP",
+    "name": "WORSHIP PACK 2.4 - MATRIBOX - ALL PACKS",
     "currency": "BRL",
     "media": [
       {
-        "url": "ca2ebc_8f76327d19534bab842ba26ff1cdfcde~mv2.png",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_8f76327d19534bab842ba26ff1cdfcde~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "url": "ca2ebc_807fb5ed5e5f4e3f9fd7dbfb70be63cc~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_807fb5ed5e5f4e3f9fd7dbfb70be63cc~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
         "width": 3000,
         "height": 3000,
         "altText": null
       },
       {
-        "url": "ca2ebc_e81273fe5aff478888ce35a223fe5706f002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_e81273fe5aff478888ce35a223fe5706f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "url": "ca2ebc_80563f74c81c455a86e45baa97455cadf002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_80563f74c81c455a86e45baa97455cadf002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
         "width": 1920,
         "height": 1080,
         "altText": null
@@ -408,424 +2438,11 @@ window.BASS_STOMP_DATA = {
       "list": []
     },
     "discount": {
-      "value": 0
+      "value": 50
     },
     "groupInfo": null,
-    "category_tag": "POD Express",
-    "localImage": "assets/images/products/microsynth-hx-stomp-jb.png"
-  },
-  {
-    "id": "80a535b7-6856-b6bd-7290-52455b478c9b",
-    "options": [],
-    "minPriceVariant": null,
-    "customTextFields": [],
-    "productType": "digital",
-    "ribbon": "Novidade",
-    "additionalRibbons": [],
-    "price": 50,
-    "comparePrice": 0,
-    "pricePerUnit": null,
-    "sku": "",
-    "isInStock": true,
-    "urlPart": "tone-hammer-hx-stomp-jb",
-    "formattedComparePrice": "",
-    "formattedPrice": "R$50,00",
-    "formattedPricePerUnit": null,
-    "pricePerUnitData": null,
-    "itemDiscount": null,
-    "digitalProductFileItems": [
-      {
-        "fileType": "secure_archive"
-      }
-    ],
-    "name": "TONE HAMMER - HX STOMP",
-    "currency": "BRL",
-    "media": [
-      {
-        "url": "ca2ebc_24690c6235934adb8be116a8e6a872ff~mv2.png",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_24690c6235934adb8be116a8e6a872ff~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
-        "width": 3000,
-        "height": 3000,
-        "altText": null
-      },
-      {
-        "url": "ca2ebc_a6a84aa5241145239a491ec51c7d4ff1f002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_a6a84aa5241145239a491ec51c7d4ff1f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
-        "width": 1920,
-        "height": 1080,
-        "altText": null
-      }
-    ],
-    "isManageProductItems": false,
-    "productItemsPreOrderAvailability": "no_variants",
-    "isTrackingInventory": false,
-    "inventory": {
-      "status": "in_stock",
-      "quantity": 0,
-      "availableForPreOrder": false,
-      "preOrderInfoView": {
-        "limit": null
-      }
-    },
-    "subscriptionPlans": {
-      "list": []
-    },
-    "discount": {
-      "value": 0
-    },
-    "groupInfo": null,
-    "category_tag": "POD Express",
-    "localImage": "assets/images/products/tone-hammer-hx-stomp-jb.png"
-  },
-  {
-    "id": "6ab0a57e-2118-01c0-39b5-52109e163479",
-    "options": [],
-    "minPriceVariant": null,
-    "customTextFields": [],
-    "productType": "digital",
-    "ribbon": "Novidade",
-    "additionalRibbons": [],
-    "price": 130,
-    "comparePrice": 0,
-    "pricePerUnit": null,
-    "sku": "",
-    "isInStock": true,
-    "urlPart": "modern-pack-hx-stomp-jb",
-    "formattedComparePrice": "",
-    "formattedPrice": "R$130,00",
-    "formattedPricePerUnit": null,
-    "pricePerUnitData": null,
-    "itemDiscount": null,
-    "digitalProductFileItems": [
-      {
-        "fileType": "secure_archive"
-      }
-    ],
-    "name": "MODERN PACK - HX STOMP",
-    "currency": "BRL",
-    "media": [
-      {
-        "url": "ca2ebc_526f964f148342c1b9e8d5f354730974~mv2.png",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_526f964f148342c1b9e8d5f354730974~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
-        "width": 3000,
-        "height": 3000,
-        "altText": null
-      },
-      {
-        "url": "ca2ebc_b4dd1c51c0614c80a3fa5ec64b66c3d1f002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_b4dd1c51c0614c80a3fa5ec64b66c3d1f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
-        "width": 1920,
-        "height": 1080,
-        "altText": null
-      }
-    ],
-    "isManageProductItems": false,
-    "productItemsPreOrderAvailability": "no_variants",
-    "isTrackingInventory": false,
-    "inventory": {
-      "status": "in_stock",
-      "quantity": 0,
-      "availableForPreOrder": false,
-      "preOrderInfoView": {
-        "limit": null
-      }
-    },
-    "subscriptionPlans": {
-      "list": []
-    },
-    "discount": {
-      "value": 0
-    },
-    "groupInfo": null,
-    "category_tag": "POD Express",
-    "localImage": "assets/images/products/modern-pack-hx-stomp-jb.png"
-  },
-  {
-    "id": "8109063f-1bc7-96fd-7bc2-c547694a140c",
-    "options": [],
-    "minPriceVariant": null,
-    "customTextFields": [],
-    "productType": "digital",
-    "ribbon": "Novidade",
-    "additionalRibbons": [],
-    "price": 99,
-    "comparePrice": 0,
-    "pricePerUnit": null,
-    "sku": "",
-    "isInStock": true,
-    "urlPart": "redding-hx-stomp",
-    "formattedComparePrice": "",
-    "formattedPrice": "R$99,00",
-    "formattedPricePerUnit": null,
-    "pricePerUnitData": null,
-    "itemDiscount": null,
-    "digitalProductFileItems": [
-      {
-        "fileType": "secure_archive"
-      }
-    ],
-    "name": "REDDING - HX STOMP",
-    "currency": "BRL",
-    "media": [
-      {
-        "url": "ca2ebc_bdab618c909d441eaae9815ef1df219d~mv2.png",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_bdab618c909d441eaae9815ef1df219d~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
-        "width": 3000,
-        "height": 3000,
-        "altText": null
-      },
-      {
-        "url": "ca2ebc_e66eb410f7ae45a2b3cbcead24e45430f002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_e66eb410f7ae45a2b3cbcead24e45430f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
-        "width": 1080,
-        "height": 1920,
-        "altText": null
-      }
-    ],
-    "isManageProductItems": false,
-    "productItemsPreOrderAvailability": "no_variants",
-    "isTrackingInventory": false,
-    "inventory": {
-      "status": "in_stock",
-      "quantity": 0,
-      "availableForPreOrder": false,
-      "preOrderInfoView": {
-        "limit": null
-      }
-    },
-    "subscriptionPlans": {
-      "list": []
-    },
-    "discount": {
-      "value": 0
-    },
-    "groupInfo": null,
-    "category_tag": "POD Express",
-    "localImage": "assets/images/products/redding-hx-stomp.png"
-  },
-  {
-    "id": "71cedbc7-0eed-720b-f5f3-666692f31a37",
-    "options": [],
-    "minPriceVariant": null,
-    "customTextFields": [],
-    "productType": "digital",
-    "ribbon": "Novidade",
-    "additionalRibbons": [],
-    "price": 99,
-    "comparePrice": 0,
-    "pricePerUnit": null,
-    "sku": "",
-    "isInStock": true,
-    "urlPart": "synth-pack-hx-stomp",
-    "formattedComparePrice": "",
-    "formattedPrice": "R$99,00",
-    "formattedPricePerUnit": null,
-    "pricePerUnitData": null,
-    "itemDiscount": null,
-    "digitalProductFileItems": [
-      {
-        "fileType": "secure_archive"
-      }
-    ],
-    "name": "SYNTH PACK - HX STOMP",
-    "currency": "BRL",
-    "media": [
-      {
-        "url": "ca2ebc_276a39031a694e02b21a43fe542012bf~mv2.png",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_276a39031a694e02b21a43fe542012bf~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
-        "width": 3000,
-        "height": 3000,
-        "altText": null
-      },
-      {
-        "url": "ca2ebc_179bd63533964d40a5eff969f82b1d3ff002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_179bd63533964d40a5eff969f82b1d3ff002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
-        "width": 1920,
-        "height": 1080,
-        "altText": null
-      }
-    ],
-    "isManageProductItems": false,
-    "productItemsPreOrderAvailability": "no_variants",
-    "isTrackingInventory": false,
-    "inventory": {
-      "status": "in_stock",
-      "quantity": 0,
-      "availableForPreOrder": false,
-      "preOrderInfoView": {
-        "limit": null
-      }
-    },
-    "subscriptionPlans": {
-      "list": []
-    },
-    "discount": {
-      "value": 0
-    },
-    "groupInfo": null,
-    "category_tag": "POD Express",
-    "localImage": "assets/images/products/synth-pack-hx-stomp.png"
-  },
-  {
-    "id": "0e3331b8-6be9-df1f-b980-0740df795ebf",
-    "options": [],
-    "minPriceVariant": null,
-    "customTextFields": [],
-    "productType": "digital",
-    "ribbon": "",
-    "additionalRibbons": [],
-    "price": 99,
-    "comparePrice": 0,
-    "pricePerUnit": null,
-    "sku": "",
-    "isInStock": true,
-    "urlPart": "pack-drive-hx-1",
-    "formattedComparePrice": "",
-    "formattedPrice": "R$99,00",
-    "formattedPricePerUnit": null,
-    "pricePerUnitData": null,
-    "itemDiscount": null,
-    "digitalProductFileItems": [
-      {
-        "fileType": "secure_archive"
-      }
-    ],
-    "name": "PACK DRIVE HX",
-    "currency": "BRL",
-    "media": [
-      {
-        "url": "ca2ebc_62a3db281a2f4bd0bc524544e2a40c5c~mv2.png",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_62a3db281a2f4bd0bc524544e2a40c5c~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
-        "width": 3000,
-        "height": 3000,
-        "altText": null
-      },
-      {
-        "url": "ca2ebc_9c41f43c976042daacd73181a09d5a0ff002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_9c41f43c976042daacd73181a09d5a0ff002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
-        "width": 1920,
-        "height": 1080,
-        "altText": null
-      },
-      {
-        "url": "ca2ebc_0dd6385f39414f188b5ae7a7099818f6f002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_0dd6385f39414f188b5ae7a7099818f6f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
-        "width": 1920,
-        "height": 1080,
-        "altText": null
-      },
-      {
-        "url": "ca2ebc_5e5725b487fc4459859a337b5b81129ff002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_5e5725b487fc4459859a337b5b81129ff002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
-        "width": 1920,
-        "height": 1080,
-        "altText": null
-      },
-      {
-        "url": "ca2ebc_43f219703e974129b54225182aefbdc4f002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_43f219703e974129b54225182aefbdc4f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
-        "width": 1920,
-        "height": 1080,
-        "altText": null
-      }
-    ],
-    "isManageProductItems": false,
-    "productItemsPreOrderAvailability": "no_variants",
-    "isTrackingInventory": false,
-    "inventory": {
-      "status": "in_stock",
-      "quantity": 0,
-      "availableForPreOrder": false,
-      "preOrderInfoView": {
-        "limit": null
-      }
-    },
-    "subscriptionPlans": {
-      "list": []
-    },
-    "discount": {
-      "value": 0
-    },
-    "groupInfo": null,
-    "category_tag": "POD Express",
-    "localImage": "assets/images/products/pack-drive-hx-1.png"
-  },
-  {
-    "id": "ebdae350-85bc-0b01-41b6-498b1106c2c1",
-    "options": [],
-    "minPriceVariant": null,
-    "customTextFields": [],
-    "productType": "digital",
-    "ribbon": "MAIS VENDIDO ",
-    "additionalRibbons": [],
-    "price": 99,
-    "comparePrice": 0,
-    "pricePerUnit": null,
-    "sku": "",
-    "isInStock": true,
-    "urlPart": "worship-pack-hx-stomp",
-    "formattedComparePrice": "",
-    "formattedPrice": "R$99,00",
-    "formattedPricePerUnit": null,
-    "pricePerUnitData": null,
-    "itemDiscount": null,
-    "digitalProductFileItems": [
-      {
-        "fileType": "secure_archive"
-      }
-    ],
-    "name": "WORSHIP PACK - HX STOMP",
-    "currency": "BRL",
-    "media": [
-      {
-        "url": "ca2ebc_44f6c57219054ad8bd50ef5e94cadd2f~mv2.png",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_44f6c57219054ad8bd50ef5e94cadd2f~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
-        "width": 3000,
-        "height": 3000,
-        "altText": null
-      },
-      {
-        "url": "ca2ebc_802d93f1bcb443f287b67d7f8afabe63f002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_802d93f1bcb443f287b67d7f8afabe63f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
-        "width": 1920,
-        "height": 1080,
-        "altText": null
-      },
-      {
-        "url": "ca2ebc_80e90b0de1414e6cad07c537003015a0f002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_80e90b0de1414e6cad07c537003015a0f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
-        "width": 1920,
-        "height": 1080,
-        "altText": null
-      },
-      {
-        "url": "ca2ebc_6ce935d2092e4d60bc651a5607490350f002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_6ce935d2092e4d60bc651a5607490350f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
-        "width": 1920,
-        "height": 1080,
-        "altText": null
-      }
-    ],
-    "isManageProductItems": false,
-    "productItemsPreOrderAvailability": "no_variants",
-    "isTrackingInventory": false,
-    "inventory": {
-      "status": "in_stock",
-      "quantity": 0,
-      "availableForPreOrder": false,
-      "preOrderInfoView": {
-        "limit": null
-      }
-    },
-    "subscriptionPlans": {
-      "list": []
-    },
-    "discount": {
-      "value": 0
-    },
-    "groupInfo": null,
-    "category_tag": "POD Express",
-    "localImage": "assets/images/products/worship-pack-hx-stomp.png"
+    "category_tag": "Matribox",
+    "localImage": "assets/images/products/worship-pack-2-4-matribox-all-packs.png"
   },
   {
     "id": "a957fe60-13fa-2fe9-f08d-09c6643e9c10",
@@ -887,7 +2504,7 @@ window.BASS_STOMP_DATA = {
       "value": 0
     },
     "groupInfo": null,
-    "category_tag": "Ampero II",
+    "category_tag": "Ampero Mini",
     "localImage": "assets/images/products/fuzz-ampero-mini-1.png"
   },
   {
@@ -1076,7 +2693,7 @@ window.BASS_STOMP_DATA = {
       "value": 0
     },
     "groupInfo": null,
-    "category_tag": "Ampero II",
+    "category_tag": "Ampero Mini",
     "localImage": "assets/images/products/clean-tone-hammer-ampero-mini-1.png"
   },
   {
@@ -1575,328 +3192,6 @@ window.BASS_STOMP_DATA = {
     "groupInfo": null,
     "category_tag": "Ampero II",
     "localImage": "assets/images/products/worship-pack-2-4-ampero-2-all-packs.png"
-  },
-  {
-    "id": "4f8b1b02-80d7-884b-1ebd-40e866a83ced",
-    "options": [],
-    "minPriceVariant": null,
-    "customTextFields": [],
-    "productType": "digital",
-    "ribbon": "Novidade",
-    "additionalRibbons": [],
-    "price": 99,
-    "comparePrice": 0,
-    "pricePerUnit": null,
-    "sku": "",
-    "isInStock": true,
-    "urlPart": "worship-pack-v2-hotone-ampero-ii",
-    "formattedComparePrice": "",
-    "formattedPrice": "R$99,00",
-    "formattedPricePerUnit": null,
-    "pricePerUnitData": null,
-    "itemDiscount": null,
-    "digitalProductFileItems": [
-      {
-        "fileType": "secure_archive"
-      }
-    ],
-    "name": "WORSHIP PACK V2 - HOTONE AMPERO II",
-    "currency": "BRL",
-    "media": [
-      {
-        "url": "ca2ebc_7322b09a9b544161b111f899daa464d1~mv2.png",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_7322b09a9b544161b111f899daa464d1~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
-        "width": 3000,
-        "height": 3000,
-        "altText": null
-      },
-      {
-        "url": "ca2ebc_3006e5a6cbaf4f7c93229815f16f826bf002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_3006e5a6cbaf4f7c93229815f16f826bf002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
-        "width": 1920,
-        "height": 1080,
-        "altText": null
-      }
-    ],
-    "isManageProductItems": false,
-    "productItemsPreOrderAvailability": "no_variants",
-    "isTrackingInventory": false,
-    "inventory": {
-      "status": "in_stock",
-      "quantity": 0,
-      "availableForPreOrder": false,
-      "preOrderInfoView": {
-        "limit": null
-      }
-    },
-    "subscriptionPlans": {
-      "list": []
-    },
-    "discount": {
-      "value": 0
-    },
-    "groupInfo": null,
-    "category_tag": "Ampero II",
-    "localImage": "assets/images/products/worship-pack-v2-hotone-ampero-ii.png"
-  },
-  {
-    "id": "c2de5ba2-36bc-0b64-fbad-56e9174c2cfc",
-    "options": [],
-    "minPriceVariant": null,
-    "customTextFields": [],
-    "productType": "digital",
-    "ribbon": "",
-    "additionalRibbons": [],
-    "price": 99,
-    "comparePrice": 0,
-    "pricePerUnit": null,
-    "sku": "",
-    "isInStock": true,
-    "urlPart": "worship-pack-hotone-ampero-ii",
-    "formattedComparePrice": "",
-    "formattedPrice": "R$99,00",
-    "formattedPricePerUnit": null,
-    "pricePerUnitData": null,
-    "itemDiscount": null,
-    "digitalProductFileItems": [
-      {
-        "fileType": "secure_archive"
-      }
-    ],
-    "name": "WORSHIP PACK - HOTONE AMPERO II",
-    "currency": "BRL",
-    "media": [
-      {
-        "url": "ca2ebc_c6240b48b034456e82f1ddfdddb00271~mv2.png",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_c6240b48b034456e82f1ddfdddb00271~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
-        "width": 3000,
-        "height": 3000,
-        "altText": null
-      },
-      {
-        "url": "ca2ebc_fd479daea18b49bdb5cb62204f3ad1daf002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_fd479daea18b49bdb5cb62204f3ad1daf002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
-        "width": 1920,
-        "height": 1080,
-        "altText": null
-      }
-    ],
-    "isManageProductItems": false,
-    "productItemsPreOrderAvailability": "no_variants",
-    "isTrackingInventory": false,
-    "inventory": {
-      "status": "in_stock",
-      "quantity": 0,
-      "availableForPreOrder": false,
-      "preOrderInfoView": {
-        "limit": null
-      }
-    },
-    "subscriptionPlans": {
-      "list": []
-    },
-    "discount": {
-      "value": 0
-    },
-    "groupInfo": null,
-    "category_tag": "Ampero II",
-    "localImage": "assets/images/products/worship-pack-hotone-ampero-ii.png"
-  },
-  {
-    "id": "a9fdfb85-ef99-ea02-f263-f37aa439b436",
-    "options": [],
-    "minPriceVariant": null,
-    "customTextFields": [],
-    "productType": "digital",
-    "ribbon": "RECOMENDADO",
-    "additionalRibbons": [],
-    "price": 89,
-    "comparePrice": 0,
-    "pricePerUnit": null,
-    "sku": "",
-    "isInStock": true,
-    "urlPart": "sgt-di-svt-ampero-mini-1",
-    "formattedComparePrice": "",
-    "formattedPrice": "R$89,00",
-    "formattedPricePerUnit": null,
-    "pricePerUnitData": null,
-    "itemDiscount": null,
-    "digitalProductFileItems": [
-      {
-        "fileType": "secure_archive"
-      }
-    ],
-    "name": "AMPEG SGT - SVT + B15  AMPERO MINI",
-    "currency": "BRL",
-    "media": [
-      {
-        "url": "778382_91d3ced9e4a34bdc97ed234a7b8f97cd~mv2.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/778382_91d3ced9e4a34bdc97ed234a7b8f97cd~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
-        "width": 1080,
-        "height": 1350,
-        "altText": null
-      },
-      {
-        "url": "ca2ebc_7cf9438af85640f48a98fa098ed9d573f002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_7cf9438af85640f48a98fa098ed9d573f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
-        "width": 1080,
-        "height": 1920,
-        "altText": null
-      },
-      {
-        "url": "ca2ebc_4a46c0dc61784942aa86b70ee8456721f002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_4a46c0dc61784942aa86b70ee8456721f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
-        "width": 1080,
-        "height": 1920,
-        "altText": null
-      }
-    ],
-    "isManageProductItems": false,
-    "productItemsPreOrderAvailability": "no_variants",
-    "isTrackingInventory": false,
-    "inventory": {
-      "status": "in_stock",
-      "quantity": 0,
-      "availableForPreOrder": false,
-      "preOrderInfoView": {
-        "limit": null
-      }
-    },
-    "subscriptionPlans": {
-      "list": []
-    },
-    "discount": {
-      "value": 0
-    },
-    "groupInfo": null,
-    "category_tag": "Ampero Mini",
-    "localImage": "assets/images/products/sgt-di-svt-ampero-mini-1.jpg"
-  },
-  {
-    "id": "dcc9070b-9981-d8a9-d0b4-f8e47c24bf3e",
-    "options": [],
-    "minPriceVariant": null,
-    "customTextFields": [],
-    "productType": "digital",
-    "ribbon": "NOVO",
-    "additionalRibbons": [],
-    "price": 60,
-    "comparePrice": 0,
-    "pricePerUnit": null,
-    "sku": "",
-    "isInStock": true,
-    "urlPart": "sgt-di-svt-ampero-mini",
-    "formattedComparePrice": "",
-    "formattedPrice": "R$60,00",
-    "formattedPricePerUnit": null,
-    "pricePerUnitData": null,
-    "itemDiscount": null,
-    "digitalProductFileItems": [
-      {
-        "fileType": "secure_archive"
-      }
-    ],
-    "name": "AMPEG SVT - AMPERO MINI",
-    "currency": "BRL",
-    "media": [
-      {
-        "url": "778382_15e1c78ce0304d38a19910bd88b8f336~mv2.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/778382_15e1c78ce0304d38a19910bd88b8f336~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
-        "width": 1080,
-        "height": 1350,
-        "altText": null
-      },
-      {
-        "url": "ca2ebc_7cf9438af85640f48a98fa098ed9d573f002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_7cf9438af85640f48a98fa098ed9d573f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
-        "width": 1080,
-        "height": 1920,
-        "altText": null
-      }
-    ],
-    "isManageProductItems": false,
-    "productItemsPreOrderAvailability": "no_variants",
-    "isTrackingInventory": false,
-    "inventory": {
-      "status": "in_stock",
-      "quantity": 0,
-      "availableForPreOrder": false,
-      "preOrderInfoView": {
-        "limit": null
-      }
-    },
-    "subscriptionPlans": {
-      "list": []
-    },
-    "discount": {
-      "value": 0
-    },
-    "groupInfo": null,
-    "category_tag": "Ampero Mini",
-    "localImage": "assets/images/products/sgt-di-svt-ampero-mini.jpg"
-  },
-  {
-    "id": "d711eac5-abf7-cddd-9d25-60d3f0ae5c78",
-    "options": [],
-    "minPriceVariant": null,
-    "customTextFields": [],
-    "productType": "digital",
-    "ribbon": "NOVO",
-    "additionalRibbons": [],
-    "price": 60,
-    "comparePrice": 0,
-    "pricePerUnit": null,
-    "sku": "",
-    "isInStock": true,
-    "urlPart": "sgt-di-b15-ampero-mini",
-    "formattedComparePrice": "",
-    "formattedPrice": "R$60,00",
-    "formattedPricePerUnit": null,
-    "pricePerUnitData": null,
-    "itemDiscount": null,
-    "digitalProductFileItems": [
-      {
-        "fileType": "secure_archive"
-      }
-    ],
-    "name": "AMPEG  B15 - AMPERO MINI",
-    "currency": "BRL",
-    "media": [
-      {
-        "url": "778382_ff9580e3dd594748aab4e74e4aac5754~mv2.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/778382_ff9580e3dd594748aab4e74e4aac5754~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
-        "width": 1080,
-        "height": 1350,
-        "altText": null
-      },
-      {
-        "url": "ca2ebc_4a46c0dc61784942aa86b70ee8456721f002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_4a46c0dc61784942aa86b70ee8456721f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
-        "width": 1080,
-        "height": 1920,
-        "altText": null
-      }
-    ],
-    "isManageProductItems": false,
-    "productItemsPreOrderAvailability": "no_variants",
-    "isTrackingInventory": false,
-    "inventory": {
-      "status": "in_stock",
-      "quantity": 0,
-      "availableForPreOrder": false,
-      "preOrderInfoView": {
-        "limit": null
-      }
-    },
-    "subscriptionPlans": {
-      "list": []
-    },
-    "discount": {
-      "value": 0
-    },
-    "groupInfo": null,
-    "category_tag": "Ampero Mini",
-    "localImage": "assets/images/products/sgt-di-b15-ampero-mini.jpg"
   },
   {
     "id": "24e4cce4-4d91-c9a7-fa83-3d97fea1767c",
@@ -2571,21 +3866,21 @@ window.BASS_STOMP_DATA = {
     "localImage": "assets/images/products/worship-pack-2-4-ampero-mini-all-packs.png"
   },
   {
-    "id": "e8e91b22-d72b-e3eb-d2d9-21de0b71ff63",
+    "id": "b308236c-b12b-3977-a113-fbb742689d2e",
     "options": [],
     "minPriceVariant": null,
     "customTextFields": [],
     "productType": "digital",
     "ribbon": "Novidade",
     "additionalRibbons": [],
-    "price": 50,
+    "price": 250,
     "comparePrice": 0,
     "pricePerUnit": null,
     "sku": "",
     "isInStock": true,
-    "urlPart": "microsynth-ampero-one",
+    "urlPart": "bundle-pack-lucas-costa-hx",
     "formattedComparePrice": "",
-    "formattedPrice": "R$50,00",
+    "formattedPrice": "R$250,00",
     "formattedPricePerUnit": null,
     "pricePerUnitData": null,
     "itemDiscount": null,
@@ -2594,348 +3889,26 @@ window.BASS_STOMP_DATA = {
         "fileType": "secure_archive"
       }
     ],
-    "name": "MICROSYNTH - AMPERO ONE",
+    "name": "BUNDLE PACK LUCAS COSTA HX",
     "currency": "BRL",
     "media": [
       {
-        "url": "ca2ebc_d1dee2e5c99c4657b4c534a29f929f08~mv2.png",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_d1dee2e5c99c4657b4c534a29f929f08~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
-        "width": 3000,
-        "height": 3000,
+        "url": "ca2ebc_fc26b970b09741f5b6bd2057bdf489a4~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_fc26b970b09741f5b6bd2057bdf489a4~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 2765,
+        "height": 2767,
         "altText": null
       },
       {
-        "url": "ca2ebc_488c44d16dad4773affd208052d8d521f002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_488c44d16dad4773affd208052d8d521f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
-        "width": 1280,
-        "height": 720,
-        "altText": null
-      }
-    ],
-    "isManageProductItems": false,
-    "productItemsPreOrderAvailability": "no_variants",
-    "isTrackingInventory": false,
-    "inventory": {
-      "status": "in_stock",
-      "quantity": 0,
-      "availableForPreOrder": false,
-      "preOrderInfoView": {
-        "limit": null
-      }
-    },
-    "subscriptionPlans": {
-      "list": []
-    },
-    "discount": {
-      "value": 0
-    },
-    "groupInfo": null,
-    "category_tag": "Ampero One",
-    "localImage": "assets/images/products/microsynth-ampero-one.png"
-  },
-  {
-    "id": "9a96395d-55db-1f94-17c1-4e67c087f6e3",
-    "options": [],
-    "minPriceVariant": null,
-    "customTextFields": [],
-    "productType": "digital",
-    "ribbon": "Novidade",
-    "additionalRibbons": [],
-    "price": 50,
-    "comparePrice": 0,
-    "pricePerUnit": null,
-    "sku": "",
-    "isInStock": true,
-    "urlPart": "deep-chorus-ampero-one",
-    "formattedComparePrice": "",
-    "formattedPrice": "R$50,00",
-    "formattedPricePerUnit": null,
-    "pricePerUnitData": null,
-    "itemDiscount": null,
-    "digitalProductFileItems": [
-      {
-        "fileType": "secure_archive"
-      }
-    ],
-    "name": "DEEP CHORUS - AMPERO ONE",
-    "currency": "BRL",
-    "media": [
-      {
-        "url": "ca2ebc_311cc7b0780341639414f8ba967d71cb~mv2.png",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_311cc7b0780341639414f8ba967d71cb~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
-        "width": 3000,
-        "height": 3000,
-        "altText": null
-      },
-      {
-        "url": "ca2ebc_d0496a1922374d77907a1ff7f8960658f002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_d0496a1922374d77907a1ff7f8960658f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
-        "width": 1280,
-        "height": 720,
-        "altText": null
-      }
-    ],
-    "isManageProductItems": false,
-    "productItemsPreOrderAvailability": "no_variants",
-    "isTrackingInventory": false,
-    "inventory": {
-      "status": "in_stock",
-      "quantity": 0,
-      "availableForPreOrder": false,
-      "preOrderInfoView": {
-        "limit": null
-      }
-    },
-    "subscriptionPlans": {
-      "list": []
-    },
-    "discount": {
-      "value": 0
-    },
-    "groupInfo": null,
-    "category_tag": "Ampero One",
-    "localImage": "assets/images/products/deep-chorus-ampero-one.png"
-  },
-  {
-    "id": "dcb5949b-cfaf-7391-2b98-16fc7f305199",
-    "options": [],
-    "minPriceVariant": null,
-    "customTextFields": [],
-    "productType": "digital",
-    "ribbon": "Novidade",
-    "additionalRibbons": [],
-    "price": 50,
-    "comparePrice": 0,
-    "pricePerUnit": null,
-    "sku": "",
-    "isInStock": true,
-    "urlPart": "octave-ampero-one",
-    "formattedComparePrice": "",
-    "formattedPrice": "R$50,00",
-    "formattedPricePerUnit": null,
-    "pricePerUnitData": null,
-    "itemDiscount": null,
-    "digitalProductFileItems": [
-      {
-        "fileType": "secure_archive"
-      }
-    ],
-    "name": "OCTAVE - AMPERO ONE",
-    "currency": "BRL",
-    "media": [
-      {
-        "url": "ca2ebc_2d0db2411e7642f380c0ddf6269d7eaa~mv2.png",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_2d0db2411e7642f380c0ddf6269d7eaa~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
-        "width": 3000,
-        "height": 3000,
-        "altText": null
-      },
-      {
-        "url": "ca2ebc_1314b46ad42b44afb7bd7c16548ad632f002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_1314b46ad42b44afb7bd7c16548ad632f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
-        "width": 1280,
-        "height": 720,
-        "altText": null
-      }
-    ],
-    "isManageProductItems": false,
-    "productItemsPreOrderAvailability": "no_variants",
-    "isTrackingInventory": false,
-    "inventory": {
-      "status": "in_stock",
-      "quantity": 0,
-      "availableForPreOrder": false,
-      "preOrderInfoView": {
-        "limit": null
-      }
-    },
-    "subscriptionPlans": {
-      "list": []
-    },
-    "discount": {
-      "value": 0
-    },
-    "groupInfo": null,
-    "category_tag": "Ampero One",
-    "localImage": "assets/images/products/octave-ampero-one.png"
-  },
-  {
-    "id": "85d75cd7-5ef7-8d9c-82e4-0586b46b0ace",
-    "options": [],
-    "minPriceVariant": null,
-    "customTextFields": [],
-    "productType": "digital",
-    "ribbon": "Novidade",
-    "additionalRibbons": [],
-    "price": 50,
-    "comparePrice": 0,
-    "pricePerUnit": null,
-    "sku": "",
-    "isInStock": true,
-    "urlPart": "tone-hammer-ampero-one",
-    "formattedComparePrice": "",
-    "formattedPrice": "R$50,00",
-    "formattedPricePerUnit": null,
-    "pricePerUnitData": null,
-    "itemDiscount": null,
-    "digitalProductFileItems": [
-      {
-        "fileType": "secure_archive"
-      }
-    ],
-    "name": "TONE HAMMER - AMPERO ONE",
-    "currency": "BRL",
-    "media": [
-      {
-        "url": "ca2ebc_fba36412d4834a8bb0e3bb5a5e4b07c2~mv2.png",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_fba36412d4834a8bb0e3bb5a5e4b07c2~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
-        "width": 3000,
-        "height": 3000,
-        "altText": null
-      },
-      {
-        "url": "ca2ebc_737c2401df944f2d8103a51c573edc30f002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_737c2401df944f2d8103a51c573edc30f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
-        "width": 1280,
-        "height": 720,
-        "altText": null
-      }
-    ],
-    "isManageProductItems": false,
-    "productItemsPreOrderAvailability": "no_variants",
-    "isTrackingInventory": false,
-    "inventory": {
-      "status": "in_stock",
-      "quantity": 0,
-      "availableForPreOrder": false,
-      "preOrderInfoView": {
-        "limit": null
-      }
-    },
-    "subscriptionPlans": {
-      "list": []
-    },
-    "discount": {
-      "value": 0
-    },
-    "groupInfo": null,
-    "category_tag": "Ampero One",
-    "localImage": "assets/images/products/tone-hammer-ampero-one.png"
-  },
-  {
-    "id": "49b83de1-6c63-6ed4-631c-b4a757ad10df",
-    "options": [],
-    "minPriceVariant": null,
-    "customTextFields": [],
-    "productType": "digital",
-    "ribbon": "RECOMENDADO",
-    "additionalRibbons": [],
-    "price": 200,
-    "comparePrice": 150,
-    "pricePerUnit": null,
-    "sku": "",
-    "isInStock": true,
-    "urlPart": "worship-pack-ampero-one",
-    "formattedComparePrice": "R$150,00",
-    "formattedPrice": "R$200,00",
-    "formattedPricePerUnit": null,
-    "pricePerUnitData": null,
-    "itemDiscount": null,
-    "digitalProductFileItems": [
-      {
-        "fileType": "secure_archive"
-      }
-    ],
-    "name": "WORSHIP PACK - AMPERO ONE",
-    "currency": "BRL",
-    "media": [
-      {
-        "url": "ca2ebc_89a61cf039ad41daa01ff656e3e839e0~mv2.png",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_89a61cf039ad41daa01ff656e3e839e0~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
-        "width": 3000,
-        "height": 3000,
-        "altText": null
-      }
-    ],
-    "isManageProductItems": false,
-    "productItemsPreOrderAvailability": "no_variants",
-    "isTrackingInventory": false,
-    "inventory": {
-      "status": "in_stock",
-      "quantity": 0,
-      "availableForPreOrder": false,
-      "preOrderInfoView": {
-        "limit": null
-      }
-    },
-    "subscriptionPlans": {
-      "list": []
-    },
-    "discount": {
-      "value": 50
-    },
-    "groupInfo": null,
-    "category_tag": "Ampero One",
-    "localImage": "assets/images/products/worship-pack-ampero-one.png"
-  },
-  {
-    "id": "2898ab18-7748-2663-3dc2-565eacbb5d29",
-    "options": [],
-    "minPriceVariant": null,
-    "customTextFields": [],
-    "productType": "digital",
-    "ribbon": "",
-    "additionalRibbons": [],
-    "price": 99,
-    "comparePrice": 0,
-    "pricePerUnit": null,
-    "sku": "",
-    "isInStock": true,
-    "urlPart": "worship-pack-boss-gt-1b",
-    "formattedComparePrice": "",
-    "formattedPrice": "R$99,00",
-    "formattedPricePerUnit": null,
-    "pricePerUnitData": null,
-    "itemDiscount": null,
-    "digitalProductFileItems": [
-      {
-        "fileType": "secure_archive"
-      }
-    ],
-    "name": "WORSHIP PACK - BOSS GT-1B",
-    "currency": "BRL",
-    "media": [
-      {
-        "url": "ca2ebc_ae97e28fdb274e0f9c18287d7bb42eb1~mv2.png",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_ae97e28fdb274e0f9c18287d7bb42eb1~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
-        "width": 3000,
-        "height": 3000,
-        "altText": null
-      },
-      {
-        "url": "ca2ebc_c45089c75ffe4e309579e3925742ad9ff002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_c45089c75ffe4e309579e3925742ad9ff002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "url": "ca2ebc_2159e4d79b264623b5c70200f80a545df002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_2159e4d79b264623b5c70200f80a545df002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
         "width": 1920,
         "height": 1080,
         "altText": null
       },
       {
-        "url": "ca2ebc_599c987a4b4447d88652aba3dc1d3747f002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_599c987a4b4447d88652aba3dc1d3747f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
-        "width": 1920,
-        "height": 1080,
-        "altText": null
-      },
-      {
-        "url": "ca2ebc_3e15cfb7047c491a85060bda7da8eabff002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_3e15cfb7047c491a85060bda7da8eabff002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
-        "width": 1920,
-        "height": 1080,
-        "altText": null
-      },
-      {
-        "url": "ca2ebc_8ac2206f5c7c4616aaa9f2f745cd92b4f002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_8ac2206f5c7c4616aaa9f2f745cd92b4f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "url": "ca2ebc_d7ac8744b6c741f496bfaebc9f8dcc7ff002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_d7ac8744b6c741f496bfaebc9f8dcc7ff002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
         "width": 1920,
         "height": 1080,
         "altText": null
@@ -2959,11 +3932,11 @@ window.BASS_STOMP_DATA = {
       "value": 0
     },
     "groupInfo": null,
-    "category_tag": "Boss GT-1B",
-    "localImage": "assets/images/products/worship-pack-boss-gt-1b.png"
+    "category_tag": "HX Stomp",
+    "localImage": "assets/images/products/bundle-pack-lucas-costa-hx.png"
   },
   {
-    "id": "94a54314-48e8-68c9-e516-a8a52f24f4b8",
+    "id": "7beb5479-98f0-6838-bbed-0deb4ad37821",
     "options": [],
     "minPriceVariant": null,
     "customTextFields": [],
@@ -2971,12 +3944,12 @@ window.BASS_STOMP_DATA = {
     "ribbon": "Novidade",
     "additionalRibbons": [],
     "price": 150,
-    "comparePrice": 120,
+    "comparePrice": 0,
     "pricePerUnit": null,
     "sku": "",
     "isInStock": true,
-    "urlPart": "worship-pack-boss-gx-1b",
-    "formattedComparePrice": "R$120,00",
+    "urlPart": "ambience-pack-lucas-costa-hx",
+    "formattedComparePrice": "",
     "formattedPrice": "R$150,00",
     "formattedPricePerUnit": null,
     "pricePerUnitData": null,
@@ -2986,19 +3959,19 @@ window.BASS_STOMP_DATA = {
         "fileType": "secure_archive"
       }
     ],
-    "name": "WORSHIP PACK - BOSS GX-1B",
+    "name": "AMBIENCE PACK LUCAS COSTA HX",
     "currency": "BRL",
     "media": [
       {
-        "url": "ca2ebc_834850ff54c34d1bb9853cfa0e7766e3~mv2.png",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_834850ff54c34d1bb9853cfa0e7766e3~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
-        "width": 3000,
-        "height": 3000,
+        "url": "ca2ebc_c0de6c2807724458add84d2c44ea22c0~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_c0de6c2807724458add84d2c44ea22c0~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 2765,
+        "height": 2767,
         "altText": null
       },
       {
-        "url": "778382_6fc87921b3034229859a672176870928f002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/778382_6fc87921b3034229859a672176870928f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "url": "ca2ebc_d7ac8744b6c741f496bfaebc9f8dcc7ff002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_d7ac8744b6c741f496bfaebc9f8dcc7ff002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
         "width": 1920,
         "height": 1080,
         "altText": null
@@ -3019,11 +3992,74 @@ window.BASS_STOMP_DATA = {
       "list": []
     },
     "discount": {
-      "value": 30
+      "value": 0
     },
     "groupInfo": null,
-    "category_tag": "Boss GX-1B",
-    "localImage": "assets/images/products/worship-pack-boss-gx-1b.png"
+    "category_tag": "HX Stomp",
+    "localImage": "assets/images/products/ambience-pack-lucas-costa-hx.png"
+  },
+  {
+    "id": "96a4a5d9-c016-1313-0c69-90b73afbc7a3",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 150,
+    "comparePrice": 0,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "pack-lucas-costa-hx",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$150,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "PACK LUCAS COSTA HX",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_2bb44b69f8f145fd88ad85c7604a8c7a~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_2bb44b69f8f145fd88ad85c7604a8c7a~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 2765,
+        "height": 2767,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_2159e4d79b264623b5c70200f80a545df002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_2159e4d79b264623b5c70200f80a545df002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "HX Stomp",
+    "localImage": "assets/images/products/pack-lucas-costa-hx.png"
   },
   {
     "id": "07c9c44a-e624-e903-a3c6-e59ace561a14",
@@ -3397,21 +4433,21 @@ window.BASS_STOMP_DATA = {
     "localImage": "assets/images/products/worship-pack-valeton-gp200.png"
   },
   {
-    "id": "741c4355-50c6-d651-ee30-46cab3f09b0f",
+    "id": "e8e91b22-d72b-e3eb-d2d9-21de0b71ff63",
     "options": [],
     "minPriceVariant": null,
     "customTextFields": [],
     "productType": "digital",
-    "ribbon": "",
+    "ribbon": "Novidade",
     "additionalRibbons": [],
-    "price": 99,
+    "price": 50,
     "comparePrice": 0,
     "pricePerUnit": null,
     "sku": "",
     "isInStock": true,
-    "urlPart": "worship-pack-valeton-gp-100",
+    "urlPart": "microsynth-ampero-one",
     "formattedComparePrice": "",
-    "formattedPrice": "R$99,00",
+    "formattedPrice": "R$50,00",
     "formattedPricePerUnit": null,
     "pricePerUnitData": null,
     "itemDiscount": null,
@@ -3420,19 +4456,327 @@ window.BASS_STOMP_DATA = {
         "fileType": "secure_archive"
       }
     ],
-    "name": "WORSHIP PACK - VALETON GP-100",
+    "name": "MICROSYNTH - AMPERO ONE",
     "currency": "BRL",
     "media": [
       {
-        "url": "ca2ebc_7fbf5b0d915c47f0b858df3123754730~mv2.png",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_7fbf5b0d915c47f0b858df3123754730~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "url": "ca2ebc_d1dee2e5c99c4657b4c534a29f929f08~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_d1dee2e5c99c4657b4c534a29f929f08~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
         "width": 3000,
         "height": 3000,
         "altText": null
       },
       {
-        "url": "ca2ebc_12e4c6f9d3184bef9e65c4977569cccbf002.jpg",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_12e4c6f9d3184bef9e65c4977569cccbf002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "url": "ca2ebc_488c44d16dad4773affd208052d8d521f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_488c44d16dad4773affd208052d8d521f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1280,
+        "height": 720,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "Ampero One",
+    "localImage": "assets/images/products/microsynth-ampero-one.png"
+  },
+  {
+    "id": "9a96395d-55db-1f94-17c1-4e67c087f6e3",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 50,
+    "comparePrice": 0,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "deep-chorus-ampero-one",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$50,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "DEEP CHORUS - AMPERO ONE",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_311cc7b0780341639414f8ba967d71cb~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_311cc7b0780341639414f8ba967d71cb~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_d0496a1922374d77907a1ff7f8960658f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_d0496a1922374d77907a1ff7f8960658f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1280,
+        "height": 720,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "Ampero One",
+    "localImage": "assets/images/products/deep-chorus-ampero-one.png"
+  },
+  {
+    "id": "dcb5949b-cfaf-7391-2b98-16fc7f305199",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 50,
+    "comparePrice": 0,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "octave-ampero-one",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$50,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "OCTAVE - AMPERO ONE",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_2d0db2411e7642f380c0ddf6269d7eaa~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_2d0db2411e7642f380c0ddf6269d7eaa~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_1314b46ad42b44afb7bd7c16548ad632f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_1314b46ad42b44afb7bd7c16548ad632f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1280,
+        "height": 720,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "Ampero One",
+    "localImage": "assets/images/products/octave-ampero-one.png"
+  },
+  {
+    "id": "85d75cd7-5ef7-8d9c-82e4-0586b46b0ace",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 50,
+    "comparePrice": 0,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "tone-hammer-ampero-one",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$50,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "TONE HAMMER - AMPERO ONE",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_fba36412d4834a8bb0e3bb5a5e4b07c2~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_fba36412d4834a8bb0e3bb5a5e4b07c2~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_737c2401df944f2d8103a51c573edc30f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_737c2401df944f2d8103a51c573edc30f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1280,
+        "height": 720,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "Ampero One",
+    "localImage": "assets/images/products/tone-hammer-ampero-one.png"
+  },
+  {
+    "id": "49b83de1-6c63-6ed4-631c-b4a757ad10df",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "RECOMENDADO",
+    "additionalRibbons": [],
+    "price": 200,
+    "comparePrice": 150,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "worship-pack-ampero-one",
+    "formattedComparePrice": "R$150,00",
+    "formattedPrice": "R$200,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "WORSHIP PACK - AMPERO ONE",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_89a61cf039ad41daa01ff656e3e839e0~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_89a61cf039ad41daa01ff656e3e839e0~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 50
+    },
+    "groupInfo": null,
+    "category_tag": "Ampero One",
+    "localImage": "assets/images/products/worship-pack-ampero-one.png"
+  },
+  {
+    "id": "c4799c6c-7d13-360d-3612-e4c93e47b5ba",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 50,
+    "comparePrice": 0,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "oc2-hx-stomp-jb",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$50,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "OC2 - HX STOMP",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_20c893018b2749cc8fd79d947657fd59~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_20c893018b2749cc8fd79d947657fd59~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_944f963a69534660a8b6eb53223316cdf002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_944f963a69534660a8b6eb53223316cdf002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
         "width": 1920,
         "height": 1080,
         "altText": null
@@ -3456,8 +4800,197 @@ window.BASS_STOMP_DATA = {
       "value": 0
     },
     "groupInfo": null,
-    "category_tag": "Valeton GP100",
-    "localImage": "assets/images/products/worship-pack-valeton-gp-100.png"
+    "category_tag": "HX Stomp",
+    "localImage": "assets/images/products/oc2-hx-stomp-jb.png"
+  },
+  {
+    "id": "a896ad3e-7ae6-c918-79a0-9aa536c2b5c1",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 50,
+    "comparePrice": 0,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "microsynth-hx-stomp-jb",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$50,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "MICROSYNTH - HX STOMP",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_8f76327d19534bab842ba26ff1cdfcde~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_8f76327d19534bab842ba26ff1cdfcde~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_e81273fe5aff478888ce35a223fe5706f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_e81273fe5aff478888ce35a223fe5706f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "HX Stomp",
+    "localImage": "assets/images/products/microsynth-hx-stomp-jb.png"
+  },
+  {
+    "id": "80a535b7-6856-b6bd-7290-52455b478c9b",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 50,
+    "comparePrice": 0,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "tone-hammer-hx-stomp-jb",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$50,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "TONE HAMMER - HX STOMP",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_24690c6235934adb8be116a8e6a872ff~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_24690c6235934adb8be116a8e6a872ff~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_a6a84aa5241145239a491ec51c7d4ff1f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_a6a84aa5241145239a491ec51c7d4ff1f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "HX Stomp",
+    "localImage": "assets/images/products/tone-hammer-hx-stomp-jb.png"
+  },
+  {
+    "id": "6ab0a57e-2118-01c0-39b5-52109e163479",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 130,
+    "comparePrice": 0,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "modern-pack-hx-stomp-jb",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$130,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "MODERN PACK - HX STOMP",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_526f964f148342c1b9e8d5f354730974~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_526f964f148342c1b9e8d5f354730974~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_b4dd1c51c0614c80a3fa5ec64b66c3d1f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_b4dd1c51c0614c80a3fa5ec64b66c3d1f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "HX Stomp",
+    "localImage": "assets/images/products/modern-pack-hx-stomp-jb.png"
   },
   {
     "id": "ed82f6b6-e49d-b2eb-22a0-9a726d036bc9",
@@ -3583,7 +5116,7 @@ window.BASS_STOMP_DATA = {
     },
     "groupInfo": null,
     "category_tag": "Zoom B3n",
-    "localImage": "assets/images/products/cópia-de-worship-pack-v2-b3n-pb.png"
+    "localImage": "assets/images/products/c-pia-de-worship-pack-v2-b3n-pb.png"
   },
   {
     "id": "17f231fc-bf18-3170-49b9-f97b73b923a4",
@@ -3712,6 +5245,447 @@ window.BASS_STOMP_DATA = {
     "localImage": "assets/images/products/worship-pack-v1-b3n-pb.png"
   },
   {
+    "id": "d1ab29b9-520e-77ba-cbd9-f4057ceda7df",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 99,
+    "comparePrice": 0,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "worship-pack-v2-zoom-b1on-jb-1",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$99,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "WORSHIP PACK V2 - ZOOM B1on - JB",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_0c8d3359244644fd950e84c6e6ac6ec3~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_0c8d3359244644fd950e84c6e6ac6ec3~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_8965ac167ff2470082950ad478f881d5f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_8965ac167ff2470082950ad478f881d5f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "Zoom B1on",
+    "localImage": "assets/images/products/worship-pack-v2-zoom-b1on-jb-1.png"
+  },
+  {
+    "id": "b160b2de-4396-5144-366d-3348aa37892d",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 99,
+    "comparePrice": 0,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "worship-pack-v2-zoom-b1on-jb",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$99,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "WORSHIP PACK V1 - ZOOM B1on - JB",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_c167aeb428c04d74bb7966a64afbeacf~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_c167aeb428c04d74bb7966a64afbeacf~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_8965ac167ff2470082950ad478f881d5f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_8965ac167ff2470082950ad478f881d5f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "Zoom B1on",
+    "localImage": "assets/images/products/worship-pack-v2-zoom-b1on-jb.png"
+  },
+  {
+    "id": "f0734fc2-ab4e-e836-bec8-663881190cf9",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 99,
+    "comparePrice": 0,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "cópia-de-worship-pack-v2-zoom-b1on-pb",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$99,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "WORSHIP PACK V2 - ZOOM B1on - PB",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_bfa77e16135948ae9603792cb0856ea7~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_bfa77e16135948ae9603792cb0856ea7~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_61fb470449184f01be70657087fa1206f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_61fb470449184f01be70657087fa1206f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "Zoom B1on",
+    "localImage": "assets/images/products/c-pia-de-worship-pack-v2-zoom-b1on-pb.png"
+  },
+  {
+    "id": "da0a729d-7622-6f76-d425-c37cb15327ce",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 99,
+    "comparePrice": 0,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "worship-pack-v1-zoom-b1on-pb",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$99,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "WORSHIP PACK V1 - ZOOM B1on - PB",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_c6a1b7235b644cbb99dba5837dec2272~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_c6a1b7235b644cbb99dba5837dec2272~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_61fb470449184f01be70657087fa1206f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_61fb470449184f01be70657087fa1206f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "Zoom B1on",
+    "localImage": "assets/images/products/worship-pack-v1-zoom-b1on-pb.png"
+  },
+  {
+    "id": "8109063f-1bc7-96fd-7bc2-c547694a140c",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 99,
+    "comparePrice": 0,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "redding-hx-stomp",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$99,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "REDDING - HX STOMP",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_bdab618c909d441eaae9815ef1df219d~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_bdab618c909d441eaae9815ef1df219d~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_e66eb410f7ae45a2b3cbcead24e45430f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_e66eb410f7ae45a2b3cbcead24e45430f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1080,
+        "height": 1920,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "HX Stomp",
+    "localImage": "assets/images/products/redding-hx-stomp.png"
+  },
+  {
+    "id": "0f64659b-ea44-6ec5-62b3-d1c5ddbace74",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 99,
+    "comparePrice": 0,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "worship-pack-v2-zoom-b3",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$99,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "WORSHIP PACK v2 - ZOOM B3",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_e7def1ca0a8e41d1936ac6059b4670cb~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_e7def1ca0a8e41d1936ac6059b4670cb~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_e2770f9bb7f449e98a19827a70936272f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_e2770f9bb7f449e98a19827a70936272f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "Zoom B3",
+    "localImage": "assets/images/products/worship-pack-v2-zoom-b3.png"
+  },
+  {
+    "id": "71cedbc7-0eed-720b-f5f3-666692f31a37",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 99,
+    "comparePrice": 0,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "synth-pack-hx-stomp",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$99,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "SYNTH PACK - HX STOMP",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_276a39031a694e02b21a43fe542012bf~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_276a39031a694e02b21a43fe542012bf~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_179bd63533964d40a5eff969f82b1d3ff002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_179bd63533964d40a5eff969f82b1d3ff002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "HX Stomp",
+    "localImage": "assets/images/products/synth-pack-hx-stomp.png"
+  },
+  {
     "id": "e586a548-be85-e7ba-0ad7-d1c0061bb8c7",
     "options": [],
     "minPriceVariant": null,
@@ -3773,6 +5747,342 @@ window.BASS_STOMP_DATA = {
     "groupInfo": null,
     "category_tag": "Zoom B1 Four",
     "localImage": "assets/images/products/worship-pack-v2-zoom-b1-four.png"
+  },
+  {
+    "id": "4f8b1b02-80d7-884b-1ebd-40e866a83ced",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "Novidade",
+    "additionalRibbons": [],
+    "price": 99,
+    "comparePrice": 0,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "worship-pack-v2-hotone-ampero-ii",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$99,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "WORSHIP PACK V2 - HOTONE AMPERO II",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_7322b09a9b544161b111f899daa464d1~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_7322b09a9b544161b111f899daa464d1~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_3006e5a6cbaf4f7c93229815f16f826bf002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_3006e5a6cbaf4f7c93229815f16f826bf002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "Ampero II",
+    "localImage": "assets/images/products/worship-pack-v2-hotone-ampero-ii.png"
+  },
+  {
+    "id": "c2de5ba2-36bc-0b64-fbad-56e9174c2cfc",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "",
+    "additionalRibbons": [],
+    "price": 99,
+    "comparePrice": 0,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "worship-pack-hotone-ampero-ii",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$99,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "WORSHIP PACK - HOTONE AMPERO II",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_c6240b48b034456e82f1ddfdddb00271~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_c6240b48b034456e82f1ddfdddb00271~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_fd479daea18b49bdb5cb62204f3ad1daf002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_fd479daea18b49bdb5cb62204f3ad1daf002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "Ampero II",
+    "localImage": "assets/images/products/worship-pack-hotone-ampero-ii.png"
+  },
+  {
+    "id": "741c4355-50c6-d651-ee30-46cab3f09b0f",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "",
+    "additionalRibbons": [],
+    "price": 99,
+    "comparePrice": 0,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "worship-pack-valeton-gp-100",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$99,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "WORSHIP PACK - VALETON GP-100",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_7fbf5b0d915c47f0b858df3123754730~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_7fbf5b0d915c47f0b858df3123754730~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_12e4c6f9d3184bef9e65c4977569cccbf002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_12e4c6f9d3184bef9e65c4977569cccbf002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "Valeton GP100",
+    "localImage": "assets/images/products/worship-pack-valeton-gp-100.png"
+  },
+  {
+    "id": "a9dff173-676d-5bf1-6db7-d792578bca4a",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "",
+    "additionalRibbons": [],
+    "price": 99,
+    "comparePrice": 0,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "worship-pack-zoom-b3",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$99,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "WORSHIP PACK - ZOOM B3",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_8059acb841d043078b109c8d833ef064~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_8059acb841d043078b109c8d833ef064~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_1ac2d67d69014cdf8dd1e2fc21f7852ef002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_1ac2d67d69014cdf8dd1e2fc21f7852ef002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "Zoom B3",
+    "localImage": "assets/images/products/worship-pack-zoom-b3.png"
+  },
+  {
+    "id": "2898ab18-7748-2663-3dc2-565eacbb5d29",
+    "options": [],
+    "minPriceVariant": null,
+    "customTextFields": [],
+    "productType": "digital",
+    "ribbon": "",
+    "additionalRibbons": [],
+    "price": 99,
+    "comparePrice": 0,
+    "pricePerUnit": null,
+    "sku": "",
+    "isInStock": true,
+    "urlPart": "worship-pack-boss-gt-1b",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$99,00",
+    "formattedPricePerUnit": null,
+    "pricePerUnitData": null,
+    "itemDiscount": null,
+    "digitalProductFileItems": [
+      {
+        "fileType": "secure_archive"
+      }
+    ],
+    "name": "WORSHIP PACK - BOSS GT-1B",
+    "currency": "BRL",
+    "media": [
+      {
+        "url": "ca2ebc_ae97e28fdb274e0f9c18287d7bb42eb1~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_ae97e28fdb274e0f9c18287d7bb42eb1~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "width": 3000,
+        "height": 3000,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_c45089c75ffe4e309579e3925742ad9ff002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_c45089c75ffe4e309579e3925742ad9ff002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_599c987a4b4447d88652aba3dc1d3747f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_599c987a4b4447d88652aba3dc1d3747f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_3e15cfb7047c491a85060bda7da8eabff002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_3e15cfb7047c491a85060bda7da8eabff002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_8ac2206f5c7c4616aaa9f2f745cd92b4f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_8ac2206f5c7c4616aaa9f2f745cd92b4f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      }
+    ],
+    "isManageProductItems": false,
+    "productItemsPreOrderAvailability": "no_variants",
+    "isTrackingInventory": false,
+    "inventory": {
+      "status": "in_stock",
+      "quantity": 0,
+      "availableForPreOrder": false,
+      "preOrderInfoView": {
+        "limit": null
+      }
+    },
+    "subscriptionPlans": {
+      "list": []
+    },
+    "discount": {
+      "value": 0
+    },
+    "groupInfo": null,
+    "category_tag": "Boss GT-1B",
+    "localImage": "assets/images/products/worship-pack-boss-gt-1b.png"
   },
   {
     "id": "23b793af-6063-2186-4f95-39b89935bf65",
@@ -3838,21 +6148,21 @@ window.BASS_STOMP_DATA = {
     "localImage": "assets/images/products/worship-pack-v1-zoom-b1-four.png"
   },
   {
-    "id": "c640c8a5-013f-cf37-90ab-919111d3c431",
+    "id": "0e3331b8-6be9-df1f-b980-0740df795ebf",
     "options": [],
     "minPriceVariant": null,
     "customTextFields": [],
     "productType": "digital",
-    "ribbon": "Novidade",
+    "ribbon": "",
     "additionalRibbons": [],
-    "price": 120,
-    "comparePrice": 99,
+    "price": 99,
+    "comparePrice": 0,
     "pricePerUnit": null,
     "sku": "",
     "isInStock": true,
-    "urlPart": "tone-hammer-pod-go",
-    "formattedComparePrice": "R$99,00",
-    "formattedPrice": "R$120,00",
+    "urlPart": "pack-drive-hx-1",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$99,00",
     "formattedPricePerUnit": null,
     "pricePerUnitData": null,
     "itemDiscount": null,
@@ -3861,70 +6171,42 @@ window.BASS_STOMP_DATA = {
         "fileType": "secure_archive"
       }
     ],
-    "name": "TONE HAMMER - POD GO",
+    "name": "PACK DRIVE HX",
     "currency": "BRL",
     "media": [
       {
-        "url": "ca2ebc_8cd69d7c854345a98d4f36629fba7471~mv2.png",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_8cd69d7c854345a98d4f36629fba7471~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "url": "ca2ebc_62a3db281a2f4bd0bc524544e2a40c5c~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_62a3db281a2f4bd0bc524544e2a40c5c~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
         "width": 3000,
         "height": 3000,
         "altText": null
-      }
-    ],
-    "isManageProductItems": false,
-    "productItemsPreOrderAvailability": "no_variants",
-    "isTrackingInventory": false,
-    "inventory": {
-      "status": "in_stock",
-      "quantity": 0,
-      "availableForPreOrder": false,
-      "preOrderInfoView": {
-        "limit": null
-      }
-    },
-    "subscriptionPlans": {
-      "list": []
-    },
-    "discount": {
-      "value": 21
-    },
-    "groupInfo": null,
-    "category_tag": "POD Go",
-    "localImage": "assets/images/products/tone-hammer-pod-go.png"
-  },
-  {
-    "id": "cf5a6940-cffb-a24e-0b0b-51dd162e184f",
-    "options": [],
-    "minPriceVariant": null,
-    "customTextFields": [],
-    "productType": "digital",
-    "ribbon": "Novidade",
-    "additionalRibbons": [],
-    "price": 790,
-    "comparePrice": 650,
-    "pricePerUnit": null,
-    "sku": "",
-    "isInStock": true,
-    "urlPart": "all-packs-worship-pod-go",
-    "formattedComparePrice": "R$650,00",
-    "formattedPrice": "R$790,00",
-    "formattedPricePerUnit": null,
-    "pricePerUnitData": null,
-    "itemDiscount": null,
-    "digitalProductFileItems": [
+      },
       {
-        "fileType": "secure_archive"
-      }
-    ],
-    "name": "ALL PACKS WORSHIP - POD GO",
-    "currency": "BRL",
-    "media": [
+        "url": "ca2ebc_9c41f43c976042daacd73181a09d5a0ff002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_9c41f43c976042daacd73181a09d5a0ff002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      },
       {
-        "url": "ca2ebc_57c7cc166492491bbd401f7f58f02476~mv2.png",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_57c7cc166492491bbd401f7f58f02476~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
-        "width": 2765,
-        "height": 2767,
+        "url": "ca2ebc_0dd6385f39414f188b5ae7a7099818f6f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_0dd6385f39414f188b5ae7a7099818f6f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_5e5725b487fc4459859a337b5b81129ff002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_5e5725b487fc4459859a337b5b81129ff002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_43f219703e974129b54225182aefbdc4f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_43f219703e974129b54225182aefbdc4f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
         "altText": null
       }
     ],
@@ -3943,28 +6225,28 @@ window.BASS_STOMP_DATA = {
       "list": []
     },
     "discount": {
-      "value": 140
+      "value": 0
     },
     "groupInfo": null,
-    "category_tag": "POD Go",
-    "localImage": "assets/images/products/all-packs-worship-pod-go.png"
+    "category_tag": "HX Stomp",
+    "localImage": "assets/images/products/pack-drive-hx-1.png"
   },
   {
-    "id": "808020b5-d995-081f-4faa-5f7a011430a0",
+    "id": "ebdae350-85bc-0b01-41b6-498b1106c2c1",
     "options": [],
     "minPriceVariant": null,
     "customTextFields": [],
     "productType": "digital",
-    "ribbon": "Novidade",
+    "ribbon": "MAIS VENDIDO ",
     "additionalRibbons": [],
-    "price": 150,
-    "comparePrice": 120,
+    "price": 99,
+    "comparePrice": 0,
     "pricePerUnit": null,
     "sku": "",
     "isInStock": true,
-    "urlPart": "worship-pack-v2-pod-go",
-    "formattedComparePrice": "R$120,00",
-    "formattedPrice": "R$150,00",
+    "urlPart": "worship-pack-hx-stomp",
+    "formattedComparePrice": "",
+    "formattedPrice": "R$99,00",
     "formattedPricePerUnit": null,
     "pricePerUnitData": null,
     "itemDiscount": null,
@@ -3973,70 +6255,35 @@ window.BASS_STOMP_DATA = {
         "fileType": "secure_archive"
       }
     ],
-    "name": "WORSHIP PACK V2 - POD GO",
+    "name": "WORSHIP PACK - HX STOMP",
     "currency": "BRL",
     "media": [
       {
-        "url": "ca2ebc_5c48bf98c98f42758e18383142ef0612~mv2.png",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_5c48bf98c98f42758e18383142ef0612~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "url": "ca2ebc_44f6c57219054ad8bd50ef5e94cadd2f~mv2.png",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_44f6c57219054ad8bd50ef5e94cadd2f~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
         "width": 3000,
         "height": 3000,
         "altText": null
-      }
-    ],
-    "isManageProductItems": false,
-    "productItemsPreOrderAvailability": "no_variants",
-    "isTrackingInventory": false,
-    "inventory": {
-      "status": "in_stock",
-      "quantity": 0,
-      "availableForPreOrder": false,
-      "preOrderInfoView": {
-        "limit": null
-      }
-    },
-    "subscriptionPlans": {
-      "list": []
-    },
-    "discount": {
-      "value": 30
-    },
-    "groupInfo": null,
-    "category_tag": "POD Go",
-    "localImage": "assets/images/products/worship-pack-v2-pod-go.png"
-  },
-  {
-    "id": "3f7ca026-0655-3adc-bcb6-64395322a7c1",
-    "options": [],
-    "minPriceVariant": null,
-    "customTextFields": [],
-    "productType": "digital",
-    "ribbon": "Novidade",
-    "additionalRibbons": [],
-    "price": 150,
-    "comparePrice": 120,
-    "pricePerUnit": null,
-    "sku": "",
-    "isInStock": true,
-    "urlPart": "worship-pack-v1-pod-go",
-    "formattedComparePrice": "R$120,00",
-    "formattedPrice": "R$150,00",
-    "formattedPricePerUnit": null,
-    "pricePerUnitData": null,
-    "itemDiscount": null,
-    "digitalProductFileItems": [
+      },
       {
-        "fileType": "secure_archive"
-      }
-    ],
-    "name": "WORSHIP PACK V1 - POD GO",
-    "currency": "BRL",
-    "media": [
+        "url": "ca2ebc_802d93f1bcb443f287b67d7f8afabe63f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_802d93f1bcb443f287b67d7f8afabe63f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      },
       {
-        "url": "ca2ebc_f02c6ea9d5924e00ad3ee04a04ee4dd2~mv2.png",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_f02c6ea9d5924e00ad3ee04a04ee4dd2~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
-        "width": 3000,
-        "height": 3000,
+        "url": "ca2ebc_80e90b0de1414e6cad07c537003015a0f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_80e90b0de1414e6cad07c537003015a0f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
+        "altText": null
+      },
+      {
+        "url": "ca2ebc_6ce935d2092e4d60bc651a5607490350f002.jpg",
+        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_6ce935d2092e4d60bc651a5607490350f002.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "width": 1920,
+        "height": 1080,
         "altText": null
       }
     ],
@@ -4055,235 +6302,11 @@ window.BASS_STOMP_DATA = {
       "list": []
     },
     "discount": {
-      "value": 30
+      "value": 0
     },
     "groupInfo": null,
-    "category_tag": "POD Go",
-    "localImage": "assets/images/products/worship-pack-v1-pod-go.png"
-  },
-  {
-    "id": "71d26136-08ed-35f5-b666-76e9f902107e",
-    "options": [],
-    "minPriceVariant": null,
-    "customTextFields": [],
-    "productType": "digital",
-    "ribbon": "Novidade",
-    "additionalRibbons": [],
-    "price": 150,
-    "comparePrice": 120,
-    "pricePerUnit": null,
-    "sku": "",
-    "isInStock": true,
-    "urlPart": "noble-pack-pod-go",
-    "formattedComparePrice": "R$120,00",
-    "formattedPrice": "R$150,00",
-    "formattedPricePerUnit": null,
-    "pricePerUnitData": null,
-    "itemDiscount": null,
-    "digitalProductFileItems": [
-      {
-        "fileType": "secure_archive"
-      }
-    ],
-    "name": "NOBLE PACK - POD GO",
-    "currency": "BRL",
-    "media": [
-      {
-        "url": "ca2ebc_482312fb2c254b88bceef03170958548~mv2.png",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_482312fb2c254b88bceef03170958548~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
-        "width": 3000,
-        "height": 3000,
-        "altText": null
-      }
-    ],
-    "isManageProductItems": false,
-    "productItemsPreOrderAvailability": "no_variants",
-    "isTrackingInventory": false,
-    "inventory": {
-      "status": "in_stock",
-      "quantity": 0,
-      "availableForPreOrder": false,
-      "preOrderInfoView": {
-        "limit": null
-      }
-    },
-    "subscriptionPlans": {
-      "list": []
-    },
-    "discount": {
-      "value": 30
-    },
-    "groupInfo": null,
-    "category_tag": "POD Go",
-    "localImage": "assets/images/products/noble-pack-pod-go.png"
-  },
-  {
-    "id": "5802af7a-a523-8d05-18f6-4e75b085a8ac",
-    "options": [],
-    "minPriceVariant": null,
-    "customTextFields": [],
-    "productType": "digital",
-    "ribbon": "Novidade",
-    "additionalRibbons": [],
-    "price": 120,
-    "comparePrice": 99,
-    "pricePerUnit": null,
-    "sku": "",
-    "isInStock": true,
-    "urlPart": "ampeg-svt-pod-go",
-    "formattedComparePrice": "R$99,00",
-    "formattedPrice": "R$120,00",
-    "formattedPricePerUnit": null,
-    "pricePerUnitData": null,
-    "itemDiscount": null,
-    "digitalProductFileItems": [
-      {
-        "fileType": "secure_archive"
-      }
-    ],
-    "name": "AMPEG SVT - POD GO",
-    "currency": "BRL",
-    "media": [
-      {
-        "url": "ca2ebc_ba3b5e13343e4f7ea523bc826f0b5c57~mv2.png",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_ba3b5e13343e4f7ea523bc826f0b5c57~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
-        "width": 3000,
-        "height": 3000,
-        "altText": null
-      }
-    ],
-    "isManageProductItems": false,
-    "productItemsPreOrderAvailability": "no_variants",
-    "isTrackingInventory": false,
-    "inventory": {
-      "status": "in_stock",
-      "quantity": 0,
-      "availableForPreOrder": false,
-      "preOrderInfoView": {
-        "limit": null
-      }
-    },
-    "subscriptionPlans": {
-      "list": []
-    },
-    "discount": {
-      "value": 21
-    },
-    "groupInfo": null,
-    "category_tag": "POD Go",
-    "localImage": "assets/images/products/ampeg-svt-pod-go.png"
-  },
-  {
-    "id": "d839b212-5844-98c1-a330-54946e1d6bd9",
-    "options": [],
-    "minPriceVariant": null,
-    "customTextFields": [],
-    "productType": "digital",
-    "ribbon": "Novidade",
-    "additionalRibbons": [],
-    "price": 120,
-    "comparePrice": 99,
-    "pricePerUnit": null,
-    "sku": "",
-    "isInStock": true,
-    "urlPart": "ampeg-b15-pod-go",
-    "formattedComparePrice": "R$99,00",
-    "formattedPrice": "R$120,00",
-    "formattedPricePerUnit": null,
-    "pricePerUnitData": null,
-    "itemDiscount": null,
-    "digitalProductFileItems": [
-      {
-        "fileType": "secure_archive"
-      }
-    ],
-    "name": "AMPEG B15 - POD GO",
-    "currency": "BRL",
-    "media": [
-      {
-        "url": "ca2ebc_d03389c5e27c44368782885cd915334c~mv2.png",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_d03389c5e27c44368782885cd915334c~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
-        "width": 3000,
-        "height": 3000,
-        "altText": null
-      }
-    ],
-    "isManageProductItems": false,
-    "productItemsPreOrderAvailability": "no_variants",
-    "isTrackingInventory": false,
-    "inventory": {
-      "status": "in_stock",
-      "quantity": 0,
-      "availableForPreOrder": false,
-      "preOrderInfoView": {
-        "limit": null
-      }
-    },
-    "subscriptionPlans": {
-      "list": []
-    },
-    "discount": {
-      "value": 21
-    },
-    "groupInfo": null,
-    "category_tag": "POD Go",
-    "localImage": "assets/images/products/ampeg-b15-pod-go.png"
-  },
-  {
-    "id": "35e5f6a0-c036-a8e6-e4a6-b0e834a8cbf8",
-    "options": [],
-    "minPriceVariant": null,
-    "customTextFields": [],
-    "productType": "digital",
-    "ribbon": "Novidade",
-    "additionalRibbons": [],
-    "price": 240,
-    "comparePrice": 190,
-    "pricePerUnit": null,
-    "sku": "",
-    "isInStock": true,
-    "urlPart": "pack-sgt-pod-go",
-    "formattedComparePrice": "R$190,00",
-    "formattedPrice": "R$240,00",
-    "formattedPricePerUnit": null,
-    "pricePerUnitData": null,
-    "itemDiscount": null,
-    "digitalProductFileItems": [
-      {
-        "fileType": "secure_archive"
-      }
-    ],
-    "name": "PACK AMPEG SGT - POD GO",
-    "currency": "BRL",
-    "media": [
-      {
-        "url": "ca2ebc_fb4310b4da424e59958fd73f67ad1c66~mv2.png",
-        "fullUrl": "https://static.wixstatic.com/media/ca2ebc_fb4310b4da424e59958fd73f67ad1c66~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
-        "width": 2765,
-        "height": 2767,
-        "altText": null
-      }
-    ],
-    "isManageProductItems": false,
-    "productItemsPreOrderAvailability": "no_variants",
-    "isTrackingInventory": false,
-    "inventory": {
-      "status": "in_stock",
-      "quantity": 0,
-      "availableForPreOrder": false,
-      "preOrderInfoView": {
-        "limit": null
-      }
-    },
-    "subscriptionPlans": {
-      "list": []
-    },
-    "discount": {
-      "value": 50
-    },
-    "groupInfo": null,
-    "category_tag": "POD Go",
-    "localImage": "assets/images/products/pack-sgt-pod-go.png"
+    "category_tag": "HX Stomp",
+    "localImage": "assets/images/products/worship-pack-hx-stomp.png"
   }
 ],
   pedaleiras: [
@@ -4382,6 +6405,18 @@ window.BASS_STOMP_DATA = {
     "pageName": "VALETON GP 200 LT",
     "mediaUrl": "ca2ebc_b33f48f831c5485e907804c97a040a9d~mv2.png",
     "fullUrl": "https://static.wixstatic.com/media/ca2ebc_b33f48f831c5485e907804c97a040a9d~mv2.png/v1/fill/w_600,h_600,al_c,q_85/gp200 lt.png"
+  },
+  {
+    "fileName": "nam.png",
+    "pageName": "CAPTURA NAM",
+    "mediaUrl": "assets/images/pedaleiras/nam.png",
+    "fullUrl": "assets/images/pedaleiras/nam.png"
+  },
+  {
+    "fileName": "pod express.png",
+    "pageName": "POD EXPRESS",
+    "mediaUrl": "assets/images/pedaleiras/pod express.png",
+    "fullUrl": "assets/images/pedaleiras/pod express.png"
   }
 ],
   videos: [

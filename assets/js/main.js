@@ -103,8 +103,37 @@ function pedalMatchesProduct(pedalName, prod) {
   const normCat = normalizeStr(prod.category_tag);
   const normName = normalizeStr(prod.name);
 
+  // Captura NAM distinction
+  if (normPed.includes('nam')) {
+    return normCat.includes('nam') || normName.includes('nam');
+  }
+  if (normCat.includes('nam') && !normPed.includes('nam')) {
+    return false;
+  }
+
+  // POD Express
+  if (normPed.includes('podexpress')) {
+    return normCat.includes('podexpress') || normName.includes('podexpress');
+  }
+
+  // HX Stomp family (includes packs named with HX or HX Stomp)
+  if (normPed.includes('hx') && (normCat.includes('hx') || normName.includes('hx'))) return true;
+
   // Valeton GP200 family compatibility (GP200, GP200 JR, GP 200 LT share presets)
   if (normPed.includes('gp200') && (normCat.includes('gp200') || normName.includes('gp200'))) return true;
+
+  // Zoom B3 vs B3n distinction
+  if ((normPed === 'zoomb3' || normPed === 'b3') && (normCat.includes('b3n') || normName.includes('b3n'))) return false;
+  if ((normPed.includes('b3n')) && !normCat.includes('b3n') && !normName.includes('b3n')) return false;
+
+  // Zoom B1on vs B1 Four distinction
+  if (normPed.includes('b1four') && (normCat.includes('b1on') || normName.includes('b1on'))) return false;
+  if (normPed.includes('b1on') && (normCat.includes('b1four') || normName.includes('b1four'))) return false;
+
+  // Ampero Mini vs Ampero II vs Ampero One distinction
+  if (normPed.includes('amperomini') && !normCat.includes('amperomini') && !normName.includes('amperomini')) return false;
+  if ((normPed.includes('ampero2') || normPed.includes('amperoii')) && !normCat.includes('ampero2') && !normCat.includes('amperoii') && !normName.includes('ampero2') && !normName.includes('amperoii')) return false;
+  if (normPed.includes('amperoone') && !normCat.includes('amperoone') && !normName.includes('amperoone')) return false;
 
   return normCat.includes(normPed) || normPed.includes(normCat) || normName.includes(normPed) || normPed.includes(normName);
 }
@@ -112,6 +141,7 @@ function pedalMatchesProduct(pedalName, prod) {
 function pedalMatchesBrand(pedalName, brand) {
   if (!brand || brand === 'all') return true;
   const normPed = normalizeStr(pedalName);
+  if (brand === 'nam') return normPed.includes('nam');
   if (brand === 'line6') return normPed.includes('hx') || normPed.includes('pod');
   if (brand === 'ampero') return normPed.includes('ampero');
   if (brand === 'boss') return normPed.includes('boss') || normPed.includes('gt') || normPed.includes('gx');
@@ -205,6 +235,7 @@ function renderProducts() {
     items = items.filter(p => {
       const normName = normalizeStr(p.name);
       const normCat = normalizeStr(p.category_tag);
+      if (brand === 'nam') return normName.includes('nam') || normCat.includes('nam');
       if (brand === 'line6') return normName.includes('hx') || normName.includes('pod') || normCat.includes('hx') || normCat.includes('pod');
       if (brand === 'ampero') return normName.includes('ampero') || normCat.includes('ampero');
       if (brand === 'boss') return normName.includes('boss') || normName.includes('gt') || normName.includes('gx') || normCat.includes('boss') || normCat.includes('gt') || normCat.includes('gx');
@@ -290,8 +321,9 @@ function renderProducts() {
       return 'R$ ' + v.toFixed(2).replace('.', ',');
     };
 
+    const prodUrl = `produto.html?id=${prod.urlPart || prod.id}`;
     return `
-      <div class="product-card plate" data-id="${prod.id}">
+      <div class="product-card plate" data-id="${prod.id}" onclick="if(!event.target.closest('.btn-buy-pill')) window.location.href='${prodUrl}'">
         <div class="screw tl"></div><div class="screw tr"></div>
         <div class="product-media">
           ${ribbonText ? `
@@ -300,11 +332,9 @@ function renderProducts() {
               ${ribbonText}
             </div>
           ` : ''}
-          <img src="${imgUrl}" alt="${prod.name}" loading="lazy" onerror="this.src='assets/images/logo.png'" />
-          <button class="btn-quick-view" onclick="openQuickView('${prod.id}')" aria-label="Ver Ficha Técnica de ${prod.name}">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"></path></svg>
-            Ficha Técnica
-          </button>
+          <a href="${prodUrl}" class="product-media-link" aria-label="${prod.name}">
+            <img src="${imgUrl}" alt="${prod.name}" loading="lazy" onerror="this.src='assets/images/logo.png'" />
+          </a>
         </div>
         <div class="product-body">
           <div class="product-pedal-spec">
@@ -313,7 +343,7 @@ function renderProducts() {
             <span>PRESET PACK</span>
           </div>
           <h3 class="product-title">
-            <a href="produto.html?id=${prod.urlPart || prod.id}">${prod.name}</a>
+            <a href="${prodUrl}">${prod.name}</a>
           </h3>
           <div class="product-tech-params">
             <span class="tech-tag">IR INCLUSO</span>
@@ -325,7 +355,7 @@ function renderProducts() {
               ${oldPrice ? `<span class="price-old">${formatPrice(oldPrice)}</span>` : ''}
               <span class="price-current">${formatPrice(displayPrice)}</span>
             </div>
-            <button class="btn-buy-pill" onclick="addToCart('${prod.id}')" title="Adicionar ao carrinho">
+            <button class="btn-buy-pill" onclick="event.stopPropagation(); addToCart('${prod.id}')" title="Adicionar ao carrinho">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
               Comprar
             </button>
@@ -338,6 +368,7 @@ function renderProducts() {
 
 function extractPedalName(name) {
   const upper = (name || '').toUpperCase();
+  if (upper.includes('CAPTURA NAM') || upper.includes('NAM')) return 'CAPTURA NAM';
   if (upper.includes('HX STOMP')) return 'HX STOMP';
   if (upper.includes('AMPERO 2') || upper.includes('AMPERO II')) return 'AMPERO II';
   if (upper.includes('AMPERO MINI')) return 'AMPERO MINI';
@@ -494,133 +525,161 @@ function closeQuickView() {
 }
 
 /* ==========================================================================
-   5. A/B TONE SIMULATOR (WEB AUDIO API)
+   5. A/B TONE TESTER — DEMO DO CIRCUITO ANALÓGICO ALPHA (ÁUDIO REAL A/B)
    ========================================================================== */
+
+// Tactical Switch Click Sound (mechanical true-bypass switch acoustic)
+function playSwitchClick() {
+  try {
+    const AudioCtxClass = window.AudioContext || window.webkitAudioContext;
+    if (!AudioCtxClass) return;
+    const ctx = state.audioCtx || new AudioCtxClass();
+    state.audioCtx = ctx;
+    if (ctx.state === 'suspended') ctx.resume();
+
+    const now = ctx.currentTime;
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+
+    osc.type = 'triangle';
+    osc.frequency.setValueAtTime(1400, now);
+    osc.frequency.exponentialRampToValueAtTime(140, now + 0.035);
+
+    gain.gain.setValueAtTime(0.2, now);
+    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.035);
+
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+
+    osc.start(now);
+    osc.stop(now + 0.04);
+  } catch (_) {}
+}
+
 function initToneTester() {
   const playBtn = document.getElementById('btn-play-tone');
-  const btnBypass = document.getElementById('btn-bypass');
-  const btnPreset = document.getElementById('btn-preset');
+  const btnAbDi = document.getElementById('btn-ab-di');
+  const btnAbAlpha = document.getElementById('btn-ab-alpha');
   const waveWrap = document.getElementById('waveform-wrap');
+  const playerMasterLed = document.getElementById('player-master-led');
+  const playBtnText = document.getElementById('play-btn-text');
+
+  const audioDi = document.getElementById('audio-di');
+  const audioAlpha = document.getElementById('audio-alpha');
+
+  const specSat = document.getElementById('spec-val-sat');
+  const specCab = document.getElementById('spec-val-cab');
+  const specHead = document.getElementById('spec-val-head');
 
   if (!playBtn) return;
 
-  playBtn.addEventListener('click', () => {
-    if (!state.isAudioPlaying) {
-      startToneAudio();
-      state.isAudioPlaying = true;
-      playBtn.innerHTML = `
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect></svg>
-        Pausar Prévia
-      `;
+  let currentMode = 'alpha'; // Default: Alpha Preamp ativo
+  let isPlaying = false;
+
+  const specsData = {
+    alpha: {
+      sat: 'Circuito Classe A · Saturação Valvulada Ampeg',
+      cab: 'Emulação SVT 8x10 Flatline',
+      head: 'Alimentação +18V DC Interno · Alta Dinâmica'
+    },
+    di: {
+      sat: 'Sinal Cru (Bypass) · Zero Harmônicos',
+      cab: 'DI Direta (Sem Gabinete)',
+      head: 'Linha Padrão Passthru'
+    }
+  };
+
+  function updatePlayUI(playing) {
+    isPlaying = playing;
+    if (playing) {
+      if (playBtnText) playBtnText.textContent = 'Pausar Demonstração';
+      const iconEl = playBtn.querySelector('svg');
+      if (iconEl) {
+        iconEl.innerHTML = '<rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect>';
+      }
       waveWrap?.classList.add('playing');
+      playerMasterLed?.classList.add('active');
     } else {
-      stopToneAudio();
-      state.isAudioPlaying = false;
-      playBtn.innerHTML = `
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
-        Ouvir Demonstração
-      `;
+      if (playBtnText) playBtnText.textContent = 'Ouvir Demonstração';
+      const iconEl = playBtn.querySelector('svg');
+      if (iconEl) {
+        iconEl.innerHTML = '<polygon points="5 3 19 12 5 21 5 3"></polygon>';
+      }
       waveWrap?.classList.remove('playing');
+      playerMasterLed?.classList.remove('active');
+    }
+  }
+
+  function getCurrentAudio() {
+    return currentMode === 'alpha' ? audioAlpha : audioDi;
+  }
+
+  function switchMode(newMode) {
+    if (newMode === currentMode) return;
+    currentMode = newMode;
+
+    // Atualiza botões
+    btnAbDi?.classList.toggle('active', currentMode === 'di');
+    btnAbDi?.querySelector('.pilot-dot')?.classList.toggle('active', currentMode === 'di');
+
+    btnAbAlpha?.classList.toggle('active', currentMode === 'alpha');
+    btnAbAlpha?.querySelector('.pilot-dot')?.classList.toggle('active', currentMode === 'alpha');
+
+    // Atualiza tabela de specs técnicas
+    if (specSat) specSat.textContent = specsData[currentMode].sat;
+    if (specCab) specCab.textContent = specsData[currentMode].cab;
+    if (specHead) specHead.textContent = specsData[currentMode].head;
+
+    playSwitchClick();
+
+    // Se estiver tocando, comuta instantaneamente mantendo o tempo da gravação sincronizado
+    if (isPlaying) {
+      const oldAudio = currentMode === 'alpha' ? audioDi : audioAlpha;
+      const targetAudio = currentMode === 'alpha' ? audioAlpha : audioDi;
+
+      if (oldAudio && targetAudio) {
+        const t = oldAudio.currentTime || 0;
+        oldAudio.pause();
+        targetAudio.currentTime = t;
+        targetAudio.play().catch(() => {});
+      }
+    }
+
+    showToast(currentMode === 'alpha'
+      ? 'Modo Alpha Preamp: Sinal processado pelo circuito analógico'
+      : 'Modo Sinal Direto: Linha direta crua (DI comum)');
+  }
+
+  btnAbDi?.addEventListener('click', () => switchMode('di'));
+  btnAbAlpha?.addEventListener('click', () => switchMode('alpha'));
+
+  playBtn.addEventListener('click', () => {
+    const audio = getCurrentAudio();
+    if (!audio) return;
+
+    if (!isPlaying) {
+      // Inicia reprodução
+      audio.play().then(() => {
+        updatePlayUI(true);
+        showToast(currentMode === 'alpha'
+          ? 'Reproduzindo: Áudio Real com circuito Alpha Preamp'
+          : 'Reproduzindo: Áudio Real de Sinal Direto (DI)');
+      }).catch(err => {
+        console.warn('Audio play error:', err);
+        showToast('Clique novamente para autorizar o áudio no navegador.');
+      });
+    } else {
+      audioDi?.pause();
+      audioAlpha?.pause();
+      updatePlayUI(false);
     }
   });
 
-  btnBypass?.addEventListener('click', () => {
-    state.isBypassMode = true;
-    btnBypass.classList.add('active');
-    btnPreset?.classList.remove('active');
-    waveWrap?.classList.add('bypass-mode');
-    updateAudioTone();
-  });
-
-  btnPreset?.addEventListener('click', () => {
-    state.isBypassMode = false;
-    btnPreset.classList.add('active');
-    btnBypass?.classList.remove('active');
-    waveWrap?.classList.remove('bypass-mode');
-    updateAudioTone();
-  });
-
-  // Alpha Mid Frequency Switch (250Hz vs 800Hz)
-  const btnMidSwitch = document.getElementById('btn-mid-switch');
-  if (btnMidSwitch) {
-    btnMidSwitch.addEventListener('click', () => {
-      state.alphaMidFreq = state.alphaMidFreq === 800 ? 250 : 800;
-      btnMidSwitch.textContent = `${state.alphaMidFreq}Hz`;
-      btnMidSwitch.classList.toggle('active', state.alphaMidFreq === 800);
-      updateAudioTone();
-      showToast(`Chave de Médios do Alpha Preamp: ${state.alphaMidFreq}Hz`);
-    });
-  }
+  // Se o áudio terminar (se não estiver em loop)
+  audioDi?.addEventListener('ended', () => updatePlayUI(false));
+  audioAlpha?.addEventListener('ended', () => updatePlayUI(false));
 }
 
-function startToneAudio() {
-  try {
-    const AudioContext = window.AudioContext || window.webkitAudioContext;
-    if (!state.audioCtx) {
-      state.audioCtx = new AudioContext();
-    }
-    if (state.audioCtx.state === 'suspended') {
-      state.audioCtx.resume();
-    }
-
-    const now = state.audioCtx.currentTime;
-    state.audioOsc = state.audioCtx.createOscillator();
-    state.audioGain = state.audioCtx.createGain();
-    state.audioFilter = state.audioCtx.createBiquadFilter();
-
-    state.audioOsc.type = 'sawtooth';
-    state.audioOsc.frequency.setValueAtTime(55, now); // A1 note (55 Hz deep bass)
-
-    updateAudioTone();
-
-    state.audioOsc.connect(state.audioFilter);
-    state.audioFilter.connect(state.audioGain);
-    state.audioGain.connect(state.audioCtx.destination);
-
-    state.audioGain.gain.setValueAtTime(0.01, now);
-    state.audioGain.gain.exponentialRampToValueAtTime(0.18, now + 0.1);
-
-    state.audioOsc.start();
-  } catch (e) {
-    console.warn('AudioContext not allowed or not supported:', e.message);
-  }
-}
-
-function updateAudioTone() {
-  if (!state.audioFilter || !state.audioCtx) return;
-  const now = state.audioCtx.currentTime;
-
-  if (state.isBypassMode) {
-    // Thin direct dry DI bass signal (cru, sem pre-amp)
-    state.audioFilter.type = 'lowpass';
-    state.audioFilter.frequency.setTargetAtTime(320, now, 0.05);
-    state.audioFilter.Q.setTargetAtTime(0.8, now, 0.05);
-    state.audioGain?.gain.setTargetAtTime(0.09, now, 0.05);
-  } else {
-    // Alpha Bass Preamp active: discrete analog saturation, selected mid frequency
-    const targetFreq = state.alphaMidFreq === 800 ? 880 : 480;
-    const targetQ = state.alphaMidFreq === 800 ? 4.5 : 3.5;
-    state.audioFilter.type = 'lowpass';
-    state.audioFilter.frequency.setTargetAtTime(targetFreq, now, 0.05);
-    state.audioFilter.Q.setTargetAtTime(targetQ, now, 0.05);
-    state.audioGain?.gain.setTargetAtTime(0.24, now, 0.05);
-  }
-}
-
-function stopToneAudio() {
-  try {
-    if (state.audioGain && state.audioCtx) {
-      state.audioGain.gain.exponentialRampToValueAtTime(0.001, state.audioCtx.currentTime + 0.1);
-      setTimeout(() => {
-        try {
-          state.audioOsc?.stop();
-          state.audioOsc?.disconnect();
-          state.audioOsc = null;
-        } catch (_) {}
-      }, 150);
-    }
-  } catch (_) {}
-}
 
 /* ==========================================================================
    6. CART SYSTEM & LOCALSTORAGE PERSISTENCE
@@ -683,6 +742,7 @@ function addToCart(idOrSlug) {
   persistCart();
   updateCartUI();
   closeQuickView();
+  openCart();
 }
 
 function removeFromCart(idOrSlug) {
@@ -776,6 +836,14 @@ function showToast(message) {
 /* ==========================================================================
    7. YOUTUBE VIDEO GRID & MODAL
    ========================================================================== */
+function filterPedalCards(val) {
+  const q = (val || '').toLowerCase().trim();
+  document.querySelectorAll('.pedal-rack-card').forEach(card => {
+    const text = card.textContent.toLowerCase();
+    card.style.display = text.includes(q) ? '' : 'none';
+  });
+}
+
 function initVideosGrid() {
   const container = document.getElementById('videos-grid');
   const store = getStoreData();
@@ -866,9 +934,21 @@ function initFaqAccordion() {
   items.forEach(item => {
     const q = item.querySelector('.faq-question');
     q?.addEventListener('click', () => {
-      const isOpen = item.classList.contains('open');
-      items.forEach(i => i.classList.remove('open'));
-      if (!isOpen) item.classList.add('open');
+      const isAlreadyOpen = item.classList.contains('open');
+      
+      items.forEach(i => {
+        i.classList.remove('open');
+        const code = i.querySelector('.faq-status-code');
+        if (code) code.textContent = '[ STANDBY ]';
+      });
+
+      if (!isAlreadyOpen) {
+        item.classList.add('open');
+        const code = item.querySelector('.faq-status-code');
+        if (code) code.textContent = '[ ATIVO ]';
+        if (typeof playSwitchClick === 'function') playSwitchClick();
+      }
+      q.blur();
     });
   });
 }
