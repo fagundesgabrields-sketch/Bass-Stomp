@@ -1,51 +1,48 @@
-# scripts/ — utilitários do MazyOS
+# 🛠️ Scripts & Utilitários — Bass Stomp
 
-Scripts Node.js e Python que as skills chamam quando precisam fazer coisas fora do alcance da IA pura (gerar imagem, postar em rede social, renderizar HTML em PNG).
+Esta pasta contém os utilitários e automações em Python desenvolvidos para manutenção, extração de dados e pré-renderização estática da plataforma **Bass Stomp**.
 
-A pasta vem **vazia** — cada skill que precisa de script tem instrução de como criar (e geralmente é um único setup por integração que você vai ativar).
+---
 
-## Scripts comuns
+## 📋 Lista de Scripts
 
-Conforme você for ativando skills, isso aqui vai sendo populado. Lista do que cada skill espera encontrar:
-
-| Skill | Script esperado | O que faz |
+| Script | Linguagem | Finalidade |
 |---|---|---|
-| `/carrossel` (com foto IA) | `gerar-imagem.js` | Gera foto realista via OpenAI API (DALL-E 3) |
-| `/carrossel` (render PNG) | `render.js` (gerado por carrossel, fica na pasta do conteúdo) | Playwright tira screenshot 1080x1350 de cada slide |
-| `/aprovar-post` | `postar-instagram.js` | Publica carrossel no Instagram via Meta Graph API |
-| `/aprovar-post` | `postar-facebook.js` | Publica carrossel no Facebook via Meta Graph API |
-| `/anuncio-google` | (nenhum — gera CSV direto) | — |
-| `/relatorio-ads` | (lê CSV exportado das plataformas) | — |
+| [`prerender.py`](file:///Users/gabriel.fagundes/bass-stomp/scripts/prerender.py) | Python 3 | Pré-renderiza a marcação HTML dos cards de pedaleiras e contagens na página `loja.html` a partir dos dados em `dados/todos_produtos.json` e `dados/pedaleiras.json`. |
+| [`download_assets.py`](file:///Users/gabriel.fagundes/bass-stomp/scripts/download_assets.py) | Python 3 | Faz o download e organização local das imagens oficiais dos produtos, fotos das pedaleiras, thumbnails do YouTube e artes do Alpha Preamp. |
 
-## Pré-requisitos comuns
+---
 
-A maioria dos scripts depende de:
+## ⚙️ Detalhamento dos Scripts
 
-**Node.js 20+** instalado na máquina
+### 1. `scripts/prerender.py`
 
-**.env** na raiz do projeto com as chaves de API:
-```bash
-OPENAI_API_KEY=sk-...               # pra gerar-imagem.js
-META_PAGE_ACCESS_TOKEN=...          # pra postar-instagram.js + postar-facebook.js
-META_PAGE_ID=...
-META_IG_USER_ID=...
-SITE_URL=https://seudominio.com.br
-```
+Garante que o catálogo da loja (`loja.html`) possua renderização estática server-side / build-time dos filtros de pedaleira e das contagens reais de presets.
 
-**Playwright** (pra renderizar HTML em PNG):
-```bash
-npm install playwright
-npx playwright install chromium
-```
+- **Fonte de dados:**
+  - `dados/pedaleiras.json` — Lista de pedaleiras suportadas (Line 6 HX Stomp, Boss GT-1B, Valeton GP-200, Ampero II Stomp, Zoom B3n, Pod Express, NAM, etc.).
+  - `dados/todos_produtos.json` — Catálogo consolidado com os 99 presets.
+- **Lógica de Normalização:**
+  Aplica regras estritas de correspondência (`pedal_matches_product`) para evitar colisões entre modelos similares (ex: Zoom B3 vs B3n, Zoom B1on vs B1 Four, Ampero Mini vs Ampero II Stomp vs Ampero One).
+- **Como executar:**
+  ```bash
+  python3 scripts/prerender.py
+  ```
 
-## Como o MazyOS lida com isso
+---
 
-Quando você roda uma skill que precisa de script ausente, o Claude vai:
+### 2. `scripts/download_assets.py`
 
-1. Detectar que falta o script
-2. Te perguntar se quer configurar agora
-3. Te guiar no setup das chaves de API (Meta, OpenAI, etc.)
-4. Criar o script já configurado
-5. Rodar a skill
+Sincroniza os assets gráficos da nuvem para as pastas locais do projeto (`assets/images/pedaleiras/`, `assets/images/products/`, `assets/images/youtube/`), garantindo que a loja funcione 100% offline e sem dependência de CDNs externas sujeitas a instabilidades de rede.
 
-Você não precisa decorar nada. Roda a skill, segue o fluxo.
+- **Como executar:**
+  ```bash
+  python3 scripts/download_assets.py
+  ```
+
+---
+
+## 🐍 Requisitos
+
+- **Python 3.8+** instalado.
+- Utiliza apenas bibliotecas padrão da biblioteca padrão do Python (`json`, `urllib.request`, `ssl`, `os`, `re`), dispensando a instalação de pacotes externos via `pip`.

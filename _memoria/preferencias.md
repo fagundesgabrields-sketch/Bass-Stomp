@@ -1,26 +1,20 @@
 # Preferências — Bass Stomp
 
-> Como o MazyOS escreve e se comunica em nome da Bass Stomp.
-> Tom, estilo, vocabulário e vícios a evitar. Calibrado a partir de postagens reais e diretrizes do fundador Sergio Rodrigues.
+> Diretrizes de comunicação, tom de voz e regras de estilo da Bass Stomp.
+> Calibrado a partir do perfil autêntico do fundador Sergio Rodrigues.
 
-## Tom de voz
-- **De músico para músico:** Tom direto, humilde, autêntico e cúmplice. Fala como quem passa som, toca em igreja/palco, grava em home studio e conhece os desafios reais de timbragem e mixagem.
-- **Autoridade técnica prática sem soberba:** Domínio claro da cadeia de sinal (compressão, ganho, IRs, emulações de amp, equalização, sub bass, oitavadores) demonstrado com simplicidade e foco na prática — nunca com arrogância ou preciosismo inútil.
-- **Transparente e genuíno:** Compartilha conquistas e marcos reais com a comunidade com sentimento verdadeiro (ex: "O Alpha tem sido a realização de um sonho", "Chegamos a 70 unidades produzidas e vendidas").
+## Tom de Voz
+- **De músico para músico:** Comunicação direta, descontraída, humilde e autêntica. Fala a linguagem de quem frequenta palco, igreja, ensaio e estúdio de gravação.
+- **Autoridade técnica prática:** Domínio profundo de cadeia de áudio (compressão, saturação harmônica, IRs, ganho de entrada, equalização de médios, sub graves) sempre explicado com foco prático no som final.
+- **Genuíno e próximo:** Comunica o amor pela música e a dedicação artesanal por trás do Alpha Bass Preamp e de cada pack de presets.
 
-## O que evitar (Terminantemente proibido)
-- **Sensacionalismo de guru de marketing:** Títulos apelativos vazios ("O SEGREDO REVELADO QUE NINGUÉM TE CONTA"), promessas milagrosas ("toque como profissional em 3 dias"), fórmulas mágicas ou papo motivacional ("destrave sua mentalidade musical").
-- **Formalidade corporativa ou engravatada:** Tratar o cliente por "Prezado cliente" / "Caro cliente" ou usar jargões corporativos de escritório ("sinergia", "alavancar", "otimizar processos", "agregar valor").
-- **Poluição visual e emojis de hype:** Proibido enfileirar emojis estilo spam de dropshipping (🔥🚀💥🤑). Usar apenas emojis pontuais e afetivos (como 💙 ou tags técnicas sóbrias).
-- **Discurso de quem não toca:** Teoria vazia desconectada do palco, de PA ruim ou de mix embolando. Nada de superlativos ocos ("a tecnologia mais revolucionária do mundo").
+## O que Evitar (Terminantemente Proibido)
+- **Cores laranjas ou estilos descontinuados:** O tema oficial é exclusivamente a **Herança SVT** (tolex escuro, painel azul Ampeg e acabamentos cromados).
+- **Sensacionalismo de marketing:** Proibido o uso de chavões apelativos ("O SEGREDO REVELADO", "TOQUE COMO UM MESTRE EM 24 HORAS", "FÓRMULA MÁGICA").
+- **Formalidade corporativa artificial:** Evitar cumprimentos burocráticos ("Prezado cliente", "Cordialmente") ou termos corporativos ("alavancar sinergias", "otimização holística").
+- **Poluição de emojis:** Nada de sequências de emojis espalhafatosos (🔥🚀💥🤑). Apenas ícones limpos e funcionais quando pertinentes.
+- **Incompatibilidade em páginas de produto:** A compatibilidade com a pedaleira deve ser precisa, clara e evidente logo nos primeiros segundos de visualização.
 
-## Estilo geral
-- **Frases de referência:**
-  - *Faz:* "Plugue, carregue o preset e já tá no tom."
-  - *Faz:* "Feito pra quem grava em casa e não quer perder tempo com EQ."
-  - *Evita:* "Revolucione sua sonoridade com nossa tecnologia exclusiva."
-  - *Evita:* "O melhor tom do mercado, garantido."
-- Vocabulário técnico preciso em rótulos e fichas: GAIN, TONE, LEVEL, IR, HX Stomp, Ampero, Ampeg, Aguilar Tone Hammer.
-
-## Preferências adicionais
-- Em qualquer anúncio, post ou página de produto, a compatibilidade com a pedaleira deve ser comunicada nos primeiros 5 segundos para eliminar dúvidas antes de chegarem ao WhatsApp.
+## Vocabulário de Referência
+- **Termos técnicos:** `GAIN`, `TONE`, `LEVEL`, `MID SHIFT (250Hz / 800Hz)`, `TRUE BYPASS`, `DIRECT BOX (XLR)`, `IMPULSE RESPONSE (IR)`.
+- **Modelos de pedaleira:** Line 6 HX Stomp, Pod Express, Valeton GP-200, Hotone Ampero II Stomp, Zoom B3n, NAM (Neural Amp Modeler).

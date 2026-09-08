@@ -1,21 +1,22 @@
 # Empresa — Bass Stomp
 
-> Memória central do negócio. O MazyOS lê esse arquivo antes de cada resposta.
-> Atualize sempre que o negócio evoluir.
+> Memória central do negócio Bass Stomp.
+> Atualizada conforme a evolução dos produtos, identidade de marca e canais oficiais.
 
 **Nome:** Bass Stomp  
 **Fundador:** Sergio Rodrigues  
-**Negócio:** Soluções de timbre digitais e hardware de áudio para baixistas  
-**O que faz:** Desenvolve e vende presets/packs digitais profissionais (para pedaleiras como Line 6 HX Stomp, Boss GT1B, Valeton GP100/200, Ampero e Zoom B3n) com foco no segmento worship e moderno, além de fabricar hardware próprio de áudio analógico de alta precisão (como o pedal pré-amplificador Alpha Bass Preamp).  
-**Perfil:** Freelancer / Operação Especialista Solo com produtos digitais e físicos  
-**Atende clientes:** Baixistas de igreja/música worship (desde amadores até músicos que tocam todo final de semana) que possuem pedaleiras digitais e buscam timbres modernos, prontos e profissionais de alto nível sem perder tempo quebrando a cabeça na programação. Em segundo plano, atende músicos de estúdio e ao vivo que buscam pré-amplificação de ponta.  
-**Equipe:** Operação centralizada no Sergio Rodrigues (criação dos timbres, testes nas pedaleiras, engenharia/desenvolvimento de produto e relacionamento com o público). Suporte e vendas no WhatsApp/site diretos e enxutos; parcerias externas pontuais para montagem/fabricação física dos pedais e infraestrutura técnica.  
-**Ferramentas:** Pedaleiras (Line 6 HX Stomp, Boss, Valeton, Ampero, Zoom), bancada de testes de áudio, Instagram (@bass.stomphx), WhatsApp Business, loja/site de presets.  
-**Principais entregas:**
-- Packs e presets digitais para pedaleiras (Worship Pack, Modern Pack, etc.)
-- Pedal pré-amplificador Alpha Bass Preamp (híbrido das características icônicas Ampeg + Aguilar Tone Hammer)
-- Suporte técnico especializado e consultoria prática de timbre
+**Negócio:** Soluções de timbre digitais e hardware de áudio analógico para baixistas  
+**O que faz:** Desenvolve e comercializa um catálogo de 99 presets e packs digitais profissionais para as principais pedaleiras do mercado (Line 6 HX Stomp e Pod Express, Valeton GP-200/100, Hotone Ampero II Stomp/Mini/One, Zoom B3n/B1 Four e plataformas abertas como NAM - Neural Amp Modeler), além de fabricar hardware próprio de áudio analógico de precisão (como o pedal pré-amplificador Alpha Bass Preamp).  
+**Identidade de Marca:** **Herança SVT** — inspirada nos chassis clássicos Ampeg, tolex texturizado, painéis azuis anodizados, cantoneiras cromadas e serigrafia vintage em creme.  
+**Perfil:** Operação Especialista Solo com produtos digitais e físicos de alto nível.  
+**Público-Alvo:** Baixistas de igreja/worship, palco ao vivo e home studio que possuem pedaleiras digitais e buscam timbres profissionais prontos para uso sem perder horas programando parâmetros complexos. Secundariamente, músicos que buscam pré-amplificação analógica encorpada de padrão estúdio.  
+**Equipe:** Operação liderada por Sergio Rodrigues (criação dos timbres, testes nas pedaleiras, desenvolvimento de produtos, vídeos demonstrativos e relacionamento com a comunidade).  
+**Canais Oficiais:**
+- **YouTube Oficial:** [@Sergio.Rodrix](https://www.youtube.com/@Sergio.Rodrix)
+- **Instagram Oficial:** [@bass.stomphx](https://www.instagram.com/bass.stomphx/)
+- **WhatsApp:** Atendimento e suporte técnico direto para dúvidas de compatibilidade.
 
-## Contexto adicional
-- Mais de 70 unidades do Alpha Bass Preamp produzidas e vendidas, com meta de alcançar 100 unidades no ano.
-- Posicionamento focado em resolver a dor real do baixista de plugar, tocar e ter o timbre pronto e equilibrado na mixagem sem sofrimento.
+**Principais Entregas:**
+- **99 Packs de Presets Digitais:** Otimizados para palco, fones e PA, organizados por compatibilidade exata de equipamento.
+- **Pedal Alpha Bass Preamp:** Pré-amplificador analógico Classe A combinando características Ampeg + Aguilar Tone Hammer, Direct Box ativo XLR e chave seletora 250Hz / 800Hz. Mais de 70 unidades vendidas com meta de alcançar 100 unidades no ano.
+- **Plataforma Web Oficial:** Loja com catálogo dinâmico, carrinho lateral integrado, Tone Tester com arquivos `.wav` de estúdio e páginas de produto otimizadas.

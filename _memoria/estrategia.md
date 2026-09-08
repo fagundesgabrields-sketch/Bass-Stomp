@@ -1,20 +1,18 @@
 # Estratégia — Bass Stomp
 
-> O que importa agora no negócio. Gargalos prioritários, rotinas a desafogar e metas.
-> O MazyOS usa isso pra direcionar decisões, copys, automações e criação de páginas.
+> Memória estratégica do negócio.
+> Direciona decisões de produto, marketing, infraestrutura web e atendimento.
 
-## Fase
-Otimização da jornada de compra, resolução do gargalo de conversão da loja e escala das vendas de presets digitais + consolidação do Alpha Preamp.
+## Fase Atual
+Consolidação da nova plataforma web sob a identidade **Herança SVT**, escala do catálogo integral de 99 presets e fortalecimento do hardware analógico **Alpha Bass Preamp**.
 
-## Gargalo atual
-- **Experiência e taxa de conversão do site:** O tráfego chega, mas a loja possui navegação confusa; o baixista não encontra com clareza o preset certo para a pedaleira dele, faltam prévias de áudio práticas para audição imediata dos timbres, e há fricção no checkout.
-- **Sobrecarga no WhatsApp:** Dúvidas recorrentes e básicas sobre compatibilidade técnica sobrecarregam o atendimento manual por carência de clareza nas páginas de destino.
+## Evolução Recente & Conquistas
+- **Consolidação de Marca:** Migração unificada para o visual **Herança SVT** (tolex escuro, painéis azuis estilo Ampeg, ferragens cromadas e serigrafia creme), descontinuando o antigo padrão alaranjado.
+- **Catálogo Completo:** Integração dos 99 presets na loja com filtros instantâneos e contagem dinâmica por modelo de pedaleira (HX Stomp, Pod Express, GP-200, Ampero II Stomp, B3n, NAM, etc.).
+- **Tone Tester de Alta Fidelidade:** Implementação de player A/B com áudio real de estúdio em formato `.wav` (`alpha-di-bypass.wav` vs `alpha-preamp-on.wav`), comutador True Bypass e VU meter analógico em tempo real via Web Audio API.
+- **Páginas de Produto Otimizadas:** Eliminação de ruído sonoro nas páginas individuais, enquadramento da foto principal com cantos cromados em bracket (L), linha de confiança padronizada com pontos azuis e compatibilidade rigorosa de hardware.
 
-## Pra tirar das costas (Candidatas a skills e automações)
-- Reestruturação e manutenção contínua das páginas de produto do site com especificações técnicas completas, comparativos de áudio e fluxo de compra sem fricção.
-- Alinhamento das copys da loja aos posts e anúncios para que o baixista entenda a compatibilidade em 5 segundos e finalize a compra sem precisar de suporte manual.
-
-## Próximas prioridades
-1. **Redesenho das Páginas de Produto:** Implementar fichas técnicas claras em estilo pedalboard, player de áudio prático e seletor evidente por modelo de pedaleira (HX Stomp, Boss, Ampero, Valeton, Zoom).
-2. **Meta Alpha Bass Preamp:** Atingir a marca de 100 unidades produzidas e vendidas no ano (atualmente em 70 unidades).
-3. **Funil de Conteúdo e Campanhas:** Desenvolver calendário de publicações e anúncios alinhados ao Design System e ao tom direto de músico para músico.
+## Prioridades Estratégicas
+1. **Atendimento Direto & Redução de Dúvidas:** Canal de suporte técnico via WhatsApp com botão estilizado na página de produto para tirar dúvidas sobre carregamento de presets e compatibilidade.
+2. **Meta Alpha Bass Preamp:** Atingir e superar a marca de 100 unidades produzidas e vendidas artesanalmente (atualmente em mais de 70 unidades).
+3. **Distribuição de Conteúdo:** Alinhamento dos lançamentos de presets e demonstrações de timbre com o canal oficial do YouTube ([@Sergio.Rodrix](https://www.youtube.com/@Sergio.Rodrix)).

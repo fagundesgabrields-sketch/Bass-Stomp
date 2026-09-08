@@ -1,104 +1,75 @@
-# Sergio Rodrigues — Bass Stomp | MazyOS
+# Sergio Rodrigues — Bass Stomp | Diretrizes do Sistema
 
-Sistema operacional do negócio **Bass Stomp**, fundado por Sergio Rodrigues. Especialistas em soluções profissionais de timbre para baixistas (presets digitais para pedaleiras e hardware de áudio analógico).
-
----
-
-## Contexto do negócio
-
-No início de toda conversa, ler os seguintes arquivos (quando existirem e estiverem preenchidos):
-
-1. `_memoria/empresa.md` — quem é a Bass Stomp, produtos, perfil de cliente e equipe
-2. `_memoria/preferencias.md` — tom de voz (de músico para músico), vocabulário e o que evitar
-3. `_memoria/estrategia.md` — gargalos atuais (conversão do site), prioridades e metas
-
-Usar essas informações como base pra qualquer resposta, criação de código, cópia de anúncio ou decisão de produto. Ao sugerir prioridades ou abordagens, considerar o foco atual descrito em `estrategia.md`.
-
-Pra qualquer tarefa visual (páginas de produto, carrosséis, posts, tags), consultar obrigatoriamente:
-- `identidade/design-guide.md` (regras e tokens de design)
-- `identidade/bass-stomp-identidade.html` (guia visual interativo)
-
-Não é necessário listar o que foi lido nem confirmar a leitura. Apenas usar o contexto naturalmente.
+Sistema operacional e diretrizes do negócio **Bass Stomp**, fundado por Sergio Rodrigues. Especialistas em soluções profissionais de timbre para baixistas (catálogo de 99 presets para pedaleiras digitais e hardware de áudio analógico de precisão).
 
 ---
 
-## O que é esse workspace
+## 📌 Contexto do Negócio
 
-Operação central da Bass Stomp. Aqui ficam os produtos digitais (presets), projetos de hardware (Alpha Preamp), páginas de produto, campanhas de marketing, análises e inteligência de vendas.
+No início de qualquer sessão ou tarefa no repositório, consulte os seguintes arquivos para alinhamento:
 
-**Estrutura de pastas:**
-- `_memoria/` — memória contínua do negócio (empresa, preferências, estratégia)
-- `identidade/` — design guide, tokens, paleta e assets de marca
-- `marketing/` — conteúdo para Instagram (@bass.stomphx), copys, anúncios e páginas de vendas
-- `produtos/` — documentação de packs de presets (HX Stomp, Boss, Ampero, Valeton, Zoom) e hardware (Alpha Bass Preamp)
-- `saidas/` — documentos gerados, copys finalizadas e análises
-- `dados/` — métricas de tráfego, vendas e feedbacks
-- `scripts/` — utilitários e automações
-- `templates/` — moldes de documentos e componentes
+1. `_memoria/empresa.md` — quem é a Bass Stomp, produtos (99 presets + Alpha Preamp), canais oficiais e perfil
+2. `_memoria/preferencias.md` — tom de voz (de músico para músico), vocabulário e proibições de estilo
+3. `_memoria/estrategia.md` — prioridades atuais e metas
+
+Para qualquer tarefa visual ou de interface (HTML, CSS, componentes), consultar obrigatoriamente:
+- `identidade/design-guide.md` — tokens oficiais do tema **Herança SVT**, paleta Ampeg, cantos cromados e tipografia
+- `assets/css/style.css` — implementação centralizada de estilos e componentes
 
 ---
 
-## Quem somos
+## 🏛️ Estrutura do Projeto
 
-- **Marca:** Bass Stomp
-- **Fundador:** Sergio Rodrigues
-- **Posicionamento:** Timbre pronto, pesado e profissional para baixistas sem perder tempo com programação complexa. Som com peso de disco e definição que não embola na mixagem.
-
-## Nossos produtos e entregas
-
-1. **Packs de Presets Digitais:**
-   - Compatibilidade: Line 6 HX Stomp, Boss GT1B, Valeton GP100/GP200, Ampero, Zoom B3n.
-   - Linhas principais: *Worship Pack*, *Modern Pack*, timbres de sub bass, drives e emulações clássicas.
-2. **Hardware Analógico:**
-   - *Alpha Bass Preamp:* Pedal pré-amplificador analógico com características Ampeg + Aguilar Tone Hammer. Meta: 100 unidades no ano.
-3. **Páginas e Loja:**
-   - Foco em resolver o gargalo de conversão: especificações técnicas imediatas (em 5 segundos), comparativos de áudio claros e compra sem fricção.
+- `assets/` — Recursos visuais, sonoros e lógicos da loja:
+  - `audio/` — Masters de estúdio em `.wav` para o Tone Tester (`alpha-di-bypass.wav` vs `alpha-preamp-on.wav`)
+  - `css/` — Estilos consolidados sob o design system Herança SVT (`style.css`)
+  - `images/` — Imagens locais de pedaleiras, capas de produtos, fotos do Alpha e logos
+  - `js/` — Lógica do carrinho, catálogo de 99 presets e Web Audio API
+- `dados/` — Bases estruturadas em JSON (`todos_produtos.json`, `pedaleiras.json`)
+- `identidade/` — Diretrizes visuais e especificações de marca (`design-guide.md`)
+- `produtos/` — Fichas técnicas e documentações dos produtos
+- `scripts/` — Automações em Python (`prerender.py`, `download_assets.py`)
+- `_memoria/` — Registros contínuos de estratégia, empresa e preferências
+- `index.html` — Landing page com rack do Alpha Bass Preamp e Tone Tester A/B real
+- `loja.html` — Catálogo completo com 99 presets e filtros por pedaleira
+- `produto.html` — Ficha dinâmica de produto individual com foto emoldurada em cantos cromados
+- `contato.html` — Central de atendimento e suporte via WhatsApp
+- `README.md` — Apresentação oficial e documentação do repositório
 
 ---
 
-## Tom de voz e regras de comunicação
+## 🎛️ Nossos Produtos e Entregas
 
-- **Tom:** De músico experiente para outro músico de igual para igual. Direto, autêntico, humilde e técnico na medida certa.
-- **Linguagem:** Rótulos técnicos em mono (`GAIN`, `TONE`, `LEVEL`, `IR`), clareza de palco/PA/mix.
+1. **Catálogo de 99 Packs Digitais:**
+   - Compatibilidade: Line 6 HX Stomp, Line 6 Pod Express, Valeton GP-200/GP-100, Hotone Ampero (II Stomp/Mini/One), Zoom B3n/B1 Four e NAM (Neural Amp Modeler).
+   - Foco em timbres equilibrados para gravação e palco (worship, moderno, drive e sub bass).
+2. **Hardware Analógico Alpha Bass Preamp:**
+   - Pré-amplificador analógico Classe A combinando circuito estilo Ampeg SVT com a articulação do Aguilar Tone Hammer.
+   - Recursos: DI balanceada XLR, Direct Out P10, controle de ganho orgânico e chave de médios 250Hz / 800Hz.
+3. **Plataforma Web Herança SVT:**
+   - Experiência fluida, moderna e sem dependências pesadas.
+   - Tone Tester em `.wav` de estúdio na página inicial.
+   - Sem poluição sonora em páginas de produto individuais.
+   - Suporte técnico direto via WhatsApp com o Sergio.
+
+---
+
+## 🗣️ Tom de Voz e Regras
+
+- **Tom:** De baixista para baixista. Direto, autêntico, experiente e sem arrogância.
+- **Identidade Visual:** Exclusivamente **Herança SVT** (tolex escuro, painéis azuis Ampeg, ferragens cromadas e serigrafia vintage creme). Proibido reintroduzir paletas antigas ou laranjas.
 - **PROIBIDO:**
-  - Sensacionalismo de guru de marketing ("O SEGREDO REVELADO", promessas milagrosas).
-  - Formalidade corporativa engravatada ("Prezado cliente", "sinergia", "alavancar").
-  - Poluição visual de emojis (proibido spam de 🔥🚀💥🤑; permitido apenas uso pontual e caloroso como 💙).
-  - Teoria desconectada da prática musical real.
+  - Sensacionalismo de marketing ou promessas milagrosas.
+  - Formalismo burocrático engravatado.
+  - Sequências de emojis apelativos de dropshipping (🔥🚀💥🤑).
+  - Prévia de áudio em páginas de produtos (reservado exclusivamente para a home).
+  - Mais de uma foto por produto na página individual de preset.
+  - Incompatibilidade de pedaleira diferente do preset selecionado.
 
 ---
 
-## Fluxo de trabalho e skills
+## 🌐 Canais Oficiais
 
-Antes de executar qualquer tarefa, verificar se existe skill relevante em `.claude/skills/`. Se encontrar, seguir as instruções da skill. Se não encontrar, executar a tarefa normalmente.
-
-Ao concluir uma tarefa repetível (ex: estruturar copy de novo pack, criar página de produto com player de áudio, roteirizar demonstração de timbre), perguntar:
-> *"Isso pode virar uma skill pra próxima vez. Quer que eu crie?"*
-
----
-
-## Aprender com correções
-
-Quando o usuário corrigir algo, refinar um timbre, melhorar uma copy ou dar uma instrução permanente ("na verdade prefiro assim", "não use essa palavra", "a Bass Stomp fala assim"), perguntar:
-> *"Quer que eu salve isso pra não precisar repetir?"*
-
-- **Sobre o negócio** → `_memoria/empresa.md`
-- **Sobre tom e estilo** → `_memoria/preferencias.md`
-- **Sobre prioridades e metas** → `_memoria/estrategia.md`
-- **Regras do sistema** → `CLAUDE.md`
-
----
-
-## Manter contexto atualizado
-
-Ao terminar tarefas relevantes (novo preset lançado, lote do Alpha Preamp atingido, nova ferramenta conectada):
-> *"Isso mudou algo no teu contexto. Quer que eu atualize a memória?"*
-
----
-
-## Ferramentas conectadas
-
-- [ ] Instagram (@bass.stomphx)
-- [ ] WhatsApp Business
-- [ ] Loja / Gateway de Pagamento
-- [ ] Notion / Drive
+- **YouTube:** [@Sergio.Rodrix](https://www.youtube.com/@Sergio.Rodrix)
+- **Instagram:** [@bass.stomphx](https://www.instagram.com/bass.stomphx/)
+- **GitHub:** [fagundesgabrields-sketch/Bass-Stomp](https://github.com/fagundesgabrields-sketch/Bass-Stomp)
