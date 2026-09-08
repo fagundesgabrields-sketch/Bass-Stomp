@@ -543,6 +543,7 @@ function initToneTester() {
   const audioAlpha = document.getElementById('audio-alpha');
 
   const specSat = document.getElementById('spec-val-sat');
+  const specTopo = document.getElementById('spec-val-topo');
   const specHead = document.getElementById('spec-val-head');
 
   if (!playBtn) return;
@@ -552,12 +553,14 @@ function initToneTester() {
 
   const specsData = {
     alpha: {
-      sat: 'Circuito Classe A · Saturação Valvulada Alpha (Valv)',
-      head: 'Alimentação +18V DC Interno · Alta Dinâmica'
+      sat: 'Circuito Classe A · Valvulada Alpha',
+      topo: '100% Analógico Discreto · Saída XLR',
+      head: '+18V DC Interno · Alta Dinâmica'
     },
     di: {
-      sat: 'Sinal Cru (Bypass) · Zero Harmônicos (Valv OFF)',
-      head: 'Linha Padrão Passthru'
+      sat: 'Bypass Direto · Zero Saturação',
+      topo: 'Linha Passthru · Sinal sem Pré',
+      head: 'Passthru de Linha Padrão'
     }
   };
 
@@ -599,6 +602,7 @@ function initToneTester() {
 
     // Atualiza tabela de specs técnicas
     if (specSat) specSat.textContent = specsData[currentMode].sat;
+    if (specTopo) specTopo.textContent = specsData[currentMode].topo;
     if (specHead) specHead.textContent = specsData[currentMode].head;
 
     // Se estiver tocando, comuta instantaneamente mantendo o tempo da gravação sincronizado
