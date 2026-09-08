@@ -528,33 +528,8 @@ function closeQuickView() {
    5. A/B TONE TESTER — DEMO DO CIRCUITO ANALÓGICO ALPHA (ÁUDIO REAL A/B)
    ========================================================================== */
 
-// Tactical Switch Click Sound (mechanical true-bypass switch acoustic)
-function playSwitchClick() {
-  try {
-    const AudioCtxClass = window.AudioContext || window.webkitAudioContext;
-    if (!AudioCtxClass) return;
-    const ctx = state.audioCtx || new AudioCtxClass();
-    state.audioCtx = ctx;
-    if (ctx.state === 'suspended') ctx.resume();
-
-    const now = ctx.currentTime;
-    const osc = ctx.createOscillator();
-    const gain = ctx.createGain();
-
-    osc.type = 'triangle';
-    osc.frequency.setValueAtTime(1400, now);
-    osc.frequency.exponentialRampToValueAtTime(140, now + 0.035);
-
-    gain.gain.setValueAtTime(0.2, now);
-    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.035);
-
-    osc.connect(gain);
-    gain.connect(ctx.destination);
-
-    osc.start(now);
-    osc.stop(now + 0.04);
-  } catch (_) {}
-}
+// Barulho de clique em botões desativado
+function playSwitchClick() {}
 
 function initToneTester() {
   const playBtn = document.getElementById('btn-play-tone');
@@ -629,8 +604,6 @@ function initToneTester() {
     if (specSat) specSat.textContent = specsData[currentMode].sat;
     if (specCab) specCab.textContent = specsData[currentMode].cab;
     if (specHead) specHead.textContent = specsData[currentMode].head;
-
-    playSwitchClick();
 
     // Se estiver tocando, comuta instantaneamente mantendo o tempo da gravação sincronizado
     if (isPlaying) {
@@ -946,7 +919,6 @@ function initFaqAccordion() {
         item.classList.add('open');
         const code = item.querySelector('.faq-status-code');
         if (code) code.textContent = '[ ATIVO ]';
-        if (typeof playSwitchClick === 'function') playSwitchClick();
       }
       q.blur();
     });
