@@ -543,7 +543,6 @@ function initToneTester() {
   const audioAlpha = document.getElementById('audio-alpha');
 
   const specSat = document.getElementById('spec-val-sat');
-  const specCab = document.getElementById('spec-val-cab');
   const specHead = document.getElementById('spec-val-head');
 
   if (!playBtn) return;
@@ -553,13 +552,11 @@ function initToneTester() {
 
   const specsData = {
     alpha: {
-      sat: 'Circuito Classe A · Saturação Valvulada Ampeg',
-      cab: 'Emulação SVT 8x10 Flatline',
+      sat: 'Circuito Classe A · Saturação Valvulada Alpha (Valv)',
       head: 'Alimentação +18V DC Interno · Alta Dinâmica'
     },
     di: {
-      sat: 'Sinal Cru (Bypass) · Zero Harmônicos',
-      cab: 'DI Direta (Sem Gabinete)',
+      sat: 'Sinal Cru (Bypass) · Zero Harmônicos (Valv OFF)',
       head: 'Linha Padrão Passthru'
     }
   };
@@ -602,7 +599,6 @@ function initToneTester() {
 
     // Atualiza tabela de specs técnicas
     if (specSat) specSat.textContent = specsData[currentMode].sat;
-    if (specCab) specCab.textContent = specsData[currentMode].cab;
     if (specHead) specHead.textContent = specsData[currentMode].head;
 
     // Se estiver tocando, comuta instantaneamente mantendo o tempo da gravação sincronizado
