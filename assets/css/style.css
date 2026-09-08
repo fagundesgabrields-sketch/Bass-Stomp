@@ -64,6 +64,8 @@
 html {
   scroll-behavior: smooth;
   color-scheme: dark;
+  overflow-x: hidden;
+  max-width: 100vw;
 }
 
 body {
@@ -77,6 +79,9 @@ body {
     linear-gradient(to bottom, rgba(17, 16, 18, 0.7) 0%, rgba(25, 24, 26, 0.95) 100%);
   background-size: 16px 16px, 100% 100%;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  max-width: 100vw;
+  width: 100%;
 }
 
 .container {
@@ -4048,12 +4053,14 @@ img {
   z-index: 1050;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.25s ease;
+  visibility: hidden;
+  transition: opacity 0.25s ease, visibility 0.25s ease;
 }
 
 .cart-drawer-overlay.active {
   opacity: 1;
   pointer-events: auto;
+  visibility: visible;
 }
 
 .cart-drawer {
@@ -4223,7 +4230,7 @@ img {
 }
 
 /* ==========================================================================
-   RESPONSIVE MEDIA QUERIES
+   RESPONSIVE MEDIA QUERIES (SVT MOBILE OPTIMIZATIONS)
    ========================================================================== */
 @media (max-width: 1200px) {
   .pedaleiras-grid { grid-template-columns: repeat(6, 1fr); }
@@ -4241,64 +4248,332 @@ img {
   .main-nav, .hide-mobile { display: none !important; }
   .btn-menu-toggle { display: flex !important; }
   .contact-grid,
-  .pdp-grid { grid-template-columns: 1fr; gap: 36px; }
+  .pdp-grid { grid-template-columns: 1fr; gap: 32px; }
+  .tone-lab-rack-grid { grid-template-columns: 1fr; gap: 20px; }
 }
 
 @media (max-width: 768px) {
-  .hero-grid, .alpha-grid, .tone-lab-wrapper, .about-grid { grid-template-columns: 1fr; }
-  .products-grid { grid-template-columns: 1fr; }
-  .pedaleiras-grid,
-  .pedal-rack-grid { grid-template-columns: repeat(2, 1fr); }
-  .videos-grid { grid-template-columns: 1fr; }
-  .about-badges-grid { grid-template-columns: 1fr; }
-  .newsletter-form { flex-direction: column; }
-  .store-bottom-callout { flex-direction: column; align-items: flex-start; }
-  .svt-knobs-group { justify-content: center; width: 100%; }
-}
+  /* Container & Global Constraints */
+  .container {
+    padding: 0 16px;
+  }
 
-@media (max-width: 900px) {
-  .tone-lab-rack-grid {
+  /* Grid Layouts */
+  .hero-grid, .alpha-grid, .tone-lab-wrapper, .about-grid { 
+    grid-template-columns: 1fr; 
+    gap: 28px;
+  }
+  .products-grid { 
+    grid-template-columns: 1fr; 
+    gap: 16px;
+  }
+  .pedaleiras-grid,
+  .pedal-rack-grid { 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px;
+  }
+  .videos-grid { 
+    grid-template-columns: 1fr; 
+    gap: 16px;
+  }
+  .about-badges-grid { 
+    grid-template-columns: 1fr; 
+    gap: 12px;
+  }
+  .newsletter-form { 
+    flex-direction: column; 
+    width: 100%;
+  }
+  .newsletter-form input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .store-bottom-callout { 
+    flex-direction: column; 
+    align-items: flex-start; 
+    gap: 16px;
+  }
+  .svt-knobs-group { 
+    justify-content: center; 
+    width: 100%; 
+  }
+
+  /* Hero Mobile Proportions */
+  .hero {
+    padding: 36px 0 44px;
+  }
+  .hero-title {
+    font-size: clamp(28px, 7.5vw, 40px);
+    line-height: 1.12;
+    margin-bottom: 16px;
+  }
+  .hero-title .hero-subtext {
+    font-size: clamp(16px, 4.5vw, 22px);
+    margin-top: 4px;
+  }
+  .hero-desc {
+    font-size: 14.5px;
+    line-height: 1.55;
+    margin-bottom: 22px;
+  }
+  .hero-actions {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    margin-bottom: 24px;
+  }
+  .hero-actions .btn-primary,
+  .hero-actions .btn-outlined {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 13px 18px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  .hero-rig-specs {
+    padding-top: 18px;
+    gap: 8px;
+  }
+  .spec-chassis-item {
+    flex-wrap: wrap;
+    gap: 6px 10px;
+    align-items: center;
+  }
+  .spec-chassis-label {
+    font-size: 9.5px;
+    padding: 2px 6px;
+  }
+  .spec-chassis-val {
+    font-size: 13px;
+  }
+  .hero-media-wrap {
+    margin-top: 10px;
+    max-width: 100%;
+  }
+
+  /* Alpha Preamp Showcase Mobile */
+  .alpha-showcase {
+    padding: 44px 0;
+  }
+  .alpha-image-wrap {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .alpha-image-wrap img {
+    max-width: 100%;
+    height: auto;
+  }
+  .alpha-specs-list {
+    grid-template-columns: 1fr !important;
+    gap: 10px !important;
+    margin-bottom: 20px !important;
+  }
+  .alpha-actions {
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+    gap: 10px !important;
+    width: 100% !important;
+  }
+  .alpha-actions .btn-primary,
+  .alpha-actions .btn-outlined {
+    width: 100% !important;
+    flex: none !important;
+    white-space: normal !important;
+    text-align: center !important;
+    justify-content: center !important;
+    padding: 13px 16px !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Product Card Mobile */
+  .product-card {
+    min-width: 0;
+    max-width: 100%;
+  }
+  .product-footer {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  /* PDP Page Mobile */
+  .pdp-hero {
+    padding: 24px 0 40px;
+  }
+  .pdp-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    width: 100%;
+    min-width: 0;
+  }
+  .pdp-gallery-col,
+  .pdp-info-col {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+  .pdp-gallery-main {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    aspect-ratio: 1 / 1;
+  }
+  .pdp-gallery-main img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .pdp-title {
+    font-size: clamp(24px, 6.5vw, 32px);
+    line-height: 1.15;
+  }
+  .pdp-price-box {
+    flex-wrap: wrap;
+    gap: 8px 12px;
+  }
+  .pdp-price-now {
+    font-size: 28px;
+  }
+  .stompbox-spec-card {
+    padding: 16px 14px;
+    min-width: 0;
+  }
+  .stompbox-specs-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .btn-add-cart-large {
+    width: 100%;
+    padding: 15px;
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .pdp-guarantee-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 12px 14px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .pdp-guarantee-item {
+    white-space: normal;
+  }
+  .btn-pdp-whatsapp {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 14px 16px;
+    box-sizing: border-box;
+  }
+
+  /* Loja Controls */
+  .store-controls {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+  .search-input-wrap {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* Contact Page Mobile */
+  .contact-grid {
     grid-template-columns: 1fr;
     gap: 20px;
+  }
+  .contact-card {
+    padding: 22px 16px;
+    min-width: 0;
+  }
+
+  /* Footer Mobile */
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .footer-bottom-inner {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
   }
 }
 
 @media (max-width: 480px) {
+  .container {
+    padding: 0 12px;
+  }
+  .brand-tagline {
+    display: none;
+  }
+  .brand-name {
+    font-size: 17px;
+  }
+  .brand-seal {
+    width: 38px;
+    height: 38px;
+  }
+
+  /* Tone Tester Mobile */
   .tone-lab-rack {
-    padding: 18px 12px;
+    padding: 16px 10px;
+    border-radius: var(--radius-sm);
+  }
+  .tone-lab-rack-head {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding-bottom: 12px;
   }
   .alpha-eq-panel,
   .tone-player-box {
-    padding: 16px 14px;
+    padding: 14px 10px;
+    min-width: 0;
   }
   .eq-knobs-row {
-    gap: 8px;
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
   }
   .cream-dial {
-    width: 44px;
-    height: 44px;
+    width: 42px;
+    height: 42px;
   }
   .dial-slot {
-    height: 12px;
+    height: 11px;
     top: 3px;
-    transform-origin: center 19px;
+    transform-origin: center 18px;
   }
   .knob-name {
-    font-size: 9.5px;
+    font-size: 8.5px;
   }
   .knob-val {
-    font-size: 9.5px;
+    font-size: 8.5px;
   }
   .mid-selector-blocks {
-    gap: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+    width: 100%;
   }
   .mid-block-btn {
     height: 36px;
-    font-size: 11px;
+    font-size: 10.5px;
+    padding: 4px;
+  }
+  .ab-toggle-switch {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
   }
   .ab-toggle-btn {
     font-size: 9.5px;
-    padding: 8px 6px;
+    padding: 9px 4px;
+    text-align: center;
   }
   .ab-spec-row {
     flex-direction: column;
@@ -4308,7 +4583,17 @@ img {
   .ab-spec-value {
     text-align: left;
   }
+  .tone-vu-box {
+    padding: 12px 10px;
+  }
+
+  /* Cart Drawer Full Width on Small Screens */
+  .cart-drawer {
+    max-width: 100%;
+    width: 100%;
+  }
 }
+
 
 
 
